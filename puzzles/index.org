@@ -1,0 +1,5 @@
+#+TITLE: Puzzles list
+
+#+INDEX: Puzzles!list
+* TODO create this page
+

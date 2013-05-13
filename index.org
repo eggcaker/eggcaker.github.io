@@ -10,7 +10,7 @@
 #+OPTIONS:    H:3 num:nil toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE) tags:not-in-toc
 
 * Introduction to iEmacs
-This website was built with org-mode and emacs for [[http://iemacs.com/about.html][me]] to write some wiki or do [[./review/index.html][review]].
+This website was built with org-mode and emacs for [[./resume/index.html][me]] to write some wiki or do [[./review/index.html][review]].
 I spent lot of time to play with lot blog engines before, after did lot research, I think only need a very 
 basic blog engine(kind of wiki system). so I create this website with Emacs's publish system and 
 try to use English to write all content. English not my native language, so if you found any stupid

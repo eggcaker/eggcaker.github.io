@@ -1,0 +1,138 @@
+#+TITLE: 中文简历
+#+OPTIONS: toc:nil H:10
+#+EXPORT_FILE_NAME: index.html
+#+MACRO: first  
+#+MACRO: last   
+#+MACRO: full {{{first}}} {{{last}}}
+#+MACRO: address  北京市石景山区鲁谷大街永乐小区 10040
+#+MACRO: phone  +86 186 0192 4726
+#+OPTIONS: num:nil timestamp:t author:nil
+
+Check my English resume [[./index.html][here]].
+
+* 基本信息
+
+|-----------+--------------------+---+-----------+----------------------------|
+|       <r> | <l>                |   |       <r> | <l>                        |
+|     姓名: | 张同柱             |   |     电话: | 186 0192 4726              |
+| 出生日期: | 1979-09-03         |   | 现居住地: | {{{address}}}              |
+|    Email: | eggcaker@gmail.com |   |   Github: | http://github.com/eggcaker |
+
+
+
+* 工作经历
+*** [[http://adylitica.com][Adylitica]] ( 2009-11-01 - 2012-12-30)
+**** 开发项目 
++ Android开发 (2010-06-01 - 2012-12-30)
+  - Any send 
+    
+    局域网内通过WIFI在不同的平台间传输文件。
+    部分参与项目，修改BUG，添加部分功能。已发布到 [[https://play.google.com/store/apps/details?id=adylitica.android.anysend&feature=search_result#?t=W251bGwsMSwxLDEsImFkeWxpdGljYS5hbmRyb2lkLmFueXNlbmQiXQ..][Google Play]]
+
+  - Do It Tomorrow
+
+    TODO list 管理程序，独立开发。已发布到[[https://play.google.com/store/apps/details?id=com.adylitica.android.DoItTomorrow][ Google Play]] 和 [[http://www.amazon.com/Adylitica-Inc-Do-It-Tomorrow/dp/B008MB2MA0/ref=sr_1_2?s=mobile-apps&ie=UTF8&qid=1344866579&sr=1-2&keywords=do+it+tomorrow][Amazon market]].
+
+  - 卓越亚马逊快递程序
+
+    给卓越亚马逊内部使用程序，快递人员可以通过手机来查询、记录、跟踪所有的包裹情况。
+
+  - Buzzlist 
+
+    Twitter 相关应用，根据类别读取twitter相关信息
+
++ PHP开发 (2009-11-01 -2010-06-01)
+  - [[http://www.brayma.com/home.html][Brayma]]
+    
+    基于云服务器的在线的律师事务所管理系统。开发、架构项目基础框架并参与中期开发，后期转成外包项目。
+*** [[http://flow.asia][Flow网络科技公司]] (2007-07- 2009-11-01)
+**** PHP 开发
+
++ 开发项目
+  
+  领导开发大量的CMS项目
+
++ 开发使用技术和工具
+  -　PHP
+  - Zend Framework
+  - Joomla
+  - Magendo
+  - Wordpress
+  - Flex 
+
+*** FoneVillage (2006-05 - 2007-07)
+**** PHP & Java 开发
+
++ 开发项目
+  
+  公司内部使用SMS系统。通过发送SMS实现用餐打折功能。
+
++ 开发使用技术和工具
+  - Ubuntu
+  - PHP & Java
+  - [[http://www.kannel.org/][Kannel]]
+  - Emacs
+
+*** 新浪旅游 (2005-12 - 2006-05)
+**** .NET开发
+
++ 开发项目
+  - 公司内部后台系统 
+  - 使用DIV+CSS布局重写前台网站
++ 开发使用技术和工具
+  - Visual Studio
+  - C#
+  
+*** 上海电信子公司 (2004-7 - 2005-12) 
+**** .NET 开发
++ 开发项目 
+  - 电信IP电话数据处理系统
+  - 其它一些CS项目
+
++ 开发使用技术和工具  
+  - Visual Studio (2003 & 2005)
+  - SQL Server
+
+*** [[http://www.dhcoffice.com/][世锦光华房地产公司]] (2002-7 - 2004-07)
+**** ASP & .NET 开发
++ 开发项目 
+  - 公司OA系统
+  - 公司网站
++ 开发使用技术和工具
+  - Visual Studio
+  - Editplus
+  - SQL Server
+  - Dreamweaver
+  
+* IT技能
+*** 开发语言
+- 熟练 :: JAVA, PHP C# 
+- 学习并使用 :: Objective-C, Emacs Lisp, Clojure, Ruby 
+*** WEB开发
+- 熟练 :: HTML, CSS, JS
+- 学习并使用 :: node.js, coffee script
+*** 使用工具 & 平台
+- Mac OSx
+- Linux (Ubuntu)
+- Emacs 
+- Eclispe 
+*** 版本控制
+- Git
+- SVN
+- Mercurial
+*** 系统管理 
+从2006年至今工作时一直使用*nix 系统， 可以熟练使用并配置Ubuntu & Mac 系统。并编写Shell脚本自动化日
+常工作。
+
+* 教育经历
+*** 1998 - 2002 
+*河北科技大学* 
+专业 : 材料科学与工程
+*** 1995 -1998 
+*河北省肃宁一中* 高中
+
+#+begin_html
+<hr/>
+#+end_html
+- github简历:　http://resume.github.com/?eggcaker
+- PDF resume: http://iemacs.com/resume-zh.pdf

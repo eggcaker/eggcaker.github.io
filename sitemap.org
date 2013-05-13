@@ -1,5 +1,8 @@
 #+TITLE: Sitemap for project iemacs-pages
 
-   + [[file:index.org][iEmacs]]
-   + [[file:aaa.org][iEmacs]]
+   + review
+     + [[file:review/index.org][Reviews]]
+   + [[file:about.org][About me]]
+   + [[file:index.org][iEmacs - 大道至简]]
    + [[file:theindex.org][Index]]
+   + [[file:search.org][Search iEmacs with Google CSE]]

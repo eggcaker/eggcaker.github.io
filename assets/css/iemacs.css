@@ -52,6 +52,10 @@
 	/* ensure doesn't flow off the screen when expanded */
 	max-height: 80%;
 	overflow: auto; }
+    ul {
+        margin-left:1em;
+        padding:0;
+    }
     #table-of-contents h2 {
 	font-size: 13pt;
 	max-width: 9em;
@@ -69,6 +73,9 @@
 	padding: 0.5em;
 	margin-top: -1.5em; }
 
+    #table-of-contents ul {
+        list-style-type: none;
+    }
     #license {
       /* padding: .3em; */
       /* border: 1px solid gray; */
@@ -813,6 +820,9 @@
 
     }
 
+    .org-ul {
+        
+    }
     .org-preprocessor {
 	/* font-lock-preprocessor-face */
 	color: #da70d6;

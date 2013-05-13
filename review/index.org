@@ -1,6 +1,10 @@
 #+TITLE: Reviews
 
 
+* Yearly Reviews
+** Monthly reivews
+*** Weekly reivews
+**** Daily Reviews
 
+* TODO generate the review list
 
-* Reviews

@@ -1,16 +1,10 @@
----
-title: "2013, add-oil!!!!" 
-layout: 'post'
-author: 'eggcaker'
-date: '2013-02-28'
-categories: blog 2013
-tags: ['Misc']
----
+#+TITLE: "2013 add oil!!!"
+
 
 新的一年又开始了!需要更加的努力,加油!钱是次要的,主要是锻炼身体,定个目标吧.
 
 - 坚持锻炼,体重减到63公斤
-- **戒酒**
+- =戒酒=
 - 吃素
 - 个人网站上一个台阶
 - 再写更多的个人站
@@ -21,13 +15,17 @@ tags: ['Misc']
 新申请了域名[iEmacs.com](http://iemacs.com),以后就用这个域名了,准备一直用着,踏踏实实
 的写点东西了。年前年后，写了两个node的网站，努力推广一下，看看是不是能够赚点小钱。
 
-- [问题网](http://www.150019.com)
-- [YEP5问答网](http://www.yep5.com)
-- [就爱问答网](http://www.yep8.com)
+- [[http://www.150019.com][问题网]]
+- [[http://www.yep5.com][YEP5问答网]]
+- [[http://www.yep8.com][就爱问答网]]
 
 后续的，还想再写两个网站
 
-- [gitly.org](http://gitly.org)
-- [股票资讯站](http://www.gp958.com)
+- [ ] [[http://gitly.org][gitly.org]]
+- [X] [[http://www.gp958.com][股票资讯站]]
+
+  UPDATED: 完成了，但是不是股票资讯站，只是因为３６０！！
 
 暂时计划就这么多了，以后想到什么再加吧。
+
+

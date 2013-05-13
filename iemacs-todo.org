@@ -1,0 +1,28 @@
+#+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
+#+FILETAGS: iEmacs
+#+SEQ_TODO:   TODO(t) INPROGRESS(i) WAITING(w@) | DONE(d) CANCELED(c@)
+#+TAGS:       Write(w) Update(u) Fix(f) Check(c)
+#+TITLE:      TODO central file for iEmacs
+#+AUTHOR:     eggcaker
+#+EMAIL:      eggcaker AT gmail DOT com
+#+LANGUAGE:   en
+#+PRIORITIES: A C B
+#+CATEGORY:   iEmacs
+#+OPTIONS:    H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE) tags:not-in-toc
+#+ARCHIVE:    iemacs-todo_archive::
+
+This file is the central page for inserting tasks related to iEmacs.
+
+* Blogs 
+  :PROPERTIES:
+  :Owner_ALL: eggcaker
+  :END:
+** TODO write a blog for my new AWESOME iemacs wiki engine!
+
+* General tasks
+  :PROPERTIES:
+  :Owner_ALL: eggcaker
+  :END:
+
+** TODO Build the [[file:review/index.org][review index page]] 
+** TODO Build the [[file:puzzles/index.org][puzzles index page]]

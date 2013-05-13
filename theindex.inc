@@ -3,5 +3,8 @@
 * L
   - Life
     - [[file:blog/2013/add-oil.org][Plan]]
+* P
+  - Puzzles
+    - [[file:puzzles/index.org][list]]
 * R
   - [[file:index.org::*Reading][Reading]]

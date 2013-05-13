@@ -1,4 +1,4 @@
-#+TITLE: "2013 add oil!!!"
+#+TITLE: 2013 add oil!!!
 
 
 新的一年又开始了!需要更加的努力,加油!钱是次要的,主要是锻炼身体,定个目标吧.
@@ -12,7 +12,7 @@
 - node.js development 
 - iOS deveopment 
 
-新申请了域名[iEmacs.com](http://iemacs.com),以后就用这个域名了,准备一直用着,踏踏实实
+新申请了域名[[http://iemacs.com][iemacs.com]], 以后就用这个域名了,准备一直用着,踏踏实实
 的写点东西了。年前年后，写了两个node的网站，努力推广一下，看看是不是能够赚点小钱。
 
 - [[http://www.150019.com][问题网]]

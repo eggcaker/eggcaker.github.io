@@ -15,7 +15,6 @@ I spent lot of time to play with lot blog engines before, after did lot research
 basic blog engine(kind of wiki system). so I create this website with Emacs's publish system and 
 try to use English to write all content. English not my native language, so if you found any stupid
 problems on this website, [[mailto:eggcaker@gmail.com][send me mail]] pelease, THANKS!!!
- 
 * Reading 
 #+INDEX: Reading
 - Java Puzzlers 2012-11-23]--?
@@ -46,32 +45,32 @@ problems on this website, [[mailto:eggcaker@gmail.com][send me mail]] pelease, T
 - 求医不如求己3 [2012-05-19]--[2012-05-21]
 - 求医不如求己2 [2012-05-18]--[2012-05-19]
 - 求医不如求己1 [2012-05-17]--[2012-05-19]
-- 正信的佛教 []--[]
-- 你若安好便是晴天 []--[]
-- 世间所有的相遇都是久别重逢 []--[]
-- 中国人的修养 []--[]
-- 肖申克的救赎 []--[]
-- Steve　Jobs []--[]
-- Code Complete []--[]
-- 阿姜查的禅修世界3 []--[]
-- 阿姜查的禅修世界2 []--[]
-- Programming in Scala []--[]
-- 名家话佛缘 []--[]
-- 不抱怨的世界2 []--[]
-- 不抱怨的世界1 []--[]
-- 禅里禅外悟人生 []--[]
-- 禅·心的效能训练 []--[]
-- 佛教入门 []--[]
-- 舍得 []--[]
-- 宽心 []--[]
-- 放下的幸福 []--[]
-- 佛佗教你不生气 []--[]
-- node.js api document []--[]
-- 聪明的投资者 []--[]
-- 35岁前成功的12条黄金法则 []--[]
-- 35岁前要做的33件事 []--[]
-- 把时间当作朋友 []--[]
-- 小强升职记 []--[]
+- 正信的佛教 
+- 你若安好便是晴天 
+- 世间所有的相遇都是久别重逢 
+- 中国人的修养 
+- 肖申克的救赎 
+- Steve　Jobs 
+- Code Complete 
+- 阿姜查的禅修世界3 
+- 阿姜查的禅修世界2 
+- Programming in Scala 
+- 名家话佛缘 
+- 不抱怨的世界2 
+- 不抱怨的世界1 
+- 禅里禅外悟人生 
+- 禅·心的效能训练 
+- 佛教入门 
+- 舍得 
+- 宽心 
+- 放下的幸福 
+- 佛佗教你不生气 
+- node.js api document 
+- 聪明的投资者 
+- 35岁前成功的12条黄金法则 
+- 35岁前要做的33件事 
+- 把时间当作朋友 
+- 小强升职记 
 * Habits
 #+INDEX: Habits
 - doing 1 puzzle per day
@@ -87,3 +86,4 @@ problems on this website, [[mailto:eggcaker@gmail.com][send me mail]] pelease, T
 - 6.30起床
 
 
+testst test 

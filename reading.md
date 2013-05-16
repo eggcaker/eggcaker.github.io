@@ -1,41 +1,11 @@
-#+TITLE:      iEmacs - 大道至简 
-#+AUTHOR:     eggcaker
-#+EMAIL:      eggcaker AT gmail DOT com
-#+STARTUP:    align fold nodlcheck hidestars oddeven intestate
-#+SEQ_TODO:   TODO(t) INPROGRESS(i) WAITING(w@) | DONE(d) CANCELED(c@)
-#+TAGS:       Write(w) Update(u) Fix(f) Check(c)
-#+LANGUAGE:   en
-#+PRIORITIES: A C B
-#+CATEGORY:   iemacs
-#+OPTIONS:    H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE) tags:not-in-toc
+---
+title: Reading
+tags: reading
+---
 
-#+BEGIN_HTML
-<div class="hero-unit">
-<p>This website was built with org-mode and emacs for <a href="./resume/index.html">me</a> to do things :</p>
-<ul>
- <li>write some blogs </li>
-<li>do GTD <a href="./review/index.html">reviews</a></li>
-<li>do program <a href="./puzzles/index.html">puzzles</a></li>
-<li>do some habits </li>
-<li> read book and write notes </li>
-</ul>
-
-<p>I spent <strong>LOT OF</strong> time to play with lot of blog engines before, after did lot research, I think only need a very 
-basic blog engine(kind of wiki system). so I create this website with Emacs's publish system and 
-try to use English to write all content. </p>
-
-<p>
-the english not my native language, so if you found any stupid
-spelling word or sentence on this website, <a href="mailto:eggcaker@gmail.com">send me a mail</a> 
-pelease, THANKS!!!
-</p>
-</div>
-
-#+END_HTML
-* Reading 
-#+INDEX: Reading
-- Java Puzzlers 2012-11-23]--?
-- 拖延心学理 =[2012-10-22]--[2012-11-01]=
+## Reading
+- Java Puzzlers `[2012-11-23]--?`
+- 拖延心学理 `[2012-10-22]--[2012-11-01]`
 - 孩子你慢慢来 [2012-10-16]--[2012-10-22]
 - magazine [2012-10-15]--[2012-10-20]
 - Hackers & Painters [2012-09-10]--[2012-10-15]
@@ -88,17 +58,4 @@ pelease, THANKS!!!
 - 35岁前要做的33件事 
 - 把时间当作朋友 
 - 小强升职记 
-* Habits
-#+INDEX: Habits
-- doing 1 puzzle per day
-- 戒酒
-- 淡定
-- 一个终端
-- 红绿灯
-- 微笑、不叹气
-- 每日回顾
-- 每三洗三次脸
-- 八杯水
-- 每天最多一杯咖啡
-- 6.30起床
 

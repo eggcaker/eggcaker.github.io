@@ -1,5 +1,7 @@
-#+TITLE: Search iEmacs with Google CSE
-#+BEGIN_HTML
+---
+title: Search iEmacs with Google CSE
+---
+
 <div class="container">
 <div class="row">
 <div class="span8">
@@ -20,5 +22,3 @@
 <div class="span3"></div>
 </div>
 </div>
-#+END_HTML
-

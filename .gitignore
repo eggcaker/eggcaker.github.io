@@ -1,2 +1,8 @@
 .DS_Store
 *~
+_cache
+_site
+site.o
+site.hi
+site
+

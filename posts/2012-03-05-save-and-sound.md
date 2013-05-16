@@ -1,13 +1,9 @@
 ---
 title: 听歌学英语:泰勒最新凄美单曲 Safe And Sound
-
 layout: 'post'
 author: 'eggcaker'
 date: '2012-03-05'
-
-guid: urn:uuid:fd0c4872-3de6-4b46-8874-06cd0606cf63
-tags:
-- 听歌学英语
+tags: ['听歌学英语']
 ---
 
 <audio src="http://site-images.googlecode.com/git/mp3/save_and_sound.mp3" controls autoplay="true">

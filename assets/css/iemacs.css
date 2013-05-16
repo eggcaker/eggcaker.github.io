@@ -919,10 +919,10 @@
 
     #show_source {margin: 0; padding: 0;}
 
-    #preamble {
+    #header {
        margin-left:50px;
     }
-    #postamble {
+    #footer {
 	font-size: 13px;
         font-weight:bold;
 	min-width: 700px;

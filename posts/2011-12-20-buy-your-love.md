@@ -1,5 +1,5 @@
 ---
-title: "buy your love" 
+title: buy your love 
 layout: 'post'
 author: 'eggcaker'
 date: '2011-12-20'

@@ -1,5 +1,5 @@
 ---
-title: "人不成熟的几大特征" 
+title: 人不成熟的几大特征 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-02-14'

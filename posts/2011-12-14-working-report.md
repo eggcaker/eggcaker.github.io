@@ -1,5 +1,5 @@
 ---
-title: "working report" 
+title: working report 
 layout: 'post'
 author: 'eggcaker'
 date: '2011-12-14'
@@ -10,5 +10,4 @@ tags: ['Work']
 
 The git commit log for today
 
-![work-report](/articles/2011/12/work-report.png)
--
+![work-report](/assets/articles/2011/12/work-report.png)

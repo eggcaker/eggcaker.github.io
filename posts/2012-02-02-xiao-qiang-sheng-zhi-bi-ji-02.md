@@ -1,5 +1,5 @@
 ---
-title: "小强升职记笔记2 - 让种子发芽" 
+title: 小强升职记笔记2 - 让种子发芽 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-02-02'
@@ -22,13 +22,11 @@ tags: ['小强升职记']
   3. 不重要但紧急 
   4. 不重要而且不紧急 
 
-![http://caker.me/assets/img/2012/02/time_4.png](http://caker.me/assets/img/20
-12/02/time_4.png)
+![time_4.png](/assets/articles/2012/02/time_4.png)
 
 相应的，按事情性质划分四象限：
 
-![http://caker.me/assets/img/2012/02/time_4_2.png](http://caker.me/assets/img/
-2012/02/time_4_2.png)
+![time_4_2.png](/assets/articles/2012/02/time_4_2.png)
 
 对应于四个象限的任务，应该有不同的方法和态度：
 
@@ -91,8 +89,7 @@ tags: ['小强升职记']
 
 项目处理流程表：
 
-![http://caker.me/assets/img/2012/02/project_flow.png](http://caker.me/assets/
-img/2012/02/project_flow.png)
+![roject_flow.png](/assets/articles/2012/02/project_flow.png)
 
 #### 衣柜整理法
 

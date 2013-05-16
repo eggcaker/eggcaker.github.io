@@ -1,5 +1,5 @@
 ---
-title: "给天下父母的14个忠告" 
+title: 给天下父母的14个忠告 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-03-26'

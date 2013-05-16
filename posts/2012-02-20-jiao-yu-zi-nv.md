@@ -1,5 +1,5 @@
 ---
-title: "教育子女" 
+title: 教育子女 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-02-20'

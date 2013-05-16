@@ -1,5 +1,5 @@
 ---
-title: "The Serenity Prayer" 
+title: The Serenity Prayer 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-02-26'

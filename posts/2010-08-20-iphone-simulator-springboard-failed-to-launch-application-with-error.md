@@ -1,5 +1,5 @@
 ---
-title: "iPhone Simulator: SpringBoard failed to launch application with error"
+title: iPhone Simulator: SpringBoard failed to launch application with error
 layout: 'post'
 categories: blog 2010
 tags: ['HowTo', 'iPhone']

@@ -1,5 +1,5 @@
 ---
-title: "Who do you think you are" 
+title: Who do you think you are 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-01-13'

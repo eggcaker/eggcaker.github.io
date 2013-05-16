@@ -1,5 +1,5 @@
 ---
-title: "No IM for three days" 
+title: No IM for three days 
 layout: 'post'
 author: 'eggcaker'
 date: '2011-12-10'

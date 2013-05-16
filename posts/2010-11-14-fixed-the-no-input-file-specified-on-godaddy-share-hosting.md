@@ -1,5 +1,5 @@
 ---
-title: "fixed the No input file specified on godaddy share hosting"
+title: fixed the No input file specified on godaddy share hosting
 layout: 'post'
 categories: blog 2010
 tags: ['Website']

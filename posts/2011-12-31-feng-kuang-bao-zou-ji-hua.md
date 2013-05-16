@@ -1,5 +1,5 @@
 ---
-title: "疯狂暴走计划" 
+title: 疯狂暴走计划 
 layout: 'post'
 author: 'eggcaker'
 date: '2011-12-31'

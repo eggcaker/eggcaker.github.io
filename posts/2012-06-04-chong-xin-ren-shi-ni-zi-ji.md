@@ -1,5 +1,5 @@
 ---
-title: "重新认识你自己" 
+title: 重新认识你自己 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-06-04'

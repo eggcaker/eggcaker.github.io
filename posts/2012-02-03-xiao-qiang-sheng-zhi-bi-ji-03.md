@@ -1,5 +1,5 @@
 ---
-title: "小强升职记笔记3 - 长出树干和枝桠" 
+title: 小强升职记笔记3 - 长出树干和枝桠 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-02-03'
@@ -87,6 +87,5 @@ tags: ['小强升职记']
     * 某个愿景从属于某个原则 
     * 目标层是设定目标和制定计划的分水坽 
 
-![http://caker.me/assets/img/2012/02/6_gao_du.png](http://caker.me/assets/img/
-2012/02/6_gao_du.png)
+![6 gao du](/assets/articles/2012/02/6_gao_du.png)
 

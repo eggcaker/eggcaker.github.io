@@ -1,5 +1,5 @@
 ---
-title: "Emacs 24 on Archlinux" 
+title: Emacs 24 on Archlinux 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-08-26'

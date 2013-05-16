@@ -1,5 +1,5 @@
 ---
-title: "听歌学英语：Wonderwall"
+title: 听歌学英语：Wonderwall
 layout: 'post'
 author: 'eggcaker'
 date: '2012-03-20'

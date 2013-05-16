@@ -1,5 +1,5 @@
 ---
-title: "小强升职记笔记1 - 寻找种子" 
+title: 小强升职记笔记1 - 寻找种子 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-02-01'

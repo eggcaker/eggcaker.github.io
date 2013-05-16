@@ -1,5 +1,5 @@
 ---
-title: "Daily word - issue" 
+title: Daily word - issue 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-02-22'

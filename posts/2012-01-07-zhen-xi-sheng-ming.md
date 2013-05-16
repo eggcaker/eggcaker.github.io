@@ -1,5 +1,5 @@
 ---
-title: "珍惜生命" 
+title: 珍惜生命 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-01-07'

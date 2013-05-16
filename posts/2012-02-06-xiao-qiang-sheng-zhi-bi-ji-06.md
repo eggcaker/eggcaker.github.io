@@ -1,5 +1,5 @@
 ---
-title: "小强升职记笔记6 - 摘下够得着的果实" 
+title: 小强升职记笔记6 - 摘下够得着的果实 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-02-06'
@@ -50,8 +50,7 @@ tags: ['小强升职记']
 
 最后，用郭姑娘的一句话和一张图片结束吧:
 
-![http://caker.me/assets/img/2012/02/hand.png](http://caker.me/assets/img/2012
-/02/hand.png)
+![my hand](/assets/articles/2012/02/hand.png)
 
 > 生活如此美好，我却如此暴躁，这样不好，不好。
 

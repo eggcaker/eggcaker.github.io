@@ -1,5 +1,5 @@
 ---
-title: "My first post with octopress" 
+title: My first post with octopress 
 layout: 'post'
 author: 'eggcaker'
 date: '2011-11-22'

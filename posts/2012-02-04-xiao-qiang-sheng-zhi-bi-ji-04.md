@@ -1,5 +1,5 @@
 ---
-title: "小强升职记笔记4 - 绿叶充实树干" 
+title: 小强升职记笔记4 - 绿叶充实树干 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-02-04'

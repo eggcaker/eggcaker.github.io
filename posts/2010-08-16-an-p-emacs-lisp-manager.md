@@ -1,6 +1,6 @@
 ---
 layout: 'post'
-title: "an 'P' Emacs Lisp Manager"
+title: an 'P' Emacs Lisp Manager
 author: 'eggcaker'
 date: '2010-8-16'
 categories: blog 2010

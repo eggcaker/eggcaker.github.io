@@ -1,5 +1,5 @@
 ---
-title: "小强升职记笔记5 - 在开花与结果中成长" 
+title: 小强升职记笔记5 - 在开花与结果中成长 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-02-05'

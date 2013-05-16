@@ -1,5 +1,5 @@
 ---
-title: "凌晨5点" 
+title: 凌晨5点 
 layout: 'post'
 author: 'eggcaker'
 date: '2011-12-11'

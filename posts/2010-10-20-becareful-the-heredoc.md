@@ -1,5 +1,5 @@
 ---
-title: "Becareful the heredoc!"
+title: Becareful the heredoc!
 layout: 'post'
 categories: blog 2010
 tags: ['PHP']

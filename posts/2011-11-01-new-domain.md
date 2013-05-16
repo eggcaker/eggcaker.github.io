@@ -1,5 +1,5 @@
 ---
-title: "new domain !!" 
+title: new domain !! 
 layout: 'post'
 author: 'eggcaker'
 date: '2011-11-01'

@@ -1,5 +1,5 @@
 ---
-title: "Code Highlighting with OrgRuby" 
+title: Code Highlighting with OrgRuby 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-02-27'

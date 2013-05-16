@@ -1,5 +1,5 @@
 ---
-title: "my first awesome plugin for keyll" 
+title: my first awesome plugin for keyll 
 layout: 'post'
 author: 'eggcaker'
 date: '2011-12-27'

@@ -1,5 +1,5 @@
 ---
-title: "35岁前成功的12条黄金法则" 
+title: 35岁前成功的12条黄金法则 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-03-04'

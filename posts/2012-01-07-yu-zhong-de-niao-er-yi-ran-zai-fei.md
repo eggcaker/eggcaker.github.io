@@ -1,5 +1,5 @@
 ---
-title: "雨中的鸟儿依然在飞" 
+title: 雨中的鸟儿依然在飞 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-01-07'

@@ -1,5 +1,5 @@
 ---
-title: "自己寻开心" 
+title: 自己寻开心 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-03-26'

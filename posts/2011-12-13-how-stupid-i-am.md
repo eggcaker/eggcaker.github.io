@@ -1,5 +1,5 @@
 ---
-title: "How stupid I am ?" 
+title: How stupid I am ? 
 layout: 'post'
 author: 'eggcaker'
 date: '2011-12-13'

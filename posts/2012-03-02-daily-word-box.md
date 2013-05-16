@@ -1,5 +1,5 @@
 ---
-title: "Daily word - box" 
+title: Daily word - box 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-03-02'

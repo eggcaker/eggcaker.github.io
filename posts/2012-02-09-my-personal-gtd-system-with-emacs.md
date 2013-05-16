@@ -1,5 +1,5 @@
 ---
-title: "My personal GTD system with Emacs" 
+title: My personal GTD system with Emacs 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-02-09'
@@ -30,8 +30,6 @@ and flexible.
      ├── maybe.org
      ├── personal.org
      └── work.org   
-    
-    
 
 #### inbox.org
 
@@ -74,7 +72,7 @@ Work tasks
 
 ### Screenshot
 
-![GTD](/articles/2012/02/gtd.png)
+![GTD](/assets/articles/2012/02/gtd.png)
 
 ### Source code
 

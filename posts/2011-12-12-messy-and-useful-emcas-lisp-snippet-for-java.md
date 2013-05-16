@@ -1,5 +1,5 @@
 ---
-title: "Messy and useful emcas-lisp snippet for java" 
+title: Messy and useful emcas-lisp snippet for java 
 layout: 'post'
 author: 'eggcaker'
 date: '2011-12-12'

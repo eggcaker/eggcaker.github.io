@@ -1,5 +1,5 @@
 ---
-title: "it's time to say bye" 
+title: it's time to say bye 
 layout: 'post'
 author: 'eggcaker'
 date: '2011-12-24'
@@ -13,7 +13,5 @@ say good bye !
 
 [Jekyll][jekyll], I'm back!!
 
-[jekyll]:
-[https://github.com/mojombo/jekyll](https://github.com/mojombo/jekyll)
-"jekyll"
+[jekyll]:<https://github.com/mojombo/jekyll> "Jekyll"
 

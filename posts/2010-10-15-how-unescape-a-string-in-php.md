@@ -1,5 +1,5 @@
 ---
-title: "How unescape a string in php"
+title: How unescape a string in php
 layout: 'post'
 categories: blog 2010
 tags: ['PHP']

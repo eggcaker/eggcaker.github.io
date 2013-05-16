@@ -1,5 +1,5 @@
 ---
-title: "see you bali" 
+title: see you bali 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-02-16'

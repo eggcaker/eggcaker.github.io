@@ -1,5 +1,5 @@
 ---
-title: "How to add new file to svn"
+title: How to add new file to svn
 layout: 'post'
 categories: blog 2010
 tags: ['SNIPPET', 'SVN']

@@ -1,5 +1,5 @@
 ---
-title: "Show emacs load time" 
+title: Show emacs load time 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-09-20'

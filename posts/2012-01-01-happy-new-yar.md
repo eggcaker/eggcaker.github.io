@@ -1,5 +1,5 @@
 ---
-title: "Happy new yar" 
+title: Happy new yar 
 layout: 'post'
 author: 'eggcaker'
 date: '2012-01-01'

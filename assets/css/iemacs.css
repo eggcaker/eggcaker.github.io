@@ -73,16 +73,7 @@
 	padding: 0.5em;
 	margin-top: -1.5em; }
 
-    #table-of-contents ul {
-        list-style-type: none;
-    }
-    #license {
-      /* padding: .3em; */
-      /* border: 1px solid gray; */
-      background-color: #eeeeee;
-    }
-
-    h1 {
+   h1 {
 	/*
 	  font-family:Sans;
 	  font-weight:bold; */

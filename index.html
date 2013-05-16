@@ -2,7 +2,10 @@
 title: iEmacs - 大道至简
 ---
 
-<div class="hero-unit">
+  <div class="container">
+    <div class="row">
+
+  <div class="span8 head">
 <p>This website was built with org-mode and emacs for <a href="./resume/index.html">me</a> to do things :</p>
 <ul>
  <li>write some blogs </li>
@@ -22,17 +25,9 @@ spelling word or sentence on this website, <a href="mailto:eggcaker@gmail.com">s
 pelease, THANKS!!!
 </p>
 </div>
-<h2> Recent Post</h2>
-<div class="posts">
-  <ul class="nav">
-  $posts$
-</ul>
-</div>
-
-<h2>Habits</h2>
-<ul class="habits">
+<div class="span3">
+<ul class="habits alert">
   <li>doing 1 puzzle per day</li>
-  <li>戒酒</li>
   <li>淡定</li>
   <li>一个终端</li>
   <li>红绿灯</li>
@@ -43,4 +38,21 @@ pelease, THANKS!!!
   <li>每天最多一杯咖啡</li>
   <li>6.30起床</li>
 </ul>
+</div>
+</div> <!-- ends of row -->
+
+<div class="row">
+<div class="posts span7">
+<h2> Recent Post</h2>
+  <ul class="clearfix">
+    $posts$
+  </ul>
+  <i class="icon-list"></i>&nbsp;<a href="archive.html">All posts...</a>
+</div>
+<div class="span4">
+  <h2>Tags</h2>
+  $tags$
+</div>
+</div>
+</div>
 

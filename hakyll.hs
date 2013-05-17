@@ -82,7 +82,7 @@ main = hakyllWith config $ do
         compile $ do
             list <- postList tags "posts/*" $ fmap (take 10) . recentFirst
             let indexCtx = constField "posts" list `mappend`
-                 field "tags" (\_ -> renderTagList tags) `mappend`
+                 field "tags" (\_ -> renderTagList tags ) `mappend`
                  defaultContext
 
             getResourceBody

@@ -4,7 +4,7 @@ layout: 'post'
 author: 'eggcaker'
 date: '2012-02-16'
 categories: blog 2012
-tags: ['Misc']
+tags: Misc
 ---
 
 

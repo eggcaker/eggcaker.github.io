@@ -4,7 +4,7 @@ layout: 'post'
 author: 'eggcaker'
 date: '2012-03-20'
 categories: blog 2012
-tags: ['听歌学英语']
+tags: 听歌学英语
 ---
 
 Don't ask me why, just go to somewhere find the right web browser. 

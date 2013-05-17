@@ -4,7 +4,7 @@ layout: 'post'
 author: 'eggcaker'
 date: '2012-06-04'
 categories: blog 2012
-tags: ['重新认识你自己']
+tags: 重新认识你自己
 ---
 
 

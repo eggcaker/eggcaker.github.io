@@ -2,7 +2,7 @@
 title: Becareful the heredoc!
 layout: 'post'
 categories: blog 2010
-tags: ['PHP']
+tags: PHP
 author: 'eggcaker'
 date: '2010-10-20'
 --- 

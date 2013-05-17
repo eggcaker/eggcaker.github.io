@@ -4,7 +4,7 @@ layout: 'post'
 author: 'eggcaker'
 date: '2012-03-04'
 categories: blog 2012
-tags: ['35岁前成功的12条黄金法则']
+tags: 35岁前成功的12条黄金法则
 ---
 
 

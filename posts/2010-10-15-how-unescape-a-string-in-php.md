@@ -2,7 +2,7 @@
 title: How unescape a string in php
 layout: 'post'
 categories: blog 2010
-tags: ['PHP']
+tags: PHP
 date: '2010-10-15'
 author: 'eggcaker'
 ---

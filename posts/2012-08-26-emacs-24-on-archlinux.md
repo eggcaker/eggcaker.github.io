@@ -4,7 +4,7 @@ layout: 'post'
 author: 'eggcaker'
 date: '2012-08-26'
 categories: blog 2012
-tags: ['Archlinux', 'Emacs']
+tags: Archlinux,Emacs
 ---
 
 

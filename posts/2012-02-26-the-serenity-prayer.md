@@ -4,7 +4,7 @@ layout: 'post'
 author: 'eggcaker'
 date: '2012-02-26'
 categories: blog 2012
-tags: ['把时间当作朋友']
+tags: 把时间当作朋友
 ---
 
 

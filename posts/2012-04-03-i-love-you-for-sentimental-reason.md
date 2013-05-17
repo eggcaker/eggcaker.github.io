@@ -5,7 +5,7 @@ author: 'eggcaker'
 date: '2012-04-03'
 categories: blog 2012
 guid: urn:uuid:f0b2f17d-3821-4440-97e0-619cf7f31148
-tags: ['听歌学英语']
+tags: 听歌学英语
 ---
 
 <audio src="http://site-images.googlecode.com/git/mp3/i_love_you_for_sentimental_reason.mp3" controls autoplay="true">

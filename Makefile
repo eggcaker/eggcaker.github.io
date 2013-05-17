@@ -23,7 +23,7 @@ publish: build
 	git clean -fdx
 	git stash pop || true
 
-preview: hakyll
+serve: hakyll
 	./hakyll preview -p 9000
 
 clean: hakyll

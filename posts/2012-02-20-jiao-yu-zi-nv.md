@@ -4,7 +4,7 @@ layout: 'post'
 author: 'eggcaker'
 date: '2012-02-20'
 categories: blog 2012
-tags: ['教育']
+tags: 教育
 ---
 
 

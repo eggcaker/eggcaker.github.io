@@ -4,7 +4,7 @@ layout: 'post'
 author: 'eggcaker'
 date: '2012-02-29'
 categories: blog 2012
-tags: ['35岁前要做的33件事']
+tags: 35岁前要做的33件事
 ---
 
 

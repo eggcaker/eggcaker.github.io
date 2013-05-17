@@ -2,7 +2,7 @@
 title: How to add new file to svn
 layout: 'post'
 categories: blog 2010
-tags: ['SNIPPET', 'SVN']
+tags: SNIPPET,SVN
 date: '2010-08-18'
 author: 'eggcaker'
 --- 

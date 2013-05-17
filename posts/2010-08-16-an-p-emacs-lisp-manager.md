@@ -4,7 +4,7 @@ title: an 'P' Emacs Lisp Manager
 author: 'eggcaker'
 date: '2010-8-16'
 categories: blog 2010
-tags: ['Emacs']
+tags: Emacs
 ---
 
 I've created a lisp manager for Emacs (24.0 and greater) called PLEM.

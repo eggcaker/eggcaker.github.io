@@ -4,7 +4,7 @@ layout: 'post'
 author: 'eggcaker'
 date: '2011-12-24'
 categories: blog 2011
-tags: ['Website']
+tags: Website
 ---
 
 So far, i'm not really understand the octopress, especially for push to

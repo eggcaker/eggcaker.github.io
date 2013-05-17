@@ -4,7 +4,7 @@ layout: 'post'
 author: 'eggcaker'
 date: '2011-12-31'
 categories: blog 2011
-tags: ['Life']
+tags: Life
 ---
 
 

@@ -2,7 +2,7 @@
 title: iPhone Simulator: SpringBoard failed to launch application with error
 layout: 'post'
 categories: blog 2010
-tags: ['HowTo', 'iPhone']
+tags: HowTo,iPhone
 author: 'eggcaker'
 date: '2010-08-20'
 --- 

@@ -2,7 +2,7 @@
 title: Keyboard not working with Ubuntu 10.04 in VmWare Fusion
 layout: 'post'
 categories: blog 2010
-tags: ['Linux']
+tags: Linux
 date: '2010-10-25'
 author: 'eggcaker'
 --- 

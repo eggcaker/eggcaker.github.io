@@ -2,7 +2,7 @@
 title: fixed the No input file specified on godaddy share hosting
 layout: 'post'
 categories: blog 2010
-tags: ['Website']
+tags: Website
 date: '2010-11-14'
 --- 
 

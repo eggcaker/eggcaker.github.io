@@ -4,7 +4,7 @@ layout: 'post'
 author: 'eggcaker'
 date: '2012-02-04'
 categories: blog 2012
-tags: ['小强升职记']
+tags: 小强升职记
 ---
 
 

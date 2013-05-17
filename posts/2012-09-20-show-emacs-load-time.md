@@ -4,7 +4,7 @@ layout: 'post'
 author: 'eggcaker'
 date: '2012-09-20'
 categories: blog 2012
-tags: ['Emacs']
+tags: Emacs
 ---
 
 

@@ -4,7 +4,7 @@ layout: 'post'
 author: 'eggcaker'
 date: '2011-11-01'
 categories: blog 2011
-tags: ['Website']
+tags: Website
 ---
 
 

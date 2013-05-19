@@ -27,8 +27,17 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
+    puzzleTags <- buildTags "puzzles/*"  (fromCapture "puzzles/tags/*.html")
 
-    match (fromList ["search.md", "reviews.md","puzzles.md"]) $ do
+    match "puzzles/*" $ do
+        route $ setExtension "html"
+        compile $ pandocCompiler
+            >>= saveSnapshot "content"
+            >>= loadAndApplyTemplate "templates/puzzle.html"    (puzzleCtx puzzleTags)
+            >>= loadAndApplyTemplate "templates/puzz-default.html" defaultContext
+            >>= relativizeUrls
+
+    match (fromList ["search.md", "reviews.md"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -77,6 +86,22 @@ main = hakyllWith config $ do
               >>= loadAndApplyTemplate "templates/default.html" ctx
               >>= relativizeUrls
 
+    -- puzzle tags
+    tagsRules puzzleTags $ \tag pattern -> do 
+        let title = "Puzzles tagged " ++ tag
+
+        -- copied from posts, need to refactor
+        route idRoute
+        compile $ do 
+          list <- puzzleList puzzleTags pattern recentFirst
+          let ctx = constField "title" title `mappend`
+                    constField "posts" list `mappend`
+                    defaultContext
+          makeItem ""
+              >>= loadAndApplyTemplate "templates/archive.html" ctx
+              >>= loadAndApplyTemplate "templates/puzz-default.html" ctx
+              >>= relativizeUrls
+
     match "index.html" $ do
         route idRoute
         compile $ do
@@ -89,11 +114,63 @@ main = hakyllWith config $ do
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
                 >>= relativizeUrls
+    match "puzzles.html" $ do
+        route idRoute
+        compile $ do
+            list <- postList tags "puzzles/*" $ recentFirst --fmap (take 10) . recentFirst
+            let indexCtx = constField "puzzles" list `mappend`
+                 field "tags" (\_ -> renderTagList puzzleTags ) `mappend`
+                 defaultContext
 
+            getResourceBody
+                >>= applyAsTemplate indexCtx
+                >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                >>= relativizeUrls
+
+
+{-    match "puzzles.html" $ do 
+        route idRoute 
+        compile $ do 
+            list <- puzzleList puzzleTags "puzzles/*" $ fmap (take 5) . recentFirst
+            let puzzleCtx = constField "puzzles" list `mappend`
+                 field "tags" (\_ -> renderTagList puzzleTags) `mappend`
+                 defaultContext
+
+            getResourceBody
+                >>= applyAsTemplate puzzleCtx
+                >>= loadAndApplyTemplate "template/puzz-default.html" puzzleCtx
+                >>= relativizeUrls
+-}
     match "templates/*" $ compile templateCompiler
+-------------------------------------------------------------------------------
+config :: Configuration
+config = defaultConfiguration
+  {
+     deployCommand = "make publish"
+  }
 
+-------------------------------------------------------------------------------
+puzzleList :: Tags -> Pattern ->([Item String] -> Compiler [Item String]) -> Compiler String
+puzzleList  tags pattern preprocess' = do
+   puzzleItemTpl <- loadBody "templates/puzzle-item.html"
+   puzzles       <- preprocess' =<< loadAll pattern
+   applyTemplateList puzzleItemTpl (puzzleCtx tags) puzzles 
+-------------------------------------------------------------------------------
+puzzleCtx :: Tags -> Context String
+puzzleCtx tags = mconcat
+    [ modificationTimeField "mtime" "%U"
+    , dateField "date" "%Y-%m-%d"
+    , tagsField "tags" tags
+    , defaultContext
+    ]
+-------------------------------------------------------------------------------
+postList :: Tags -> Pattern ->([Item String] -> Compiler [Item String]) -> Compiler String
+postList tags pattern preprocess' = do
+    postItemTpl <- loadBody "templates/post-item.html"
+    posts       <- preprocess' =<< loadAll pattern
+    applyTemplateList postItemTpl (postCtx tags) posts
 
---------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 postCtx :: Tags -> Context String
 postCtx tags = mconcat
     [ modificationTimeField "mtime" "%U"
@@ -118,15 +195,4 @@ feedConfiguration title = FeedConfiguration
   , feedAuthorEmail = "eggcaker@gmail.com"
   , feedRoot        = "http://iemacs.com"
   }
--------------------------------------------------------------------------------
-config :: Configuration
-config = defaultConfiguration
-  {
-     deployCommand = "make publish"
-  }
--------------------------------------------------------------------------------
-postList :: Tags -> Pattern ->([Item String] -> Compiler [Item String]) -> Compiler String
-postList tags pattern preprocess' = do
-    postItemTpl <- loadBody "templates/post-item.html"
-    posts       <- preprocess' =<< loadAll pattern
-    applyTemplateList postItemTpl (postCtx tags) posts
+

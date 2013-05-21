@@ -7,9 +7,6 @@ hakyll: hakyll.hs
 	ghc --make hakyll.hs
 	./hakyll clean
 
-new:
-	@./new_post.sh
-
 publish: build
 	git add .
 	git stash save

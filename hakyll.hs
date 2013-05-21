@@ -28,7 +28,7 @@ main = hakyllWith config $ do
             >>= relativizeUrls
 
     puzzleTags <- buildTags "puzzles/*"  (fromCapture "puzzles/tags/*.html")
-    reviewTags <- buildTags "reviews/*"  (fromCapture "reviews/tags/*.html")
+    reviewTags <- buildTags "reviews/**"  (fromCapture "reviews/tags/*.html")
 
     match "puzzles/*" $ do
         route $ setExtension "html"
@@ -106,6 +106,22 @@ main = hakyllWith config $ do
           makeItem ""
               >>= loadAndApplyTemplate "templates/archive.html" ctx
               >>= loadAndApplyTemplate "templates/puzz-default.html" ctx
+              >>= relativizeUrls
+
+    -- review tags
+    tagsRules reviewTags $ \tag pattern -> do 
+        let title = "Reviews tagged " ++ tag
+
+        -- copied from posts, need to refactor
+        route idRoute
+        compile $ do 
+          list <- reviewList reviewTags pattern recentFirst
+          let ctx = constField "title" title `mappend`
+                    constField "posts" list `mappend`
+                    defaultContext
+          makeItem ""
+              >>= loadAndApplyTemplate "templates/archive.html" ctx
+              >>= loadAndApplyTemplate "templates/review-default.html" ctx
               >>= relativizeUrls
 
     match "index.html" $ do

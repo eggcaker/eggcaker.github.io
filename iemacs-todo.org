@@ -25,4 +25,5 @@ This file is the central page for inserting tasks related to iEmacs.
   :END:
 
 ** TODO Build the [[file:review/index.org][review index page]] 
-** TODO Build the [[file:puzzles/index.org][puzzles index page]]
+** DONE Build the [[file:puzzles/index.org][puzzles index page]]
+CLOSED: [2013-05-21 Tue 08:53]

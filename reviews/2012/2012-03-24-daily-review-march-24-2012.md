@@ -4,7 +4,7 @@ layout: 'review'
 author: 'eggcaker'
 date: '2012-03-24'
 categories: review 2012
-tags: ['daily']
+tags: daily
 ---
 
 

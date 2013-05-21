@@ -5,7 +5,7 @@ author: 'eggcaker'
 date: '2012-03-16'
 categories: review 2012
 categories: review 2012
-tags: ['daily']
+tags: daily
 ---
 
 

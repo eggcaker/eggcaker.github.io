@@ -1,6 +1,6 @@
 #+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
 #+FILETAGS: iEmacs
-#+SEQ_TODO:   TODO(t) INPROGRESS(i) WAITING(w@) | DONE(d) CANCELED(c@)
+#+SEQ_TODO:   TODO(t) NEXT(i) WAITING(w@) | DONE(d) CANCELED(c@)
 #+TAGS:       Write(w) Update(u) Fix(f) Check(c)
 #+TITLE:      TODO central file for iEmacs
 #+AUTHOR:     eggcaker
@@ -24,6 +24,9 @@ This file is the central page for inserting tasks related to iEmacs.
   :Owner_ALL: eggcaker
   :END:
 
-** TODO Build the [[file:review/index.org][review index page]] 
+** NEXT Build the [[file:review/index.org][review index page]]
+:LOGBOOK:
+CLOCK: [2013-05-21 Tue 17:23]
+:END:
 ** DONE Build the [[file:puzzles/index.org][puzzles index page]]
 CLOSED: [2013-05-21 Tue 08:53]

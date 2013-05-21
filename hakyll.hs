@@ -43,10 +43,17 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
+    match (fromList ["puzzles/index.md","projects/index.md", "projects/pelm.md"]) $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= relativizeUrls
+            
     match (fromList ["resume/index.md","resume/index-zh.md"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= relativizeUrls
 
     -- render rss RSS feed
     create ["rss.xml"] $ do
@@ -127,20 +134,6 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
                 >>= relativizeUrls
 
-
-{-    match "puzzles.html" $ do 
-        route idRoute 
-        compile $ do 
-            list <- puzzleList puzzleTags "puzzles/*" $ fmap (take 5) . recentFirst
-            let puzzleCtx = constField "puzzles" list `mappend`
-                 field "tags" (\_ -> renderTagList puzzleTags) `mappend`
-                 defaultContext
-
-            getResourceBody
-                >>= applyAsTemplate puzzleCtx
-                >>= loadAndApplyTemplate "template/puzz-default.html" puzzleCtx
-                >>= relativizeUrls
--}
     match "templates/*" $ compile templateCompiler
 -------------------------------------------------------------------------------
 config :: Configuration

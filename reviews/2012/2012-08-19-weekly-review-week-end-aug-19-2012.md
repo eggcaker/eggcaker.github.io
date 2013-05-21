@@ -1,5 +1,5 @@
 ---
-title: "Weekly review: week end Aug 19, 2012" 
+title: Weekly review: week end Aug 19, 2012 
 layout: 'review'
 author: 'eggcaker'
 date: '2012-08-19'

@@ -1,5 +1,5 @@
 ---
-title: "Daily review October 09, 2012" 
+title: Daily review October 09, 2012 
 layout: 'review'
 author: 'eggcaker'
 date: '2012-10-10'

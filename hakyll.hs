@@ -115,7 +115,7 @@ main = hakyllWith config $ do
         -- copied from posts, need to refactor
         route idRoute
         compile $ do 
-          list <- reviewList reviewTags pattern recentFirst
+          list <- reviewList reviewTags pattern recentFirst --fmap (tak 20) . recentFirst
           let ctx = constField "title" title `mappend`
                     constField "posts" list `mappend`
                     defaultContext
@@ -152,7 +152,7 @@ main = hakyllWith config $ do
     match "reviews.html" $ do
         route idRoute
         compile $ do
-            list <- postList tags "reviews/2012/*" $ recentFirst --fmap (take 10) . recentFirst
+            list <- postList tags "reviews/2012/*" $ fmap (take 20) . recentFirst
             let indexCtx = constField "reviews" list `mappend`
                  field "tags" (\_ -> renderTagList reviewTags ) `mappend`
                  defaultContext

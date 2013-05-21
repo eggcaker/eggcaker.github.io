@@ -28,6 +28,7 @@ main = hakyllWith config $ do
             >>= relativizeUrls
 
     puzzleTags <- buildTags "puzzles/*"  (fromCapture "puzzles/tags/*.html")
+    reviewTags <- buildTags "reviews/*"  (fromCapture "reviews/tags/*.html")
 
     match "puzzles/*" $ do
         route $ setExtension "html"
@@ -37,24 +38,22 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/puzz-default.html" defaultContext
             >>= relativizeUrls
 
-    match (fromList ["search.md", "reviews.md"]) $ do
-        route   $ setExtension "html"
+    match "reviews/**" $ do
+        route $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= saveSnapshot "content"
+            >>= loadAndApplyTemplate "templates/review.html"    (reviewCtx reviewTags)
+            >>= loadAndApplyTemplate "templates/review-default.html" defaultContext
             >>= relativizeUrls
 
-    match (fromList ["puzzles/index.md","projects/index.md", "projects/pelm.md"]) $ do
+    match (fromList ["search.md","puzzles/index.md","projects/index.md",
+                     "projects/pelm.md", "resume/index.md",
+                     "resume/index-zh.md"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
             
-    match (fromList ["resume/index.md","resume/index-zh.md"]) $ do
-        route   $ setExtension "html"
-        compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
-            >>= relativizeUrls
-
     -- render rss RSS feed
     create ["rss.xml"] $ do
         route idRoute
@@ -134,6 +133,19 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
                 >>= relativizeUrls
 
+    match "reviews.html" $ do
+        route idRoute
+        compile $ do
+            list <- postList tags "reviews/2012/*" $ recentFirst --fmap (take 10) . recentFirst
+            let indexCtx = constField "reviews" list `mappend`
+                 field "tags" (\_ -> renderTagList reviewTags ) `mappend`
+                 defaultContext
+
+            getResourceBody
+                >>= applyAsTemplate indexCtx
+                >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                >>= relativizeUrls
+
     match "templates/*" $ compile templateCompiler
 -------------------------------------------------------------------------------
 config :: Configuration
@@ -141,7 +153,20 @@ config = defaultConfiguration
   {
      deployCommand = "make publish"
   }
-
+-------------------------------------------------------------------------------
+reviewList :: Tags -> Pattern ->([Item String] -> Compiler [Item String]) -> Compiler String
+reviewList  tags pattern preprocess' = do
+   reviewItemTpl <- loadBody "templates/review-item.html"
+   reviews       <- preprocess' =<< loadAll pattern
+   applyTemplateList reviewItemTpl (reviewCtx tags) reviews
+-------------------------------------------------------------------------------
+reviewCtx :: Tags -> Context String
+reviewCtx tags = mconcat
+    [ modificationTimeField "mtime" "%U"
+    , dateField "date" "%Y-%m-%d"
+    , tagsField "tags" tags
+    , defaultContext
+    ]
 -------------------------------------------------------------------------------
 puzzleList :: Tags -> Pattern ->([Item String] -> Compiler [Item String]) -> Compiler String
 puzzleList  tags pattern preprocess' = do

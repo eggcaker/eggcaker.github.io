@@ -24,9 +24,10 @@ This file is the central page for inserting tasks related to iEmacs.
   :Owner_ALL: eggcaker
   :END:
 
-** NEXT Build the [[file:review/index.org][review index page]]
+** DONE Build the [[file:review/index.org][review index page]]
+CLOSED: [2013-05-21 Tue 18:47]
 :LOGBOOK:
-CLOCK: [2013-05-21 Tue 17:23]
+CLOCK: [2013-05-21 Tue 17:20]--[2013-05-21 Tue 18:47] =>  1:27
 :END:
 ** DONE Build the [[file:puzzles/index.org][puzzles index page]]
 CLOSED: [2013-05-21 Tue 08:53]

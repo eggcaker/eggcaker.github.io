@@ -4,7 +4,10 @@ tags: reading
 ---
 
 ## Reading
-- Java Puzzlers `[2012-11-23]--?`
+
+- Java Puzzlers 
+- Learn You a Haskell for Great Good `[2013-05-20] -- [?]`
+- Vim handbook `[2013-05-20] -- [?]`
 - 拖延心学理 `[2012-10-22]--[2012-11-01]`
 - 孩子你慢慢来 [2012-10-16]--[2012-10-22]
 - magazine [2012-10-15]--[2012-10-20]

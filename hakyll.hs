@@ -46,7 +46,7 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/review-default.html" defaultContext
             >>= relativizeUrls
 
-    match (fromList ["search.md","puzzles/index.md","projects/index.md",
+    match (fromList ["reading.md","search.md","puzzles/index.md","projects/index.md",
                      "projects/pelm.md", "resume/index.md",
                      "resume/index-zh.md"]) $ do
         route   $ setExtension "html"

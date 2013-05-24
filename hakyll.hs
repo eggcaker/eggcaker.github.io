@@ -12,7 +12,11 @@ import           Hakyll
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyllWith config $ do
-    match ( fromList ["CNAME", "README.md","assets/**"]) $ do
+    match ( fromList ["CNAME", "README.md"]) $ do 
+        route   idRoute
+        compile copyFileCompiler
+
+    match "assets/**" $ do 
         route   idRoute
         compile copyFileCompiler
 

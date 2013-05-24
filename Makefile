@@ -15,7 +15,7 @@ publish: build
 	find _site -maxdepth 1 -exec mv {} . \;
 	rmdir _site
 	git add -A && git commit -m "Publish" || true
-	git push -f ssh://yep5.com/home/eggcaker/repos/iemacs.git publish:master
+	git push -f git@github.com:eggcaker/eggcaker.github.com.git publish:master
 	git checkout master
 	git clean -fdx
 	git stash pop || true

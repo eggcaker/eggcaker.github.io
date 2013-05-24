@@ -16,7 +16,7 @@ publish: build
 	rmdir _site
 	git add -A && git commit -m "Publish" || true
 	git push -f git@github.com:eggcaker/eggcaker.github.io.git publish:master
-	git checkout master
+	git checkout develop
 	git clean -fdx
 	git stash pop || true
 

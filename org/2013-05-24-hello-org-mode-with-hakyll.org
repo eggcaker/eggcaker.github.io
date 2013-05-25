@@ -1,0 +1,20 @@
+#+BEGIN_HTML
+---
+title: added the org-mode to hakyll
+tags: Hakyll, Emacs, Org-Mode
+---
+#+END_HTML
+
+
+* TODO test the headsx
+
+dfdfd
+
+kkk
+
+
+| HEAD 1 This | HEAD2  | COL3   |
+|-------------+--------+--------|
+| world       | slslsl | dldlfd |
+| ddldl       | 343    | 303    |
+

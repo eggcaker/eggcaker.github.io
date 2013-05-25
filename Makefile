@@ -7,6 +7,9 @@ hakyll: hakyll.hs
 	ghc --make hakyll.hs
 	./hakyll clean
 
+format-post:
+	./format-org.sh
+
 publish: build
 	git add .
 	git stash save

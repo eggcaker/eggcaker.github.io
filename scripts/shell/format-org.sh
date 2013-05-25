@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file="`git status -s |grep "posts/"|awk '{print $2}'`"
+file="`git status -s |grep "s/201"|awk '{print $2}'`"
 for file in $file; do 
 
 ls="`cat $file | grep -n "^\-\-\-" |awk -F: '{print $1}'`";

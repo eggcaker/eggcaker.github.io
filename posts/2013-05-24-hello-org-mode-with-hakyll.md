@@ -1,6 +1,6 @@
 ---
 title: added the org-mode to hakyll with toc
-tags: Hakyll,Emacs,Org-Mode
+tags: Hakyll, Emacs, Org-Mode
 ---
 <div id="table-of-contents">
 <h2>Table of Contents</h2>

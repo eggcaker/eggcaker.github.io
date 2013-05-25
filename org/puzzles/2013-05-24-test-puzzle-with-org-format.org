@@ -1,0 +1,25 @@
+#+BEGIN_HTML
+---
+title: test puzzle page 
+tags: puzzle, org-mode
+---
+#+END_HTML
+
+
+* Hello puzzle!!
+
+** I am org head2 
+
+
+#+BEGIN_SRC sh
+ls
+#+END_SRC
+
+#+RESULTS:
+: 2012-05-24-test-puzzle-with-org-format.org
+
+
+| col1 | col2 | COL3 | col4 | col5 |
+|------+------+------+------+------|
+|    2 | 4    | 5    | 5    | 7    |
+

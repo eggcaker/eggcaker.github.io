@@ -7,7 +7,7 @@ hakyll: hakyll.hs
 	ghc --make hakyll.hs
 	./hakyll clean
 
-format-post:
+format-org:
 	./scripts/shell/format-org.sh
 
 publish: build

@@ -1,6 +1,6 @@
 ---
 title: added the org-mode to hakyll without toc
-tags: Hakyll,Emacs,Org-Mode
+tags: Hakyll, Emacs, Org-Mode
 ---
 
 

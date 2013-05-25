@@ -19,6 +19,14 @@ This file is the central page for inserting tasks related to iEmacs.
   :END:
 ** TODO write a blog for my new AWESOME iemacs wiki engine!
 
+** DONE add org-mode feature to iemacs
+CLOSED: [2013-05-25 Sat 11:29]
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2013-05-25 Sat 11:29]
+CLOCK: [2013-05-25 Sat 08:19]--[2013-05-25 Sat 11:29] =>  3:10
+CLOCK: [2013-05-25 Sat 08:18]--[2013-05-25 Sat 08:19] =>  0:01
+:END:
+[2013-05-25 Sat 08:18]
 * General tasks
   :PROPERTIES:
   :Owner_ALL: eggcaker

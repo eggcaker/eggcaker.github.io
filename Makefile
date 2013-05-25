@@ -8,7 +8,7 @@ hakyll: hakyll.hs
 	./hakyll clean
 
 format-post:
-	./format-org.sh
+	./scripts/shell/format-org.sh
 
 publish: build
 	git add .

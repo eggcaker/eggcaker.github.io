@@ -1,6 +1,8 @@
+#+OPTIONS: html-postamble:nil toc:nil
+
 #+BEGIN_HTML
 ---
-title: added the org-mode to hakyll with toc
+title: added the org-mode to hakyll without toc
 tags: Hakyll, Emacs, Org-Mode
 ---
 #+END_HTML
@@ -10,12 +12,8 @@ tags: Hakyll, Emacs, Org-Mode
 
 ** TEST THE ORG TABLE WORKS ?
 
-|-------------+--------+--------|
 | HEAD 1 This | HEAD2  | COL3   |
 |-------------+--------+--------|
 | world       | slslsl | dldlfd |
 | ddldl       | 343    | 303    |
-
-
-
 

@@ -1,9 +1,8 @@
+#+BEGIN_HTML
 ---
 title: create a 4x4 matrix with number 
 tags: hakell, matrix
 ---
-\n
-#+BEGIN_HTML
 #+END_HTML
 
 

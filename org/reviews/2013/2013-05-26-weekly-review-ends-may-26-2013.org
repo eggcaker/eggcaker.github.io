@@ -1,8 +1,8 @@
+#+BEGIN_HTML
 ---
 title: Weekly review: Week ending May 26, 2013 
 tags: weekly
 ---
-#+BEGIN_HTML
 #+END_HTML
 
 
@@ -27,7 +27,7 @@ tags: weekly
   
 ** Time review (ends fo writing time) 
 
-#+attr_html: :class table
+
 | File            | Headline                                                                      |       Time |
 |-----------------+-------------------------------------------------------------------------------+------------|
 |                 | ALL *Total time*                                                              | *6d 15:45* |

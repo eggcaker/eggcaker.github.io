@@ -1,8 +1,8 @@
-#+BEGIN_HTML
 ---
 title: Weekly review: Week ending May 26, 2013 
 tags: weekly
 ---
+#+BEGIN_HTML
 #+END_HTML
 
 
@@ -27,8 +27,7 @@ tags: weekly
   
 ** Time review (ends fo writing time) 
 
-#+CAPTION: This is a table with lines around and between cells
-#+ATTR_HTML: :border 2 :rules all :frame border
+#+attr_html: :class table
 | File            | Headline                                                                      |       Time |
 |-----------------+-------------------------------------------------------------------------------+------------|
 |                 | ALL *Total time*                                                              | *6d 15:45* |

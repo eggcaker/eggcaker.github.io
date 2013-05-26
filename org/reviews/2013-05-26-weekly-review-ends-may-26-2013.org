@@ -1,0 +1,82 @@
+#+BEGIN_HTML
+---
+title: Weekly review: Week ending May 26, 2013 
+tags: weekly
+---
+#+END_HTML
+
+
+** Accomplished  this week 
++ BIZ
+  - the crt project started 
+  - the codebase of CRT
+  - called with guorong about the future projects plan
++ Relationships
++ Life
+  - went to the park with family
+  - restarted the GTD system  
+  - built the new website and wrote some plugins for it 
++ Learn
+  - read the haskell book
+    
+** Plans for next week 
++ BIZ
++ Relationship
++ Life
++ Learn
+  
+** Time review (ends fo writing time) 
+
+#+CAPTION: This is a table with lines around and between cells
+#+ATTR_HTML: :border 2 :rules all :frame border
+| File            | Headline                                                                      |       Time |
+|-----------------+-------------------------------------------------------------------------------+------------|
+|                 | ALL *Total time*                                                              | *6d 15:45* |
+|-----------------+-------------------------------------------------------------------------------+------------|
+| biz.org         | *File time*                                                                   |    *16:28* |
+|                 | [[file:/home/eggcaker/.org-files/biz.org::Default][Default]]                                                                       |       1:39 |
+|                 | \__ [[file:/home/eggcaker/.org-files/biz.org::DONE%20find%20another%20git%20cloud%20service%20seems%20bb%20GFWed][DONE find another git cloud service seems bb GFWed]]                        |       1:39 |
+|                 | [[file:/home/eggcaker/.org-files/biz.org::BIZ][BIZ]]                                                                           |       7:59 |
+|                 | \__ [[file:/home/eggcaker/.org-files/biz.org::TODO%20the%20CRT%20project][TODO the CRT project]]                                                      |       7:59 |
+|                 | \_____ [[file:/home/eggcaker/.org-files/biz.org::DONE%20basic%20version][DONE basic version]]                                                     |       6:22 |
+|                 | \_____ [[file:/home/eggcaker/.org-files/biz.org::NEXT%20database%20part%20of%20crt][NEXT database part of crt]]                                              |       1:37 |
+|                 | [[file:/home/eggcaker/.org-files/biz.org::Mine][Mine]]                                                                          |       4:50 |
+|                 | \__ [[file:/home/eggcaker/.org-files/biz.org::TODO%20the%20weibo.be%20website][TODO the weibo.be website {0/1}]]                                           |       4:50 |
+|                 | \_____ [[file:/home/eggcaker/.org-files/biz.org::TODO%20build%20the%20weibo.be%20website][TODO build the weibo.be website]]                                        |       4:50 |
+|                 | [[file:/home/eggcaker/.org-files/biz.org::Websites][Websites]]                                                                      |       2:00 |
+|                 | \__ [[file:/home/eggcaker/.org-files/biz.org::DONE%20find%20another%20git%20cloud%20service%20seems%20bb%20GFWed][DONE find another git cloud service seems bb GFWed]]                        |       2:00 |
+|-----------------+-------------------------------------------------------------------------------+------------|
+| gtd.org         | *File time*                                                                   |     *5:20* |
+|                 | [[file:/home/eggcaker/.org-files/gtd.org::GTD%20%E3%80%80][GTD 　]]                                                                        |       5:20 |
+|                 | \__ [[file:/home/eggcaker/.org-files/gtd.org::TODO%20GTD%20time][TODO GTD time]]                                                             |       3:18 |
+|                 | \__ [[file:/home/eggcaker/.org-files/gtd.org::NEXT%20Weekly%20Review][NEXT Weekly Review {0/8}]]                                                  |       2:02 |
+|-----------------+-------------------------------------------------------------------------------+------------|
+| maybe.org       | *File time*                                                                   |     *0:01* |
+|                 | [[file:/home/eggcaker/.org-files/maybe.org::Tasks][Tasks]]                                                                         |       0:01 |
+|                 | \__ [[file:/home/eggcaker/.org-files/maybe.org::TODO%20setup%20the%20pdf%20exort%20of%20org-mode%20worki%20properly][TODO setup the pdf exort of org-mode worki properly]]                       |       0:01 |
+|-----------------+-------------------------------------------------------------------------------+------------|
+| personal.org    | *File time*                                                                   | *5d 13:17* |
+|                 | [[file:/home/eggcaker/.org-files/personal.org::DEFAULT][DEFAULT]]                                                                       |      13:05 |
+|                 | \__ [[file:/home/eggcaker/.org-files/personal.org::DONE%20import%20f3%20snippets][DONE import f3 snippets]]                                                   |       3:45 |
+|                 | \__ [[file:/home/eggcaker/.org-files/personal.org::DONE%20import%20ledger%20data][DONE import ledger data]]                                                   |       9:20 |
+|                 | [[file:/home/eggcaker/.org-files/personal.org::HABIT][HABIT]]                                                                         |    4d 3:18 |
+|                 | \__ [[file:/home/eggcaker/.org-files/personal.org::TODO%20clean%20/%20wc][TODO clean / wc]]                                                           |       4:48 |
+|                 | \__ [[file:/home/eggcaker/.org-files/personal.org::TODO%20breakfast][TODO breakfast]]                                                            |       3:11 |
+|                 | \__ [[file:/home/eggcaker/.org-files/personal.org::TODO%20lunch][TODO lunch]]                                                                |       9:00 |
+|                 | \__ [[file:/home/eggcaker/.org-files/personal.org::TODO%20dinner][TODO dinner]]                                                               |       2:51 |
+|                 | \__ [[file:/home/eggcaker/.org-files/personal.org::TODO%20sleep][TODO sleep]]                                                                |    2d 6:44 |
+|                 | \__ [[file:/home/eggcaker/.org-files/personal.org::TODO%20Watch%20movie%20or%20TV][TODO Watch movie or TV]]                                                    |       4:23 |
+|                 | \__ [[file:/home/eggcaker/.org-files/personal.org::TODO%20learn%20something][TODO learn something]]                                                      |       3:30 |
+|                 | \__ [[file:/home/eggcaker/.org-files/personal.org::TODO%20learn%20haskell][TODO learn haskell]]                                                        |      16:51 |
+|                 | [[file:/home/eggcaker/.org-files/personal.org::Family][Family]]                                                                        |      14:45 |
+|                 | \__ [[file:/home/eggcaker/.org-files/personal.org::TODO%20ledger%20time][TODO ledger time]]                                                          |       0:19 |
+|                 | \__ [[file:/home/eggcaker/.org-files/personal.org::TODO%20walking][TODO walking]]                                                              |      14:26 |
+|                 | [[file:/home/eggcaker/.org-files/personal.org::Others][Others]]                                                                        |       6:09 |
+|                 | \__ [[file:/home/eggcaker/.org-files/personal.org::TODO%20reading%20&%20thinking][TODO reading & thinking]]                                                   |       6:09 |
+|-----------------+-------------------------------------------------------------------------------+------------|
+| iemacs-todo.org | *File time*                                                                   |     *4:39* |
+|                 | [[file:/home/eggcaker/src/personal/iemacs.com/iemacs-todo.org::Blogs][Blogs]]                                                                         |       3:12 |
+|                 | \__ [[file:/home/eggcaker/src/personal/iemacs.com/iemacs-todo.org::DONE%20add%20org-mode%20feature%20to%20iemacs][DONE add org-mode feature to iemacs]]                                       |       3:11 |
+|                 | \__ [[file:/home/eggcaker/src/personal/iemacs.com/iemacs-todo.org::TODO%20create%20a%204x4%20array%20of%20number%20and%20make%20sum%20equals%20some%20total(ex:%2068)][TODO create a 4x4 array of number and make sum  equals some total(ex: 68)]] |       0:01 |
+|                 | [[file:/home/eggcaker/src/personal/iemacs.com/iemacs-todo.org::General%20tasks][General tasks]]                                                                 |       1:27 |
+|                 | \__ [[file:/home/eggcaker/src/personal/iemacs.com/iemacs-todo.org::DONE%20Build%20the%20%5B%5Bfile:review/index.org%5D%5Breview%20index%20page%5D%5D][DONE Build the {{file:review/index.org}{review index page}}]]               |       1:27 |

@@ -32,6 +32,8 @@ CLOCK: [2013-05-25 Sat 08:18]--[2013-05-25 Sat 08:19] =>  0:01
 CLOCK: [2013-05-26 Sun 09:22]--[2013-05-26 Sun 09:23] =>  0:01
 :END:
 [2013-05-26 Sun 09:22]
+** TODO added a clas to table when export post
+[2013-05-26 Sun 20:23]
 * General tasks
   :PROPERTIES:
   :Owner_ALL: eggcaker

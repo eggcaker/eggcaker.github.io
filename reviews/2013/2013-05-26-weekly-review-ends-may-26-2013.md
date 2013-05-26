@@ -54,16 +54,36 @@ tags: weekly
 <div class="outline-text-2" id="text-2">
 <ul class="org-ul">
 <li>BIZ
+<ul class="org-ul">
+<li><code>[&#xa0;]</code> finish the CRT project
+</li>
+<li><code>[&#xa0;]</code> </li>
+</ul>
 </li>
 <li>Relationship
+<ul class="org-ul">
+<li>talking with guorong about project testing 
+</li>
+</ul>
 </li>
 <li>Life
+<ul class="org-ul">
+<li><code>[&#xa0;]</code> sport 3 times 
+</li>
+</ul>
 </li>
 <li>Learn
+<ul class="org-ul">
+<li><code>[&#xa0;]</code> read the haskell book
+</li>
+<li><code>[&#xa0;]</code> setup the R language env 
+</li>
+</ul>
 </li>
 </ul>
 </div>
 </div>
+
 <div id="outline-container-sec-3" class="outline-2">
 <h2 id="sec-3">Time review (ends fo writing time)</h2>
 <div class="outline-text-2" id="text-3">

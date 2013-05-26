@@ -21,15 +21,20 @@ tags: weekly
     
 ** Plans for next week 
 + BIZ
+  - [ ] finish the CRT project
+  - [ ] 
 + Relationship
+  - talking with guorong about project testing 
 + Life
+  - [ ] sport 3 times 
 + Learn
-  
+  - [ ] read the haskell book
+  - [ ] setup the R language env 
 ** Time review (ends fo writing time) 
 
 
 | File            | Headline                                                                      |       Time |
-|-----------------+-------------------------------------------------------------------------------+------------|
+|-----------------+-------------------------------------------------------------------------------+------------  |
 |                 | ALL *Total time*                                                              | *6d 15:45* |
 |-----------------+-------------------------------------------------------------------------------+------------|
 | biz.org         | *File time*                                                                   |    *16:28* |

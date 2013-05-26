@@ -2,7 +2,6 @@
 title: Weekly review: Week ending May 26, 2013 
 tags: weekly
 ---
-
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">

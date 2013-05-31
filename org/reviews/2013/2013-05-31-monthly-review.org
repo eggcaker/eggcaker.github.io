@@ -29,6 +29,7 @@ from 19th of this month, I restarted GTD after stopped half year.
 
 ** Life
 - started the beer day and drink day 
+- started using ledger
 - more sporting 
 - no more drink 
 ** Emacs 

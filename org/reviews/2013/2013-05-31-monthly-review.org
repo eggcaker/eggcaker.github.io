@@ -1,0 +1,45 @@
+#+BEGIN_HTML
+---
+title: Monthly review: May, 2013 
+tags: monthly
+---
+#+END_HTML
+
+from 19th of this month, I restarted GTD after stopped half year.
+
+*  Review Items [4/4]
+ 1) [X] Review monthly agenda F12 a v m 
+ 2) [X] Check clocking data for this month v c b
+ 3) [X] Review clock report for this month R
+ 4) [X] Check where we spent time (too much or too little) and rectify this week
+
+** Reading
+- Learn You a Haskell for great good
+- Vim handbook
+- Seven languages in seven weeks 
+** Learn
+- haskell programming 
+- haskell programming
+- R Language
+- setup the R and clojure ENV
+** Work
+- finished the crt project
+- got meeting with guorong
+- rewrite website with hakyll
+
+** Life
+- started the beer day and drink day 
+- more sporting 
+- no more drink 
+** Emacs 
+- added gnus back
+- added clojure support 
+- added haskell support
+** Reviews
+- BIZ 30 hours
+- GTD 9.5 hours 
+- LEARN 36.5 hours
+- SLEEP 96 hours (8 hours per day)
+- iEmacs 17 hours (little bit more)
+
+- [[/reviews/2013/2013-05-26-weekly-review-ends-may-26-2013.html][Weekly review: Week ending May 26, 2013]]

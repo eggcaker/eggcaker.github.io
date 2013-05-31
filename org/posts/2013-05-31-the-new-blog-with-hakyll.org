@@ -1,0 +1,21 @@
+#+BEGIN_HTML
+---
+title: my blog-wiki engine built by hakyll
+tags: hakyll, website
+---
+#+END_HTML
+
+This my first blog after I changed to hakyll, I spent lot of time on test different blog engine,
+and lot of static site generator. the problem is I have ever really write blogs. this time, should 
+be last time change the blog sytem, really? hope so!
+
+Ok, now let me show you what's we have on this website, basiclly i use this website to do things below:
+
+- Write blogs of course 
+- Write puzzles code
+- Write GTD reviews 
+- host my resume 
+
+Also have a page for my opensource projects, maybe say project right now. 
+I'm sure I'll write more open source projects. add-oil!!!
+

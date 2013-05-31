@@ -156,7 +156,7 @@ main = hakyllWith config $ do
     match "reviews.html" $ do
         route idRoute
         compile $ do
-            list <- postList tags "reviews/2012/*" $ fmap (take 20) . recentFirst
+            list <- postList tags "reviews/2013/*" $ fmap (take 20) . recentFirst
             let indexCtx = constField "reviews" list `mappend`
                  field "tags" (\_ -> renderTagList reviewTags ) `mappend`
                  defaultContext

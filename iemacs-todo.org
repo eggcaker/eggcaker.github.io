@@ -17,7 +17,11 @@ This file is the central page for inserting tasks related to iEmacs.
   :PROPERTIES:
   :Owner_ALL: eggcaker
   :END:
-** TODO write a blog for my new AWESOME iemacs wiki engine!
+** NEXT write a blog for my new AWESOME iemacs wiki engine!
+   :LOGBOOK:
+   CLOCK: [2013-05-31 Fri 17:50]
+   CLOCK: [2013-05-30 Thu 09:12]--[2013-05-30 Thu 09:30] =>  0:18
+   :END:
 
 ** DONE add org-mode feature to iemacs
 CLOSED: [2013-05-25 Sat 11:29]
@@ -27,12 +31,17 @@ CLOCK: [2013-05-25 Sat 08:19]--[2013-05-25 Sat 11:29] =>  3:10
 CLOCK: [2013-05-25 Sat 08:18]--[2013-05-25 Sat 08:19] =>  0:01
 :END:
 [2013-05-25 Sat 08:18]
-** TODO create a 4x4 array of number and make sum  equals some total(ex: 68)
+** TODO create a 4x4 array of number and make sum  equals some total(ex: 68) :PUZZLE:
 :LOGBOOK:
 CLOCK: [2013-05-26 Sun 09:22]--[2013-05-26 Sun 09:23] =>  0:01
 :END:
 [2013-05-26 Sun 09:22]
-** TODO added a clas to table when export post
+** DONE added a class to table when export post
+CLOSED: [2013-05-30 Thu 22:02]
+   :LOGBOOK:
+   CLOCK: [2013-05-30 Thu 12:15]--[2013-05-30 Thu 18:15] =>  6:00
+   CLOCK: [2013-05-28 Tue 12:09]--[2013-05-28 Tue 13:59] =>  1:50
+   :END:
 [2013-05-26 Sun 20:23]
 * General tasks
   :PROPERTIES:

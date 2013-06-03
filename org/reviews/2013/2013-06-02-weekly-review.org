@@ -1,0 +1,39 @@
+#+BEGIN_HTML
+---
+title: Weekly review: Week ending June 03, 2013 
+tags: weekly
+---
+#+END_HTML
+
+** Accomplished  this week 
++ BIZ
+  - Earn 
+    - android dev
+  - Build
+    - a crt project but not shipped
+  - Connect
++ Relationships
+  - 
++ Life
+  - walking with family
++ Learn
+  - clojure and haskell documentation
+    
+** Plans for next week 
++ BIZ
+  - talk with guorong about next project
+  - register some ads for website
+  - open a taobao account
++ Life
+  - sport 3 
++ Learn
+  - finish the haskell book
+** Time review 
+- BIZ 11.5 hours on CRT project
+- Learn  16.5 hours 
+- Sleep 105.5 hours(15.1 hours per day) too much!
+- iEmacs website 13 hours 
+
+too much time spent on sleep and someting useless.
+
+

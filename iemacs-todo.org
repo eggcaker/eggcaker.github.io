@@ -17,9 +17,10 @@ This file is the central page for inserting tasks related to iEmacs.
   :PROPERTIES:
   :Owner_ALL: eggcaker
   :END:
-** NEXT write a blog for my new AWESOME iemacs wiki engine!
+** DONE write a blog for my new AWESOME iemacs wiki engine!
+CLOSED: [2013-05-31 Fri 22:46]
    :LOGBOOK:
-   CLOCK: [2013-05-31 Fri 17:50]
+   CLOCK: [2013-05-31 Fri 17:50]--[2013-05-31 Fri 22:46] =>  4:56
    CLOCK: [2013-05-30 Thu 09:12]--[2013-05-30 Thu 09:30] =>  0:18
    :END:
 

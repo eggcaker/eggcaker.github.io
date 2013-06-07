@@ -29,19 +29,19 @@ tags: puzzle, org-mode
 </div>
 
 
-<table>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
-<col  class="right">
+<col  class="right" />
 
-<col  class="right">
+<col  class="right" />
 
-<col  class="right">
+<col  class="right" />
 
-<col  class="right">
+<col  class="right" />
 
-<col  class="right">
+<col  class="right" />
 </colgroup>
 <thead>
 <tr>

@@ -26,15 +26,15 @@ tags: weekly
 + Relationship
   - talking with guorong about project testing 
 + Life
-  - [ ] sport 3 times 
+  - [ ] Sporting 3 times 
 + Learn
-  - [ ] read the haskell book
+  - [ ] read the Haskell book
   - [ ] setup the R language env 
 ** Time review (ends fo writing time) 
 
-
+#+ATTR_HTML: :class table
 | File            | Headline                                                                      |       Time |
-|-----------------+-------------------------------------------------------------------------------+------------  |
+|-----------------+-------------------------------------------------------------------------------+------------|
 |                 | ALL *Total time*                                                              | *6d 15:45* |
 |-----------------+-------------------------------------------------------------------------------+------------|
 | biz.org         | *File time*                                                                   |    *16:28* |

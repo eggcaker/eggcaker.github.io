@@ -22,15 +22,15 @@ tags: Hakyll, Emacs, Org-Mode
 </div><div id="outline-container-sec-1-1" class="outline-3">
 <h3 id="sec-1-1">TEST THE ORG TABLE WORKS ?</h3>
 <div class="outline-text-3" id="text-1-1">
-<table>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
-<col  class="left">
+<col  class="left" />
 
-<col  class="left">
+<col  class="left" />
 
-<col  class="left">
+<col  class="left" />
 </colgroup>
 <thead>
 <tr>

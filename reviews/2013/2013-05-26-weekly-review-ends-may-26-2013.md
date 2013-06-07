@@ -68,13 +68,13 @@ tags: weekly
 </li>
 <li>Life
 <ul class="org-ul">
-<li><code>[&#xa0;]</code> sport 3 times 
+<li><code>[&#xa0;]</code> Sporting 3 times 
 </li>
 </ul>
 </li>
 <li>Learn
 <ul class="org-ul">
-<li><code>[&#xa0;]</code> read the haskell book
+<li><code>[&#xa0;]</code> read the Haskell book
 </li>
 <li><code>[&#xa0;]</code> setup the R language env 
 </li>
@@ -87,15 +87,15 @@ tags: weekly
 <div id="outline-container-sec-3" class="outline-2">
 <h2 id="sec-3">Time review (ends fo writing time)</h2>
 <div class="outline-text-2" id="text-3">
-<table>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" class="table">
 
 
 <colgroup>
-<col  class="left">
+<col  class="left" />
 
-<col  class="left">
+<col  class="left" />
 
-<col  class="right">
+<col  class="right" />
 </colgroup>
 <thead>
 <tr>

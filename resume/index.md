@@ -193,4 +193,4 @@ high school
 
 -   GitHub Resume:　<http://resume.github.com/?eggcaker>
 
--   PDF version: <http://iemacs.com/resume/resume.pdf>
+-   PDF version: <http://iemacs.com/assets/resume/resume.pdf>

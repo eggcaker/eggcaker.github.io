@@ -195,4 +195,4 @@ title: 中文简历
 
 - github简历:　<http://resume.github.com/?eggcaker>
 
-- PDF resume: <http://iemacs.com/resume/resume-zh.pdf>
+- PDF resume: <http://iemacs.com/assets/resume/resume-zh.pdf>

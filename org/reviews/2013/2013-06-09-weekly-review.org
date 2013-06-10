@@ -1,0 +1,40 @@
+#+BEGIN_HTML
+---
+title: Weekly review: Week ending June 09, 2013 
+tags: weekly
+---
+#+END_HTML
+
+** Accomplished  this week 
++ BIZ
+  - added taobao ads on 150019
+  - finished part of the weibo site
++ Relationships
+  - meet with celery and got a project
+  - meeting with celery's company 
+  - talk with guorong about projects 
+  - a interview 
++ Life
+  - sporting a lot 
++ Learn
+  - Haskell book
+  - Clojure book
+    
+** Plans for next week 
++ BIZ
+  - finish the proj.asia website
+  - start the ticket system project with celery
++ Relationship
+  - meeting with wangqian and talk about project 
++ Life
+  - open the taobao account
+  - added the source code to sale 
++ Learn
+  - finish the haskell book
+  - start read the Clojure book 
+** Time review 
+- BIZ 23 hours, need more codding time
+- Learn 6 hours so so
+- Sleep 63 (9h/d)
+- Relationship 10.5 hours 
+

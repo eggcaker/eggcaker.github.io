@@ -29,7 +29,7 @@ tags: puzzle, org-mode
 </div>
 
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table>
 
 
 <colgroup>

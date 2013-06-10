@@ -87,7 +87,7 @@ tags: weekly
 <div id="outline-container-sec-3" class="outline-2">
 <h2 id="sec-3">Time review (ends fo writing time)</h2>
 <div class="outline-text-2" id="text-3">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" class="table">
+<table class="table">
 
 
 <colgroup>

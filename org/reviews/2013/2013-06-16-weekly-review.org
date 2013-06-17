@@ -1,0 +1,43 @@
+#+BEGIN_HTML
+---
+title: Weekly review: Week ending June 17, 2013 
+tags: weekly
+---
+#+END_HTML
+
+** Accomplished  this week 
++ BIZ
+  - [ ] start the ticket system project with celery
+  - [X] write the 20000.asia projec and shipped it 
+  - [X] got good biz idea about a new website
+  - [-] done 30% of proj.asia
+
++ Relationship
+  - [X] meeting with wangqian and talk about project 
+  - [X] talks with qian about project ideas 
++ Life
+  - [ ] open the taobao account
+  - [ ] added the source code to sale 
+  - [X] sporting 
++ Learn
+  - [X] finish the haskell book
+  - [X] start read the Clojure book 
+    
+** Plans for next week 
++ BIZ
+  - [ ] start or cacel the tiket project with celery
+  - [ ] finish the proj.asia site
++ Relationship
+  - [ ] talk with K or qian aout the new photo web project 
++ Life
+  - [ ] read the taobao rule pages
+  - [ ] open the taobao account
+  - [ ] go hometown for few days 
++ Learn
+  - [ ] the gradle build system
+  - [ ] read the clojure book  
+** Time review 
+- BIZ 25 hours 
+- LEARN 18 hours
+- Sleep 63 hours (~9 hours / day :())
+

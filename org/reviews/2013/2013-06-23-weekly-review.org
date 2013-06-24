@@ -1,0 +1,37 @@
+#+BEGIN_HTML
+---
+title: Weekly review: Week ending June 23, 2013 
+tags: weekly
+---
+#+END_HTML
+
+** Accomplished  this week 
++ BIZ
+  - [X] start or celery the tiket project with celery
+  - [X] finish the proj.asia site
++ Relationship
+  - [X] talk with K or qian aout the new photo web project 
++ Life
+  - [X] read the taobao rule pages
+  - [ ] open the taobao account
+  - [ ] go hometown for few days 
++ Learn
+  - [X] the gradle build system
+  - [X] read the clojure book  
+    
+** Plans for next week
++ BIZ
+  - [ ] finish the gift website
++ Relationship
+  - [ ] meetting with celery and client 
++ Life
+  - [ ] lost weight
+  - [ ] open the taobao account
++ Learn
+  - [ ] finish the gradle book
+
+** Time review 
+- BIZ 36.5 hours (more than lask week, good!)
+- LEARN 10 hours (so so)
+- Sleep 62 hours (~9 hours / day :())
+

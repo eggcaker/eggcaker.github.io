@@ -1,0 +1,79 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/eggcaker/src/personal/iemacs.com/iemacs-todo.org
+
+
+* DONE write a blog for my new AWESOME iemacs wiki engine!
+CLOSED: [2013-05-31 Fri 22:46]
+   :LOGBOOK:
+   CLOCK: [2013-05-31 Fri 17:50]--[2013-05-31 Fri 22:46] =>  4:56
+   CLOCK: [2013-05-30 Thu 09:12]--[2013-05-30 Thu 09:30] =>  0:18
+   :END:
+:PROPERTIES:
+:ARCHIVE_TIME: 2013-07-01 Mon 13:09
+:ARCHIVE_FILE: ~/src/personal/iemacs.com/iemacs-todo.org
+:ARCHIVE_OLPATH: Blogs
+:ARCHIVE_CATEGORY: iEmacs
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: iEmacs
+:END:
+
+
+* DONE add org-mode feature to iemacs
+CLOSED: [2013-05-25 Sat 11:29]
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2013-05-25 Sat 11:29]
+CLOCK: [2013-05-25 Sat 08:19]--[2013-05-25 Sat 11:29] =>  3:10
+CLOCK: [2013-05-25 Sat 08:18]--[2013-05-25 Sat 08:19] =>  0:01
+:END:
+:PROPERTIES:
+:ARCHIVE_TIME: 2013-07-01 Mon 13:09
+:ARCHIVE_FILE: ~/src/personal/iemacs.com/iemacs-todo.org
+:ARCHIVE_OLPATH: Blogs
+:ARCHIVE_CATEGORY: iEmacs
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: iEmacs
+:END:
+[2013-05-25 Sat 08:18]
+
+* DONE added a class to table when export post
+CLOSED: [2013-05-30 Thu 22:02]
+   :LOGBOOK:
+   CLOCK: [2013-05-30 Thu 12:15]--[2013-05-30 Thu 18:15] =>  6:00
+   CLOCK: [2013-05-28 Tue 12:09]--[2013-05-28 Tue 13:59] =>  1:50
+   :END:
+:PROPERTIES:
+:ARCHIVE_TIME: 2013-07-01 Mon 13:09
+:ARCHIVE_FILE: ~/src/personal/iemacs.com/iemacs-todo.org
+:ARCHIVE_OLPATH: Blogs
+:ARCHIVE_CATEGORY: iEmacs
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: iEmacs
+:END:
+[2013-05-26 Sun 20:23]
+
+* DONE Build the [[file:review/index.org][review index page]]
+CLOSED: [2013-05-21 Tue 18:47]
+:LOGBOOK:
+CLOCK: [2013-05-21 Tue 17:20]--[2013-05-21 Tue 18:47] =>  1:27
+:END:
+:PROPERTIES:
+:ARCHIVE_TIME: 2013-07-01 Mon 13:09
+:ARCHIVE_FILE: ~/src/personal/iemacs.com/iemacs-todo.org
+:ARCHIVE_OLPATH: General tasks
+:ARCHIVE_CATEGORY: iEmacs
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: iEmacs
+:END:
+
+* DONE Build the [[file:puzzles/index.org][puzzles index page]]
+CLOSED: [2013-05-21 Tue 08:53]
+:PROPERTIES:
+:ARCHIVE_TIME: 2013-07-01 Mon 13:09
+:ARCHIVE_FILE: ~/src/personal/iemacs.com/iemacs-todo.org
+:ARCHIVE_OLPATH: General tasks
+:ARCHIVE_CATEGORY: iEmacs
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: iEmacs
+:END:

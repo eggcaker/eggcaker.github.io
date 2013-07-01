@@ -1,0 +1,55 @@
+#+BEGIN_HTML
+---
+title: Monthly review: June, 2013 
+tags: monthly
+---
+#+END_HTML
+
+* Accomplished last month 
+**  Review Items [4/4]
+ 1) [X] Review monthly agenda F12 a v m 
+ 2) [X] Check clocking data for this month v c b
+ 3) [X] Review clock report for this month R
+ 4) [X] Check where we spent time (too much or too little) and rectify this week
+
+** Reading
+- the Gradle book
+- 人为什么活着
+- JQuery ref
+- Pro Git
+- The Art of Uninx 
+** Learn
+- PHP
+- Gradle build tool
+** Work
+- finished the proj.asia
+- finished the 20000.asia
+- got a part time project, but not started yet
+** Life
+- lost weight 2kg
+** Emacs 
+
+** Reviews
+- BIZ 118 hours (only 5 hours per day)
+- GTD 5.5 hours 
+- LEARN 45 hours
+- SLEEP 262 hours (8.7 hours per day)
+- iEmacs 2.2 hours 
+
+- [[./2013-06-02-weekly-review.html][Weekly Review @ 2013-06-02]]
+- [[./2013-06-09-weekly-review.html][Weekly Review @ 2013-06-09]]
+- [[./2013-06-16-weekly-review.html][Weekly Review @ 2013-06-16]]
+- [[./2013-06-23-weekly-review.html][Weekly Review @ 2013-06-23]]
+- [[./2013-06-30-weekly-review.html][Weekly review @ 2013-06-30]]
+
+* Plans for next month
+** Work 
+- [ ] finish the gift website
+- [ ] find a job 
+** Life
+- [ ] go back home town
+- [ ] drink beer less
+- [ ] lost weight < 70kg
+- [ ] open taobao account
+** Reading
+- [ ] some baddahist books

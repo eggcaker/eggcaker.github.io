@@ -1,0 +1,35 @@
+#+BEGIN_HTML
+---
+title: Weekly review: Week ending June 23, 2013 
+tags: weekly
+---
+#+END_HTML
+
+** Accomplished  this week 
+
++ BIZ
+  - [-] finish the gift website
++ Relationship
+  - [ ] meetting with celery and client 
++ Life
+  - [X] lost weight
+  - [ ] open the taobao account
++ Learn
+  - [X] finish the gradle book
+
+** Plans for next week
++ BIZ
+  - [ ] make sure the ticket project
+  - [ ] complete finish the gift project
++ Relationship
+  - [ ] talk with K or wangqian about the project 
++ Life
+  - [ ] back to my home town 
+  - [ ] still need lost weight 
++ Learn
+  - [ ] read some buddhist books
+** Time review 
+- BIZ 33.5 hours 
+- LEARN 9 hours
+- Sleep 56 hours (~8 hours / day )
+

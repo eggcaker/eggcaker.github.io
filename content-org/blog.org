@@ -1,0 +1,39 @@
+#+TITLE: Emacs.cc
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: blog
+#+SEQ_TODO: TODO DONE
+#+PROPERTY: header-args :eval never-export
+#+OPTIONS: creator:t toc:nil
+
+* Blog
+** DONE Start Blog with Emacs and Hugo
+CLOSED: [2020-02-28 Fri 14:56]
+:PROPERTIES:
+:EXPORT_FILE_NAME: blog_with_emacs_hugo
+:END:
+
+因为有了二胎，裸辞在家照顾家人所有了有大把的时间可以折腾一些东西，除了开始学习日
+语重新的又把自己的了博客整理了下。之前一直是在各种工具、各种平台之间跳来跳去，其
+实根本没有真正安静下来写一些东西。这次借着把Emacs的配置文件转到[[github://hlissner/doom-emacs][doom-emacs]]的机会
+看到了在doom-emacs里默认是支持的hugo，那就hugo吧。
+
+这两天在整理配置的时候看到了一篇文章是[[https://yihui.org/cn/2019/07/inner-peace/][如何想静静]],很巧的是，这个博客的theme就是作
+者写的，里面写到一句话：
+#+BEGIN_QUOTE
+我已经多次鼓吹“我网故我在”的观点了，只是真正的响应者甚寡。很多人听我忽悠，随手搭
+个网站， 但也就撂在那儿不管了。他们没听到我的后一句话：网站是用来积累成就的，而
+简历可以是成就的堆砌汇总处。最初可以从堆砌小成就开始，把你写的作业、拍的照片、做
+的菜肴统统发上来。勿以事小而不堆。很多小事的价值，要过很多年你才能发现（比如十一
+年）。除非你记忆力超群，否则凡是没有写下来的东西你很快就会忘，而你忘记的事情跟没
+做也没什么区别。换句话说，你差不多算是在白活。记住“堆砌”。
+#+END_QUOTE
+
+其实仔细想想，挺好，其实这么多年下来就是自己太浮躁了，也导致了博客网站折腾来折腾
+去，却从来没有什么积累。那就从现在开始好了，就像他说的一样，很多小事的价值要很多
+年才能发现。那就等到下一个十年再见吧。
+
+* Footnotes
+* COMMENT Local Variables                          :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:

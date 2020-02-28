@@ -1,3 +1,26 @@
-baseURL = "http://example.org/"
+baseURL = "https://emacs.cc/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "大道至簡"
+theme = "hugo-xmin"
+paginate = 30
+
+[Params]
+footer = "© eggcaker 2020. <br>Powered by [Hugo](https://gohugo.io/), [ox-hugo](https://github.com/kaushalmodi/ox-hugo/) and [Emacs](https://www.gnu.org/software/emacs/)."
+
+[permalinks]
+    blog = "/:filename/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Books"
+    url = "/books"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 3

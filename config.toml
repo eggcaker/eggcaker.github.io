@@ -14,13 +14,3 @@ footer = "© eggcaker 2020. <br>Powered by [Hugo](https://gohugo.io/), [ox-hugo]
     name = "Home"
     url = "/"
     weight = 1
-
-[[menu.main]]
-    name = "Books"
-    url = "/books"
-    weight = 2
-
-[[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 3

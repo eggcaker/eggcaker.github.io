@@ -6,11 +6,9 @@
 
 {{ .Content }}
 
-{{ range (where .Site.RegularPages "Section" "!=" "") }}
+{{ range (where .Site.RegularPages "Section" "=" "blog") }}
 <article>
   <h1><a href="{{ .RelPermalink}}">{{ .Title }}</a></h1>
-
-  {{ partial "player.html" . }}
 
   {{ .Content }}
   <p>

@@ -1,7 +1,8 @@
 +++
 title = "Start Blog with Emacs and Hugo"
 author = ["eggcaker"]
-draft = true
+date = 2020-02-28T15:38:00+08:00
+draft = false
 creator = "Emacs 26.3 (Org mode 9.4 + ox-hugo)"
 +++
 

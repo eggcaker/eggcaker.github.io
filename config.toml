@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "大道至簡"
 theme = "hugo-xmin"
 paginate = 30
+pygmentsCodeFences = true
 
 [Params]
 footer = "© eggcaker 2020. <br>Powered by [Hugo](https://gohugo.io/), [ox-hugo](https://github.com/kaushalmodi/ox-hugo/) and [Emacs](https://www.gnu.org/software/emacs/)."

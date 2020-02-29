@@ -11,7 +11,7 @@ creator = "Emacs 26.3 (Org mode 9.4 + ox-hugo)"
 实根本没有真正安静下来写一些东西。这次借着把Emacs的配置文件转到[doom-emacs](https://github.com///hlissner/doom-emacs)的机会
 看到了在doom-emacs里默认是支持的hugo，那就hugo吧。
 
-这两天在整理配置的时候看到了一篇文章是[如何想静静](https://yihui.org/cn/2019/07/inner-peace/),很巧的是，这个博客的theme就是作
+这两天在整理配置的时候看到了一篇文章是[如何想静静](https://yihui.org/cn/2019/07/inner-peace/),+很巧+的是，这个博客的theme就是作
 者写的，里面写到一句话：
 
 > 我已经多次鼓吹“我网故我在”的观点了，只是真正的响应者甚寡。很多人听我忽悠，随手搭

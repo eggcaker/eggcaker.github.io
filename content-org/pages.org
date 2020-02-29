@@ -16,7 +16,7 @@
 :END:
 ** Books
 :PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :noauthor true :nocomment true :nodate true :nopaging true :noread true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :notitle true :noauthor true :nocomment true :nodate true :nopaging true :noread true
 :EXPORT_FILE_NAME: books
 :END:
 

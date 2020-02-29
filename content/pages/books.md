@@ -1,10 +1,11 @@
 +++
 title = "Books"
 author = ["eggcaker"]
-lastmod = 2020-02-28T18:25:37+08:00
+lastmod = 2020-02-29T10:18:02+08:00
 draft = false
 creator = "Emacs 26.3 (Org mode 9.4 + ox-hugo)"
 weight = 2001
+notitle = true
 noauthor = true
 nocomment = true
 nodate = true

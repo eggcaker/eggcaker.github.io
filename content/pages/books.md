@@ -1,7 +1,8 @@
 +++
 title = "Books"
 author = ["eggcaker"]
-lastmod = 2020-02-29T10:18:02+08:00
+lastmod = 2020-02-29T11:09:17+08:00
+tags = ["book"]
 draft = false
 creator = "Emacs 26.3 (Org mode 9.4 + ox-hugo)"
 weight = 2001

@@ -5,6 +5,8 @@
 #+HUGO_BASE_DIR: ../
 #+HUGO_AUTO_SET_LASTMOD: t
 #+PROPERTY: header-args :eval never-export
+#+FILETAGS: book
+#+KEYWORDS: book
 #+OPTIONS: creator:t toc:nil  H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 * Pages
@@ -14,7 +16,7 @@
 :EXPORT_HUGO_SECTION: pages
 :EXPORT_HUGO_WEIGHT: auto
 :END:
-** Books
+** Books :book:
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :notitle true :noauthor true :nocomment true :nodate true :nopaging true :noread true
 :EXPORT_FILE_NAME: books

@@ -3,7 +3,7 @@ title = "用 Latex 做识字卡片"
 author = ["eggcaker"]
 date = 2020-03-21T10:08:00+08:00
 draft = false
-creator = "Emacs 27.0.90 (Org mode 9.4 + ox-hugo)"
+creator = "Emacs 27.1 (Org mode 9.4 + ox-hugo)"
 +++
 
 最近因为没有什么事，折腾了一下 Latex, 主要的原因也是因为在网上看到了一个人用 Latex
@@ -32,15 +32,11 @@ creator = "Emacs 27.0.90 (Org mode 9.4 + ox-hugo)"
 
 ```latex
 \chapter{方向位置}
-
 \section*{\kaishu{上下左右 }}
 \label{sec:lesson01}
-
 \subsection{上下左右}
 \label{sec:subsec:l1_s1}
-
 \card{shang4}{上} \card{zhong1}{中} \card{xia4}{下}
-
 \card{ren2}{人} \card{kou3}{口} \card{shou3}{手}
 ```
 

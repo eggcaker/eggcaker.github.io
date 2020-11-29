@@ -46,19 +46,18 @@ CLOSED: [2020-03-21 Sat 10:08]
 [[file:./images/tcolorbox_height_fix.png]]
 
 一部分代码：
-#+BEGIN_SRC latex
-\chapter{方向位置}
 
+#+BEGIN_SRC latex :exports code
+\chapter{方向位置}
 \section*{\kaishu{上下左右 }}
 \label{sec:lesson01}
-
 \subsection{上下左右}
 \label{sec:subsec:l1_s1}
-
 \card{shang4}{上} \card{zhong1}{中} \card{xia4}{下}
-
 \card{ren2}{人} \card{kou3}{口} \card{shou3}{手}
+
 #+END_SRC
+
 [[https://github.com/eggcaker/duolingo-with-latex][代码]] Yoo!
 
 ** DONE 折腾一下输入法

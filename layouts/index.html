@@ -4,12 +4,10 @@
 <h1>{{ .Title }}</h1>
 {{ end }}
 
-{{ .Content }}
 
-{{ range (where .Site.RegularPages "Section" "=" "blog") }}
+{{ range first 2 (where .Site.RegularPages "Section" "=" "blog") }}
 <article>
   <h1><a href="{{ .RelPermalink}}">{{ .Title }}</a></h1>
-
   {{ .Content }}
   <p>
     <i class="date">{{ .Date.Format "January 2, 2006" }}</i>

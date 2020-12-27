@@ -6,11 +6,52 @@
 #+OPTIONS: creator:t toc:nil
 
 * Blog
-** TODO 学习真的重要吗？
-** TODO 人生
-不知道曾几何时开始，总是和我爱人说：“人生就是一个环”，伴随着儿子出生，这种感觉尤
-甚。刚出生时，什么也不会说，什么也不会做，吃喝拉撒都在床上，
-** DONE 用 Latex 做识字卡片
+** TODO 酒后胡言乱语                                                                                        :Drink:
+:PROPERTIES:
+:EXPORT_FILE_NAME: ano_and_sono_diffs
+:END:
+** DONE あの和その的区别                                                                                 :Japanese:
+CLOSED: [2020-11-29 Sun 23:47]
+:PROPERTIES:
+:EXPORT_FILE_NAME: ano_and_sono_diffs
+:ID:       b872ea3d-0a70-43fb-8aa4-aa80c3b03e30
+:END:
+这个区别其实是こ そ あ系做文脉指示时的区别。
+そ系在一方了解而对方不了解的信息，再次被提及时使用。
+あ系用来提及双方都拥有的信息。另外自言自语时也用あ系。
+也就是说如果两个人对话，说到过去的事情，如果那个时刻是说话方了解而听话方不了解的事情，用その時，
+如果是双方都了解的时刻、用あの時。如果句子是自言自语，用あの時.
+** DONE ここ/そこ/あそこは名です :Japanese:
+CLOSED: [2020-11-29 Sun 23:21]
+:PROPERTIES:
+:EXPORT_FILE_NAME: kuku_soku_asoku_desu
+:ID:       dc97948e-adad-4cd5-a2bb-90dd02013424
+:END:
+1. ここ/そこ/あそこは名です
+   指示场所时，用“ここ”“そこ”“あそこ”。所表示的位置关系与“これ”“それ”“あれ”相同。
+   1) ここ は　デパートです。（这里是百货商店。）
+   2) そこ は　図書館です。（那里是图书馆。）
+   3) あそこ は　入り口です。（那儿是入口。）
+
+2. 名 は 名　[场所]です 表示“名词”存在于“名词”【场所】。
+   a. 食堂 は デパートの７階 です。（食堂在百货商店的７层。）
+   b. トイレ は ここです。（厕所在这儿。）
+   c. 小野さん は 事務所 です。（小野女士在事务所。）
+
+注意:
+"小野さんは事務所です" 的汉语译文是 "小野女士在事务所。”不能译为“小野女士是事务
+所。” 日语的“は”比汉语的“是”更为广泛的含义。在这里表示小野女士在什么地方。
+“トイレは　ここです”意思是“厕所在这儿。”是将“トイレ”作为话题来阐述。
+而不是将“ここ”作为话题来阐述，意思是“这里是厕所。”
+
+1. 名 は どこですか
+用于询问存在的场所。
+1) トイレは　どこですか。（厕所在哪儿？）
+   ――あちら　です。（在那儿。）
+2) あなたの　かばん　は　どこですか?（你的包在哪儿？）
+   ――私の かばん　は　ここです。（我的包在这儿。）
+
+** DONE 用 Latex 做识字卡片                                                                         :Chinese:Latex:
 CLOSED: [2020-03-21 Sat 10:08]
 :PROPERTIES:
 :EXPORT_FILE_NAME: use_latex_to_write_word_card
@@ -60,7 +101,7 @@ CLOSED: [2020-03-21 Sat 10:08]
 
 [[https://github.com/eggcaker/duolingo-with-latex][代码]] Yoo!
 
-** DONE 折腾一下输入法
+** DONE 折腾一下输入法 :Mac:IME:
 印象中应该是 99 年暑假的时候，在县城的一个学校里开始学的五笔，一直到现在大概有二
 十年了，有一段时间还把手机里的输入法设置成了五笔。那时候的感觉就是一时用一时爽、
 一直用一直爽。但是最近两年也许是年纪大了的缘故，总感觉有时候很熟悉的一个字突然想
@@ -103,7 +144,7 @@ Karabiner-Elements, 所有配置好后，发现了个问题就是在切换打开
 后来发现是 fcitx-remote-for-osx 的原因，就像文档里说的，不能用 brew 安装，只能自己
 编译。
 
-** DONE Start Blog with Emacs and Hugo
+** DONE Start Blog with Emacs and Hugo :Blog:Emacs:
 CLOSED: [2020-02-28 Fri 15:38]
 :PROPERTIES:
 :EXPORT_FILE_NAME: blog_with_emacs_hugo

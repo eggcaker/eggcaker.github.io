@@ -1,10 +1,11 @@
 +++
 title = "Books"
 author = ["eggcaker"]
-lastmod = 2020-02-29T11:09:17+08:00
+keywords = ["book"]
+lastmod = 2020-11-30T09:35:13+08:00
 tags = ["book"]
 draft = false
-creator = "Emacs 26.3 (Org mode 9.4 + ox-hugo)"
+creator = "Emacs 27.1 (Org mode 9.4 + ox-hugo)"
 weight = 2001
 notitle = true
 noauthor = true
@@ -161,12 +162,12 @@ noread = true
 -   [X] Java Puzzlers <span class="timestamp-wrapper"><span class="timestamp">[2013-07-01 Mon]</span></span>
 -   [X] Learn You a Haskell for Graeat Good <span class="timestamp-wrapper"><span class="timestamp">[2013-05-20 Mon]</span></span>
 -   [X] Vim handbook <span class="timestamp-wrapper"><span class="timestamp">[2013-05-20 Mon]</span></span>
--   [X] sed & awk, 2nd Edition <span class="timestamp-wrapper"><span class="timestamp">[2012-08-27 Mon]</span></span>
--   [X] Clojure Programming <span class="timestamp-wrapper"><span class="timestamp">[2012-08-01 Wed]</span></span>
--   [X] Programming Clojure <span class="timestamp-wrapper"><span class="timestamp">[2012-07-21 Sat]</span></span>
--   [X] The C programming Language [2nd Edition] <span class="timestamp-wrapper"><span class="timestamp">[2012-07-17 Tue]</span></span>
--   [X] Learning GNU Emacs <span class="timestamp-wrapper"><span class="timestamp">[2012-07-10 Tue]</span></span>
--   [X] Version Control with Git <span class="timestamp-wrapper"><span class="timestamp">[2012-07-01 Sun]</span></span>
+-   [X] sed & awk, 2nd Edition [2012-08-27&#x2013;2012-09-10]
+-   [X] Clojure Programming [2012-08-01&#x2013;2012-08-15]
+-   [X] Programming Clojure [2012-07-21&#x2013;2012-08-01]
+-   [X] The C programming Language [2nd Edition] [2012-07-17&#x2013;2012-07-27]
+-   [X] Learning GNU Emacs [2012-07-10&#x2013;2012-07-15]
+-   [X] Version Control with Git [2012-07-01&#x2013;2012-07-10]
 -   [X] Code Complete
 -   [X] Programming in Scala
 -   [X] node.js api document
@@ -191,16 +192,16 @@ noread = true
 -   [X] 儿童心理学
 -   [X] 对孩子轻轻说“是的”: 亲子如是
 -   [X] 8 小时工作，24 小时思考
--   [X] 别为小事抓狂 <span class="timestamp-wrapper"><span class="timestamp">[2014-02-18 Tue]</span></span>
--   [X] 拖延心学理 <span class="timestamp-wrapper"><span class="timestamp">[2012-10-22 Mon]</span></span>
--   [X] 孩子你慢慢来 <span class="timestamp-wrapper"><span class="timestamp">[2012-10-16 Tue]</span></span>
--   [X] magazine <span class="timestamp-wrapper"><span class="timestamp">[2012-10-15 Mon]</span></span>
--   [X] Hackers & Painters <span class="timestamp-wrapper"><span class="timestamp">[2012-09-10 Mon]</span></span>
--   [X] 少有人走的路 <span class="timestamp-wrapper"><span class="timestamp">[2012-08-27 Mon]</span></span>
--   [X] 上下班路上能做的 95 件事 <span class="timestamp-wrapper"><span class="timestamp">[2012-08-27 Mon]</span></span>
--   [X] 人生不设限 <span class="timestamp-wrapper"><span class="timestamp">[2012-08-26 Sun]</span></span>
--   [X] 郭德纲话说北京 <span class="timestamp-wrapper"><span class="timestamp">[2012-08-20 Mon]</span></span>
--   [X] 此生未完成 <span class="timestamp-wrapper"><span class="timestamp">[2012-06-01 Fri]</span></span>
+-   [X] 别为小事抓狂 [2014-02-18&#x2013;2014-03-15]
+-   [X] 拖延心学理 [2012-10-22&#x2013;2012-11-01]
+-   [X] 孩子你慢慢来 [2012-10-16&#x2013;2012-10-22]
+-   [X] magazine [2012-10-15&#x2013;2012-10-20]
+-   [X] Hackers & Painters [2012-09-10&#x2013;2012-10-15]
+-   [X] 少有人走的路 [2012-08-27&#x2013;2012-09-02]
+-   [X] 上下班路上能做的 95 件事 [2012-08-27&#x2013;2012-09-15]
+-   [X] 人生不设限 [2012-08-26&#x2013;2012-08-27]
+-   [X] 郭德纲话说北京 [2012-08-20&#x2013;2012-08-26]
+-   [X] 此生未完成 [2012-06-01&#x2013;2012-06-04]
 -   [X] 你若安好便是晴天
 -   [X] 世间所有的相遇都是久别重逢
 -   [X] 中国人的修养
@@ -251,14 +252,14 @@ noread = true
 ## 医学类<code>[9/9]</code> {#医学类}
 
 -   [X] 惠及大众的养生智慧：这才是中医
--   [X] 养生智慧：胖补气，瘦补血 <span class="timestamp-wrapper"><span class="timestamp">[2014-01-15 Wed]</span></span>
--   [X] 不生病的智慧 <span class="timestamp-wrapper"><span class="timestamp">[2012-05-23 Wed]</span></span>
--   [X] 不上火的生活 <span class="timestamp-wrapper"><span class="timestamp">[2012-05-25 Fri]</span></span>
--   [X] 回家吃饭的智慧 <span class="timestamp-wrapper"><span class="timestamp">[2012-05-22 Tue]</span></span>
--   [X] 人体使用手册 <span class="timestamp-wrapper"><span class="timestamp">[2012-05-21 Mon]</span></span>
--   [X] 求医不如求己 3 <span class="timestamp-wrapper"><span class="timestamp">[2012-05-19 Sat]</span></span>
--   [X] 求医不如求己 2 <span class="timestamp-wrapper"><span class="timestamp">[2012-05-18 Fri]</span></span>
--   [X] 求医不如求己 1 <span class="timestamp-wrapper"><span class="timestamp">[2012-05-17 Thu]</span></span>
+-   [X] 养生智慧：胖补气，瘦补血 [2014-01-15&#x2013;2014-02-01]
+-   [X] 不生病的智慧 [2012-05-23&#x2013;2012-05-25]
+-   [X] 不上火的生活 [2012-05-25&#x2013;2012-05-28]
+-   [X] 回家吃饭的智慧 [2012-05-22&#x2013;2012-05-23]
+-   [X] 人体使用手册 [2012-05-21&#x2013;2012-05-22]
+-   [X] 求医不如求己 3 [2012-05-19&#x2013;2012-05-21]
+-   [X] 求医不如求己 2 [2012-05-18&#x2013;2012-05-19]
+-   [X] 求医不如求己 1 [2012-05-17&#x2013;2012-05-19]
 
 
 ## 小说类<code>[27/27]</code> {#小说类}

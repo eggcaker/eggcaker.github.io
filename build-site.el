@@ -32,6 +32,8 @@
 ;; Install dependencies
 (package-install 'org)
 (package-install 'htmlize)
+(require 'org)
+(require 'ox-publish)
 
 ;; UTF-8 as default encoding
 (prefer-coding-system 'utf-8)
@@ -40,7 +42,6 @@
 (set-keyboard-coding-system 'utf-8)
 
 ;; Load the publishing system
-(require 'ox-publish)
 
 ;; Customize the HTML output
 (setq org-html-validation-link nil            ;; Don't show validation link

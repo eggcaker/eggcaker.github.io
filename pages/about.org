@@ -1,24 +1,4 @@
-+++
-title = "About"
-author = ["eggcaker"]
-keywords = ["book"]
-lastmod = 2020-11-30T10:07:03+08:00
-tags = ["book"]
-draft = false
-creator = "Emacs 27.1 (Org mode 9.4 + ox-hugo)"
-weight = 2002
-notitle = true
-noauthor = true
-nocomment = true
-nodate = true
-nopaging = true
-noread = true
-[menu.main]
-  weight = 2002
-  identifier = "about"
-+++
-
-## ~/ {#}
+#+TITLE: About
 
 本来以为可以象别人的博客一样，洋洋洒洒几百句的写下自己简介。或风趣诙谐或自嘲自黑，
 亦或许一本正经的简历般罗列，但结果展示起来总是好的。
@@ -30,5 +10,5 @@ noread = true
 私は张同柱といいます, 一个伪程序员，自诩熟悉好多语言，其实啥也不精通，哪一门也
 没有学明白、吃透。目前裸辞在家，学习日语和照顾孩子.
 
--   eggcaker@github
--   eggcaker@twitter
+- eggcaker@github
+- eggcaker@twitter

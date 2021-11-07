@@ -1,3 +1,6 @@
 .notdeft-db
 .Rproj.user
 /.Rhistory
+.packages
+public
+_site

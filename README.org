@@ -1,7 +1,0 @@
-* emacs.cc
-
-** Contributions
-Please, send feedback, suggestions and ideas to [[mailto:eggcaker@gmail.com][eggcaker@gmail.com]].
-
-** Site
-This site is powered by Org, ox-hugo and Emacs

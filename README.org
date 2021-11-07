@@ -1,5 +1,3 @@
-#+TITLE: Readme
-
 * My Personal weblog
 
  built with Emacs + org-mode + github pages + github actions

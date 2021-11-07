@@ -10,7 +10,7 @@
     (banner-line            "---魯智深"))
 #+end_src
 
-*** Write [[file:blogs.org][All blogs]] [100%]
+*** Write [[file:blogs.org][blogs]] [100%]
 - [X] [[file:japanes-koko-soko-asoko-diffrent.org][ここ/そこ/あそこは名です]]
 - [X] [[file:japanese-ano-sono-diffrent.org][あの和その的区别]]
 - [X] [[file:play-emacs-ime-on-mac.org][在Mac上配置Rime]]

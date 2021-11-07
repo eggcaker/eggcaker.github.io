@@ -30,6 +30,7 @@
   (package-refresh-contents))
 
 ;; Install dependencies
+(package-install 'org-mode)
 (package-install 'htmlize)
 
 ;; UTF-8 as default encoding

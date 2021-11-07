@@ -79,7 +79,7 @@
              :html-postamble "
 <footer>
   <div class=\"generated\">
-     &copy; 2021-2028 Eggcaker, built with %c. | <a href=\"http://beian.miit.gov.cn/\">冀ICP备2020025756号-1</a>
+     &copy; 2021-2028 TZ, built with %c | <a href=\"http://beian.miit.gov.cn/\">冀ICP备2020025756号-1</a>
   </div>
 </footer>"
              :auto-index t

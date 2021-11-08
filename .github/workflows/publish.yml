@@ -15,7 +15,7 @@ jobs:
       - name: Install Emacs
         run: |
           sudo add-apt-repository ppa:kelleyk/emacs
-          sudo apt update --yes && sudo apt install emacs27 --yes
+          sudo apt update --yes && sudo apt install emacs27-nox --yes
 
       - name: Build the side
         run: ./build.sh

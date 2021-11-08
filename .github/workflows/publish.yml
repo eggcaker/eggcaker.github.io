@@ -13,7 +13,9 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Install Emacs
-        run: sudo apt install emacs-nox --yes
+        run: |
+          sudo add-apt-repository ppa:kelleyk/emacs
+          sudo apt update --yes && sudo apt install emacs27 --yes
 
       - name: Build the side
         run: ./build.sh

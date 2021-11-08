@@ -118,10 +118,17 @@
 </footer>"
              :time-stamp-file nil)
 
-        (list "static"
+      (list "images"
              :recursive t
-             :base-directory "./"
+             :base-directory "./posts/images"
              :base-extension (regexp-opt '("txt" "jpg" "gif" "png"))
+             :publishing-directory "./_site/images/"
+             :publishing-function 'org-publish-attachment)
+
+
+        (list "static"
+             :recursive nil
+             :base-directory "./assets"
              :include '("CNAME" "favicon.ico" "style.css")
              :publishing-directory "./_site"
              :publishing-function 'org-publish-attachment)

@@ -1,0 +1,16 @@
+#+TITLE: Test Org Mode Feature
+#+DATE: [2021-11-09 Tue 10:08]
+
+Play with the ditta char support on org-mode
+
+#+begin_src ditaa :file ./images/test.png
+/----\ /----\
+|c33F| |cC02|
+|    | |    |
+\----/ \----/
+
+/----\ /----\
+|c1FF| |c1AB|
+|    | |    |
+\----/ \----/
+#+END_SRC

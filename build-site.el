@@ -51,7 +51,7 @@
       emacs-cc-html-preamble " <span><h1 class=\"brand\"><a href=\"/\">大道至簡</a></h1><span class=\"slogen\">咦！錢塘江上潮信來，今日方知我是我。</span></span> <nav> <ul class=\"menu\"> <li><a href=\"/\">Home</a></li> <li><a href=\"/pages/books\">Books</a></li> <li><a href=\"/pages/flags\">Flags</a></li> <li><a href=\"/pages/about\">About</a></li> </ul> <hr/> </nav>"
       emacs-cc-html-postamble "<footer> <div class=\"generated\"> &copy; 2021-2028 TZ, built with %c | <a href=\"http://beian.miit.gov.cn/\">冀ICP备2020025756号-1</a> </div> </footer>"
 
-      org-ditaa-jar-path "./assets/ditaa.jar"
+      org-ditaa-jar-path "/tmp/ditaa.jar"
       org-export-babel-evaluate t
       org-confirm-babel-evaluate nil
       org-html-doctype "html5")
@@ -72,9 +72,9 @@
          :section-numbers nil       ;; Don't include section numbers
          :html-preamble ,emacs-cc-html-preamble
          :html-postamble ,emacs-cc-html-postamble
-         :auto-index t
-         :index-title "[ >>>Blogs]"
-         :index-filename "blogs.org"
+         :auto-sitemap t
+         :sitemap-title " >>>Blogs"
+         :sitemap-filename "blogs.org"
          :time-stamp-file t)
 
         ("pages"

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2021-11-10 Wed 14:22 -->
+<!-- 2021-11-10 Wed 15:07 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Test Org Mode Feature</title>
@@ -44,6 +44,17 @@ Some math demo
 
 <figure>
 <img src="./images/pu_math_test.png" alt="pu_math_test.png">
+
+</figure>
+
+<p>
+五线谱，yoo!
+</p>
+
+
+<figure>
+<object type="image/svg+xml" data="./images/music-abc-example.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
 
 </figure>
 </div>

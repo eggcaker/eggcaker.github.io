@@ -1,4 +1,4 @@
-#+TITLE:  All posts
+#+TITLE: Sitemap for project posts
 
 - 2021-11-09 - [[file:test-org-mode-feature.org][Test Org Mode Feature]]
 - 2021-11-07 - [[file:play-emacs-ime-on-mac.org][Play Emacs Ime On Mac]]

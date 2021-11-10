@@ -17,7 +17,9 @@ jobs:
           sudo add-apt-repository ppa:kelleyk/emacs
           sudo apt update --yes && sudo apt install emacs27-nox --yes
           sudo cp ./assets/ditaa.jar /tmp/ditaa.jar
+          sudo cp ./assets/plantuml.jar /tmp/plantuml.jar
           sudo chmod 777 /tmp/ditaa.jar
+          sudo chmod 777 /tmp/plantuml.jar
 
       - name: Build the side
         run: ./build.sh

@@ -5,13 +5,13 @@
 
 #+begin_src  emacs-lisp
   (defun my-dashboard-banner()
-    (banner-line         "平生不修善果，")
-    (banner-line         "只愛殺人放火。")
-    (banner-line         "忽地頓開金繩，")
-    (banner-line         "這裏扯斷玉鎖。")
-    (banner-line    "咦！錢塘江上潮信來，")
-    (banner-line       "今日方知我是我。")
-    (banner-line            "---魯智深"))
+    (line       "平生不修善果，")
+    (line       "只愛殺人放火。")
+    (line       "忽地頓開金繩，")
+    (line       "這裏扯斷玉鎖。")
+    (line  "咦！錢塘江上潮信來，")
+    (line     "今日方知我是我。")
+    (line          "---魯智深"))
 #+end_src
 
 *** Other [[file:blogs.org][blogs]] [100%]

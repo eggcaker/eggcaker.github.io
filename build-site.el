@@ -30,7 +30,6 @@
 (require 'ox-html)
 (require 'ox-rss)
 
-
 (org-babel-do-load-languages
  (quote org-babel-load-languages)
  (quote ((emacs-lisp . t)
@@ -42,11 +41,13 @@
          (plantuml . t)
          )))
 
-;; UTF-8 as default encoding
-(prefer-coding-system 'utf-8)
+(prefer-coding-system       'utf-8)
 (set-default-coding-systems 'utf-8)
 (set-terminal-coding-system 'utf-8)
+(set-selection-coding-system 'utf-16-le)
 (set-keyboard-coding-system 'utf-8)
+(setq default-buffer-file-coding-system 'utf-8)
+(setq x-select-request-type '(UTF8_STRING COMPOUND_TEXT TEXT STRING))
 
 ;; Load the publishing system
 
@@ -59,6 +60,7 @@
       emacs-cc-html-postamble "<footer> <div class=\"generated\"> &copy; 2021-2028 TZ, built with %c | <a href=\"http://beian.miit.gov.cn/\">冀ICP备2020025756号-1</a> </div> </footer>"
       emacs-cc-comments-html-postamble "<script src=\"https://utteranc.es/client.js\" repo=\"eggcaker/eggcaker.github.io\" issue-term=\"pathname\" theme=\"github-light\" crossorigin=\"anonymous\" async></script> <footer> <div class=\"generated\"> &copy; 2021-2028 TZ, built with %c | <a href=\"http://beian.miit.gov.cn/\">冀ICP备2020025756号-1</a> </div> </footer>"
       org-ditaa-jar-path (if (eq system-type 'windows-nt) "c:/temp/ditaa.jar" "/tmp/ditaa.jar")
+      org-plantuml-jar-path  (if (eq system-type 'windows-nt) "c:/temp/plantuml.jar" "/tmp/plantuml.jar")
       org-export-babel-evaluate t
       org-confirm-babel-evaluate nil
       org-html-doctype "html5")

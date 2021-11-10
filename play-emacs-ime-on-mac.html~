@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2021-11-10 Wed 06:54 -->
+<!-- 2021-11-10 Wed 06:53 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Play Emacs Ime On Mac</title>
@@ -29,9 +29,9 @@
 的东西都是可配置的，每个平台有自己相应的输入法实现，我用到人就是 mac 和 Emacs 了。搞
 起来才知道真的坑啊！
 </p>
-<div id="outline-container-org65484b2" class="outline-2">
-<h2 id="org65484b2">mac 系統</h2>
-<div class="outline-text-2" id="text-org65484b2">
+<div id="outline-container-org4f473e8" class="outline-2">
+<h2 id="org4f473e8">mac 系統</h2>
+<div class="outline-text-2" id="text-org4f473e8">
 <p>
 苹果系统下还算简单，苹果下的官方输入法实现叫【鼠鬚管】。基本上按照<a href="https://github.com/rime/squirrel/blob/master/INSTALL.md">安装指南</a>，基本
 上没有什么坑就可以使用了。然后按照官方的提示可以用<a href="https://github.com/rime/plum">plum</a>，基本上就按照默认安装就
@@ -54,9 +54,9 @@
 </p>
 </div>
 </div>
-<div id="outline-container-org68cb259" class="outline-2">
-<h2 id="org68cb259">Emacs 配置</h2>
-<div class="outline-text-2" id="text-org68cb259">
+<div id="outline-container-org327297c" class="outline-2">
+<h2 id="org327297c">Emacs 配置</h2>
+<div class="outline-text-2" id="text-org327297c">
 <p>
 Emacs 的配置相对来说就要复杂一些了，需要安装的东西有：
 </p>
@@ -86,7 +86,7 @@ Karabiner-Elements, 所有配置好后，发现了个问题就是在切换打开
 </div>
 </div>
 <div id="postamble" class="status">
-<footer> <div class="generated"> &copy; 2021-2028 TZ, built with <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.3) | <a href="http://beian.miit.gov.cn/">冀ICP备2020025756号-1</a> </div> </footer>
+<script src="https://utteranc.es/client.js" repo="eggcaker/eggcaker.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script> <footer> <div class="generated"> &copy; 2021-2028 TZ, built with <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.3) | <a href="http://beian.miit.gov.cn/">冀ICP备2020025756号-1</a> </div> </footer>
 </div>
 </body>
 </html>

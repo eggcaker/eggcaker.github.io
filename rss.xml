@@ -9,29 +9,220 @@
      xmlns:georss="http://www.georss.org/georss"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>(Sitemap for project rss)</title>
+  <title>(大道至简 - emacs.cc)</title>
   <atom:link href="./rss.xml" rel="self" type="application/rss+xml" />
   <link></link>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[This is my personal website, a place where to me to write anything I want.]]></description>
   <language>en</language>
-  <pubDate>Wed, 10 Nov 2021 05:26:11 +0000</pubDate>
-  <lastBuildDate>Wed, 10 Nov 2021 05:26:11 +0000</lastBuildDate>
+  <pubDate>Wed, 10 Nov 2021 06:54:04 +0000</pubDate>
+  <lastBuildDate>Wed, 10 Nov 2021 06:54:04 +0000</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.3</generator>
-  <webMaster>runner@fv-az193-611 (nil)</webMaster>
+  <webMaster>runner@fv-az173-135 (nil)</webMaster>
   <image>
     <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
-    <title>(Sitemap for project rss)</title>
+    <title>(大道至简 - emacs.cc)</title>
     <link></link>
   </image>
 
-  <ul class="org-ul">
-    <li><a href="blogs.html">&gt;&gt;&gt;Blogs</a></li>
-    <li><a href="japanese-ano-sono-diffrent.html">Japanese Ano Sono Diffrent</a></li>
-    <li><a href="play-emacs-ime-on-mac.html">Play Emacs Ime On Mac</a></li>
-    <li><a href="start-blog-with-emacs.html">Start Blog With Emacs</a></li>
-    <li><a href="test-org-mode-feature.html">Test Org Mode Feature</a></li>
-    <li><a href="japanes-koko-soko-asoko-diffrent.html">ここ/そこ/あそこは名です</a></li>
-    <li><a href="play-latex-word-card.html">用 Latex 做识字卡片</a></li>
-  </ul>
+
+  <item>
+    <title>Japanese Ano Sono Diffrent</title>
+    <link>./japanese-ano-sono-diffrent.html</link>
+    <author>nil</author>
+    <guid isPermaLink="false">./japanese-ano-sono-diffrent.html</guid>
+    <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+
+    <description><![CDATA[<p>
+    这个区别其实是 <code>こ</code>, <code>そ</code>, <code>あ</code> 系做文脉指示时的区别。
+    そ系在一方了解而对方不了解的信息，再次被提及时使用。
+    あ系用来提及双方都拥有的信息。另外自言自语时也用あ系。
+    也就是说如果两个人对话，说到过去的事情，如果那个时刻是说话方了解而听话方不了解的事情，用その時，
+    如果是双方都了解的时刻、用あの時。如果句子是自言自语，用あの時.
+    </p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Play Emacs Ime On Mac</title>
+    <link>./play-emacs-ime-on-mac.html</link>
+    <author>nil</author>
+    <guid isPermaLink="false">./play-emacs-ime-on-mac.html</guid>
+    <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+
+    <description><![CDATA[<p>
+    印象中应该是 99 年暑假的时候，在县城的一个学校里开始学的五笔，一直到现在大概有二
+    十年了，有一段时间还把手机里的输入法设置成了五笔。那时候的感觉就是一时用一时爽、
+    一直用一直爽。但是最近两年也许是年纪大了的缘故，总感觉有时候很熟悉的一个字突然想
+    不起来了，是那种一点也想不起来什么样子的。所以想着重新试试拼音类输入法
+    </p>
+
+    <p>
+    既然说的是要折腾那就得找个有玩儿头的东西<a href="https://rime.im">Rime</a>，这个东西可以说是个输入法框架，所有
+    的东西都是可配置的，每个平台有自己相应的输入法实现，我用到人就是 mac 和 Emacs 了。搞
+    起来才知道真的坑啊！
+    </p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Start Blog With Emacs</title>
+    <link>./start-blog-with-emacs.html</link>
+    <author>nil</author>
+    <guid isPermaLink="false">./start-blog-with-emacs.html</guid>
+    <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+
+    <description><![CDATA[<p>
+    因为有了二胎，裸辞在家照顾家人所有了有大把的时间可以折腾一些东西，除了开始学习日
+    语重新的又把自己的了博客整理了下。之前一直是在各种工具、各种平台之间跳来跳去，其
+    实根本没有真正安静下来写一些东西。这次借着把 Emacs 的配置文件转到<a href="https://github.com/hlissner/doom-emacs">doom-emacs</a>的机会
+    看到了在 doom-emacs 里默认是支持的 hugo，那就 hugo 吧。
+    </p>
+
+    <p>
+    这两天在整理配置的时候看到了一篇文章是<a href="https://yihui.org/cn/2019/07/inner-peace/">如何想静静</a>,+很巧+的是，这个博客的 theme 就是作
+    者写的，里面写到一句话：
+    </p>
+
+    <blockquote>
+    <p>
+    我已经多次鼓吹“我网故我在”的观点了，只是真正的响应者甚寡。很多人听我忽悠，随手搭
+    个网站， 但也就撂在那儿不管了。他们没听到我的后一句话：网站是用来积累成就的，而
+    简历可以是成就的堆砌汇总处。最初可以从堆砌小成就开始，把你写的作业、拍的照片、做
+    的菜肴统统发上来。勿以事小而不堆。很多小事的价值，要过很多年你才能发现（比如十一
+    年）。除非你记忆力超群，否则凡是没有写下来的东西你很快就会忘，而你忘记的事情跟没
+    做也没什么区别。换句话说，你差不多算是在白活。记住“堆砌”。
+    </p>
+    </blockquote>
+
+    <p>
+    其实仔细想想，挺好，其实这么多年下来就是自己太浮躁了，也导致了博客网站折腾来折腾
+    去，却从来没有什么积累。那就从现在开始好了，就像他说的一样，很多小事的价值要很多
+    年才能发现。那就等到下一个十年再见吧。
+    </p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Test Org Mode Feature</title>
+    <link>./test-org-mode-feature.html</link>
+    <author>nil</author>
+    <guid isPermaLink="false">./test-org-mode-feature.html</guid>
+    <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+
+    <description><![CDATA[<p>
+    Play with the ditta char support on org-mode
+    </p>
+
+
+    <div class="figure">
+    <p><img src="./images/test.png" alt="test.png">
+    </p>
+    </div>
+    ]]></description>
+  </item>
+
+  <item>
+    <title>ここ/そこ/あそこは名です</title>
+    <link>./japanes-koko-soko-asoko-diffrent.html</link>
+    <author>nil</author>
+    <guid isPermaLink="false">./japanes-koko-soko-asoko-diffrent.html</guid>
+    <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+
+    <description><![CDATA[<p>
+    ここ/そこ/あそこは名です
+    指示场所时，用“ここ”“そこ”“あそこ”。所表示的位置关系与“これ”“それ”“あれ”相同。
+    ここ は　デパートです。（这里是百货商店。）
+    そこ は　図書館です。（那里是图书馆。）
+    あそこ は　入り口です。（那儿是入口。）
+    名 は 名　[场所]です 表示“名词”存在于“名词”【场所】。
+    a. 食堂 は デパートの７階 です。（食堂在百货商店的７层。）
+    b. トイレ は ここです。（厕所在这儿。）
+    c. 小野さん は 事務所 です。（小野女士在事务所。）
+    </p>
+
+    <p>
+    注意:
+    "小野さんは事務所です" 的汉语译文是 "小野女士在事务所。”不能译为“小野女士是事务
+    所。” 日语的“は”比汉语的“是”更为广泛的含义。在这里表示小野女士在什么地方。
+    “トイレは　ここです”意思是“厕所在这儿。”是将“トイレ”作为话题来阐述。
+    而不是将“ここ”作为话题来阐述，意思是“这里是厕所。”
+    </p>
+
+    <p>
+    名 は どこですか
+    用于询问存在的场所。
+    トイレは　どこですか。（厕所在哪儿？）
+    ――あちら　です。（在那儿。）
+    あなたの　かばん　は　どこですか?（你的包在哪儿？）
+    ――私の <code>かばん</code> は　ここです。（我的包在这儿。）
+    </p>
+    ]]></description>
+  </item>
+  <item>
+    <title>用 Latex 做识字卡片</title>
+    <link>./play-latex-word-card.html</link>
+    <author>nil</author>
+    <guid isPermaLink="false">./play-latex-word-card.html</guid>
+    <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+
+    <description><![CDATA[<p>
+    最近因为没有什么事，折腾了一下 Latex, 主要的原因也是因为在网上看到了一个人用 Latex
+    做了<a href="https://c-tan.com/zh/post/latex-hanzi-gezi/">识字卡片</a>，第一眼看到真心的觉得好漂亮，但是按照作者说的
+    </p>
+
+    <blockquote>
+    <p>
+    由于是自用， 因此我希望这套排版是独一无二的， 所以也就不放出源码了。
+    其实基本上看到效果就可以猜出用了哪些宏包。
+    </p>
+    </blockquote>
+
+    <p>
+    人啊，都是越得不到的越想得到。因为这位朋友不想开源，所以也就想照着图片从零开始撸。
+    因为电脑里本身就有 MacTex, 安装就省了，直接开始 style 定制，也许过些日子应该好
+    好整理一下写写 Latex 的环境配置。
+    </p>
+
+    <p>
+    其实今天想写个博客记录一下是因为今天早上花了 2 小时解决了个让人抓狂的小 bug, 就是
+    <a href="https://ctan.org/pkg/tcolorbox?lang=en">tcolorbox</a> 标题高度问题。这个是有问题的展示
+    </p>
+
+
+    <div class="figure">
+    <p><img src="./images/tcolorbox_height_bug.png" alt="tcolorbox_height_bug.png">
+    </p>
+    </div>
+
+    <p>
+    可以看到，第一行的中和下的标题拼音不一样高，因为我在定义高度的时候，给了标题一个
+    上下的距离，其实后来测试发现，不加这个距离也是一样的，因为标题的高度是根据文字的
+    高度来的。这里应为 <code>xia</code> 所有字的高度都没有 <code>zhong</code> 高，导致高度不一致。今天早上
+    在 SO 里挨着个的看 tcolorbox 的相关的问题。最后找到了<a href="https://tex.stackexchange.com/questions/435486/enforce-total-height-of-tcolorbox-title">这个</a>。效果：
+    </p>
+
+
+    <div class="figure">
+    <p><img src="./images/tcolorbox_height_fix.png" alt="tcolorbox_height_fix.png">
+    </p>
+    </div>
+
+    <p>
+    一部分代码：
+    </p>
+
+    <div class="org-src-container">
+    <pre class="src src-latex"><span style="font-weight: bold;">\chapter</span>{<span style="font-weight: bold;">&#26041;&#21521;&#20301;&#32622;</span>}
+    <span style="font-weight: bold;">\section*</span>{<span style="font-weight: bold;">\kaishu{&#19978;&#19979;&#24038;&#21491; }</span>}
+    <span style="font-weight: bold;">\label</span>{<span style="font-weight: bold; text-decoration: underline;">sec:lesson01</span>}
+    <span style="font-weight: bold;">\subsection</span>{<span style="font-weight: bold;">&#19978;&#19979;&#24038;&#21491;</span>}
+    <span style="font-weight: bold;">\label</span>{<span style="font-weight: bold; text-decoration: underline;">sec:subsec:l1_s1</span>}
+    <span style="font-weight: bold;">\card</span>{shang4}{&#19978;} <span style="font-weight: bold;">\card</span>{zhong1}{&#20013;} <span style="font-weight: bold;">\card</span>{xia4}{&#19979;}
+    <span style="font-weight: bold;">\card</span>{ren2}{&#20154;} <span style="font-weight: bold;">\card</span>{kou3}{&#21475;} <span style="font-weight: bold;">\card</span>{shou3}{&#25163;}
+    </pre>
+    </div>
+
+    <p>
+    <a href="https://github.com/eggcaker/duolingo-with-latex">代码</a> Yoo!
+    </p>
+    ]]></description>
+  </item>
 </channel>
 </rss>

@@ -14,10 +14,10 @@
   <link></link>
   <description><![CDATA[This is my personal website, a place where to me to write anything I want.]]></description>
   <language>en</language>
-  <pubDate>Wed, 10 Nov 2021 06:54:04 +0000</pubDate>
-  <lastBuildDate>Wed, 10 Nov 2021 06:54:04 +0000</lastBuildDate>
+  <pubDate>Wed, 10 Nov 2021 14:18:58 +0000</pubDate>
+  <lastBuildDate>Wed, 10 Nov 2021 14:18:58 +0000</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.3</generator>
-  <webMaster>runner@fv-az173-135 (nil)</webMaster>
+  <webMaster>runner@fv-az173-176 (nil)</webMaster>
   <image>
     <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
     <title>(大道至简 - emacs.cc)</title>
@@ -112,116 +112,9 @@
 
 
     <div class="figure">
-    <p><img src="./images/test.png" alt="test.png">
+    <p><img src="./images/ditaa_test.png" alt="ditaa_test.png">
     </p>
     </div>
-    ]]></description>
-  </item>
-
-  <item>
-    <title>ここ/そこ/あそこは名です</title>
-    <link>./japanes-koko-soko-asoko-diffrent.html</link>
-    <author>nil</author>
-    <guid isPermaLink="false">./japanes-koko-soko-asoko-diffrent.html</guid>
-    <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
-
-    <description><![CDATA[<p>
-    ここ/そこ/あそこは名です
-    指示场所时，用“ここ”“そこ”“あそこ”。所表示的位置关系与“これ”“それ”“あれ”相同。
-    ここ は　デパートです。（这里是百货商店。）
-    そこ は　図書館です。（那里是图书馆。）
-    あそこ は　入り口です。（那儿是入口。）
-    名 は 名　[场所]です 表示“名词”存在于“名词”【场所】。
-    a. 食堂 は デパートの７階 です。（食堂在百货商店的７层。）
-    b. トイレ は ここです。（厕所在这儿。）
-    c. 小野さん は 事務所 です。（小野女士在事务所。）
-    </p>
-
-    <p>
-    注意:
-    "小野さんは事務所です" 的汉语译文是 "小野女士在事务所。”不能译为“小野女士是事务
-    所。” 日语的“は”比汉语的“是”更为广泛的含义。在这里表示小野女士在什么地方。
-    “トイレは　ここです”意思是“厕所在这儿。”是将“トイレ”作为话题来阐述。
-    而不是将“ここ”作为话题来阐述，意思是“这里是厕所。”
-    </p>
-
-    <p>
-    名 は どこですか
-    用于询问存在的场所。
-    トイレは　どこですか。（厕所在哪儿？）
-    ――あちら　です。（在那儿。）
-    あなたの　かばん　は　どこですか?（你的包在哪儿？）
-    ――私の <code>かばん</code> は　ここです。（我的包在这儿。）
-    </p>
-    ]]></description>
-  </item>
-  <item>
-    <title>用 Latex 做识字卡片</title>
-    <link>./play-latex-word-card.html</link>
-    <author>nil</author>
-    <guid isPermaLink="false">./play-latex-word-card.html</guid>
-    <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
-
-    <description><![CDATA[<p>
-    最近因为没有什么事，折腾了一下 Latex, 主要的原因也是因为在网上看到了一个人用 Latex
-    做了<a href="https://c-tan.com/zh/post/latex-hanzi-gezi/">识字卡片</a>，第一眼看到真心的觉得好漂亮，但是按照作者说的
-    </p>
-
-    <blockquote>
-    <p>
-    由于是自用， 因此我希望这套排版是独一无二的， 所以也就不放出源码了。
-    其实基本上看到效果就可以猜出用了哪些宏包。
-    </p>
-    </blockquote>
-
-    <p>
-    人啊，都是越得不到的越想得到。因为这位朋友不想开源，所以也就想照着图片从零开始撸。
-    因为电脑里本身就有 MacTex, 安装就省了，直接开始 style 定制，也许过些日子应该好
-    好整理一下写写 Latex 的环境配置。
-    </p>
-
-    <p>
-    其实今天想写个博客记录一下是因为今天早上花了 2 小时解决了个让人抓狂的小 bug, 就是
-    <a href="https://ctan.org/pkg/tcolorbox?lang=en">tcolorbox</a> 标题高度问题。这个是有问题的展示
-    </p>
-
-
-    <div class="figure">
-    <p><img src="./images/tcolorbox_height_bug.png" alt="tcolorbox_height_bug.png">
-    </p>
-    </div>
-
-    <p>
-    可以看到，第一行的中和下的标题拼音不一样高，因为我在定义高度的时候，给了标题一个
-    上下的距离，其实后来测试发现，不加这个距离也是一样的，因为标题的高度是根据文字的
-    高度来的。这里应为 <code>xia</code> 所有字的高度都没有 <code>zhong</code> 高，导致高度不一致。今天早上
-    在 SO 里挨着个的看 tcolorbox 的相关的问题。最后找到了<a href="https://tex.stackexchange.com/questions/435486/enforce-total-height-of-tcolorbox-title">这个</a>。效果：
-    </p>
-
-
-    <div class="figure">
-    <p><img src="./images/tcolorbox_height_fix.png" alt="tcolorbox_height_fix.png">
-    </p>
-    </div>
-
-    <p>
-    一部分代码：
-    </p>
-
-    <div class="org-src-container">
-    <pre class="src src-latex"><span style="font-weight: bold;">\chapter</span>{<span style="font-weight: bold;">&#26041;&#21521;&#20301;&#32622;</span>}
-    <span style="font-weight: bold;">\section*</span>{<span style="font-weight: bold;">\kaishu{&#19978;&#19979;&#24038;&#21491; }</span>}
-    <span style="font-weight: bold;">\label</span>{<span style="font-weight: bold; text-decoration: underline;">sec:lesson01</span>}
-    <span style="font-weight: bold;">\subsection</span>{<span style="font-weight: bold;">&#19978;&#19979;&#24038;&#21491;</span>}
-    <span style="font-weight: bold;">\label</span>{<span style="font-weight: bold; text-decoration: underline;">sec:subsec:l1_s1</span>}
-    <span style="font-weight: bold;">\card</span>{shang4}{&#19978;} <span style="font-weight: bold;">\card</span>{zhong1}{&#20013;} <span style="font-weight: bold;">\card</span>{xia4}{&#19979;}
-    <span style="font-weight: bold;">\card</span>{ren2}{&#20154;} <span style="font-weight: bold;">\card</span>{kou3}{&#21475;} <span style="font-weight: bold;">\card</span>{shou3}{&#25163;}
-    </pre>
-    </div>
-
-    <p>
-    <a href="https://github.com/eggcaker/duolingo-with-latex">代码</a> Yoo!
-    </p>
     ]]></description>
   </item>
 </channel>

@@ -1,7 +1,9 @@
-#+TITLE: [ Blogs]
+#+TITLE:  >>>Blogs
 
-- [[file:japanese-ano-sono-diffrent.org][Japanese Ano Sono Diffrent]]
-- [[file:play-emacs-ime-on-mac.org][Play Emacs Ime On Mac]]
-- [[file:start-blog-with-emacs.org][Start Blog With Emacs]]
-- [[file:japanes-koko-soko-asoko-diffrent.org][ここ/そこ/あそこは名です]]
-- [[file:play-latex-word-card.org][用 Latex 做识字卡片]]
+- 2021-11-09 - [[file:test-org-mode-feature.org][Test Org Mode Feature]]
+- 2021-11-07 - [[file:index.org][index]]
+- 2021-11-07 - [[file:play-emacs-ime-on-mac.org][Play Emacs Ime On Mac]]
+- 2020-11-29 - [[file:japanese-ano-sono-diffrent.org][Japanese Ano Sono Diffrent]]
+- 2020-11-29 - [[file:japanes-koko-soko-asoko-diffrent.org][ここ/そこ/あそこは名です]]
+- 2020-03-21 - [[file:play-latex-word-card.org][用 Latex 做识字卡片]]
+- 2020-02-28 - [[file:start-blog-with-emacs.org][Start Blog With Emacs]]

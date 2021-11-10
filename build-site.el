@@ -37,6 +37,7 @@
          (python . t)
          (shell . t)
          (js . t)
+         (abc . t)
          (org . t)
          (plantuml . t)
          )))
@@ -157,7 +158,7 @@ PROJECT is the current project."
          :htmlized-source t
          :html-doctype "html5"
          :html-html5-fancy t
-         :sitemap-title nil
+         :sitemap-title "大道至简 - emacs.cc"
          :sitemap-filename "blogs.org"
          :time-stamp-file t)
         ("home"

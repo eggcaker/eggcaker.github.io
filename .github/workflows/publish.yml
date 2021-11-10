@@ -15,6 +15,7 @@ jobs:
       - name: Install Emacs
         run: |
           sudo add-apt-repository ppa:kelleyk/emacs
+          sudo apt install abcm2ps --yes
           sudo apt update --yes && sudo apt install emacs27-nox --yes
           sudo cp ./assets/ditaa.jar /tmp/ditaa.jar
           sudo cp ./assets/plantuml.jar /tmp/plantuml.jar

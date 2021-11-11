@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2021-11-11 Thu 13:33 -->
+<!-- 2021-11-11 Thu 13:37 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Test Org Mode Feature</title>
@@ -41,7 +41,7 @@ PlantUML test
 
 
 <figure>
-<img src="./test_fonts.png" alt="test_fonts.png">
+<img src="./images/test_fonts.png" alt="test_fonts.png">
 
 </figure>
 

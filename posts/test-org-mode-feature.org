@@ -26,16 +26,16 @@ Play with the ditta char support on org-mode
 
 PlantUML test
 
--Shandwritten=true
-
-#+begin_src plantuml :file ./images/plantuml_test2.png :results output :cmdline -charset UTF-8 :exports results
-() "Σωκράτης\nείναι ψεύτης" as Σωκράτης
-
-Σωκράτης - [Πτηνά πολεμοχαρής]
-[Πτηνά πολεμοχαρής] ..> () Αθήνα : Αυτές οι φράσεις\nδεν σημαίνουν τίποτα
+#+begin_src plantuml :file ./images/plantuml_test_chinese.png :results output :cmdline -charset UTF-8 :exports results -Shandwritten=true
+用户A -> 用户B: 你好吗？
+用户B -->用户A: 好
 #+end_src
 
 
+#+begin_src plantuml :file ./images/test_fonts.png :exports results
+listfonts 私は申し訳ありません：私は日本語を話さない。
+listfonts 我这个是中文
+#+end_src
 
 Some math demo
 

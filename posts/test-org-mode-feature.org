@@ -25,9 +25,14 @@ Play with the ditta char support on org-mode
 
 
 PlantUML test
-#+begin_src plantuml :file ./images/plantuml_test2.png :results output :cmdline -charset UTF-8 -Shandwritten=true :exports results
-用户A -> UserB: Finished
 
+-Shandwritten=true
+
+#+begin_src plantuml :file ./images/plantuml_test2.png :results output :cmdline -charset UTF-8 :exports results
+() "Σωκράτης\nείναι ψεύτης" as Σωκράτης
+
+Σωκράτης - [Πτηνά πολεμοχαρής]
+[Πτηνά πολεμοχαρής] ..> () Αθήνα : Αυτές οι φράσεις\nδεν σημαίνουν τίποτα
 #+end_src
 
 

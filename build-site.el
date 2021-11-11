@@ -42,6 +42,8 @@
          (plantuml . t)
          )))
 
+(setq org-plantuml-exec-mode "jar")
+(setq org-plantuml-executable-args '("-charset=UTF-8"))
 (prefer-coding-system       'utf-8)
 (set-default-coding-systems 'utf-8)
 (set-terminal-coding-system 'utf-8)

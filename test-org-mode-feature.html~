@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2021-11-11 Thu 01:18 -->
+<!-- 2021-11-11 Thu 01:29 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Test Org Mode Feature</title>
@@ -31,6 +31,11 @@ Play with the ditta char support on org-mode
 <p>
 PlantUML test
 </p>
+
+<p>
+-Shandwritten=true
+</p>
+
 
 <figure>
 <img src="./images/plantuml_test2.png" alt="plantuml_test2.png">

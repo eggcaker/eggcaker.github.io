@@ -16,6 +16,7 @@ jobs:
         run: |
           sudo add-apt-repository ppa:kelleyk/emacs
           sudo apt install graphviz --yes
+          sudo apt install language-pack-zh*
           export GRAPHVIZ_DOT=/usr/bin/
           sudo apt update --yes && sudo apt install emacs27-nox --yes
           sudo cp ./assets/ditaa.jar /tmp/ditaa.jar

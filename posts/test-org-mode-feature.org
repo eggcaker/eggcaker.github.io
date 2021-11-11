@@ -26,25 +26,11 @@ Play with the ditta char support on org-mode
 
 PlantUML test
 #+begin_src plantuml :file ./images/plantuml_test2.png :results output :cmdline -charset UTF-8 -Shandwritten=true :exports results
-使用者 -> A: 完成這項工作
-activate A
-
-A -> B: 創建請求
-activate B
-
-B -> 別的東西: 創建請求
-activate 別的東西
-別的東西 --> B: 這項工作完成
-destroy 別的東西
-
-B --> A: 請求創建
-deactivate B
-
-A --> 使用者: 做完
-deactivate A
-
+用户A -> UserB: Finished
 
 #+end_src
+
+
 
 Some math demo
 
@@ -56,80 +42,4 @@ Try also
 <math>d/dxf(x)=lim_(h->0)(f(x+h)-f(x))/h</math>
 <latex>P(y|\mathbf{x}) \mbox{ or } f(\mathbf{x})+\epsilon</latex>
 end note
-#+end_src
-
-五线谱，awesome yoo!
-
-#+begin_src abc :file ./images/music-abc-example.png :cmdline -g
-  X:42
-  F:zndemo_42_Ich_steh_an_deiner_krippen_hier
-  T:Ich steh an deiner Krippen hier
-  C:Nr. 59 aus dem Weihnachtsoratorium
-  C:Joh. Seb. Bach
-  C:Kirchenchor Mattighofen
-  %%score ( 1 2 ) ( 3 4 )
-  L:1/4
-  Q:1/4=80.00
-  M:4/4
-  I:linebreak $
-  K:G
-  V:1 treble nm="Sopran Alt"
-  V:2 treble
-  V:3 bass nm="Tenor Bass"
-  V:4 bass
-  V:1
-  G | G/A/ B A G | A A !fermata!B G/A/ |
-  B c d c/B/ | A/G/ A !fermata!G :| B | B A G F |
-  G/A/ B !fermata!A A | G F G D | G A !fermata!B G/A/ |
-  B c d c/B/ | A/G/ A !fermata!G z |]
-  V:2
-  D | E/F/ G G/F/ G | G F G E/F/ |
-  G/ B A/4G/4 F G | G F D :| z | G3/2 F/ F/E/ E/^D/ |
-  E D D D | D/C/ D D/C/ B, | B, E ^D B, |
-  E E D/E/2 G | G F D z |]
-  V:3
-  B, | B, E E/D/ D | E/C/ A,/D/ !fermata!D E |
-  D G,/A,/ B,/C/ D | D C/B,/ !fermata!B, :| D | D D/C/ B,/C/ F,/B,/ |
-  B,/A,/ A,/G,/ !fermata!F, F, | G,/A,/ B,/C/ B,/A,/ G, | G, F,/E,/ !fermata!F, E,/F,/ |
-  G,3/2 A,/ B,/C/ D | D C/B,/ !fermata!B, z |]
-  V:4
-  G,/F,/ | E,3/2 D,/ C,3/2 B,,/ | C,/A,,/ D, G,, C, |
-  G,/F,/ E, B,/A,/ G, | D D, G, :| z | B,/C/ D/2-D/2 G,/A,/ B, |
-  E,/F,/ G, D, D/C/ | B,3/2 A,/ G,3/2 F,/ | E,/D,/ C, B,, E,/-E,/ |
-  E,/D,/ C, B,,/A,,/ G,, | D,2 G,, z |]
-  %
-  W:
-  W: 1. Ich steh' an deiner Krippe hier,
-  W: o Jesu, du mein Leben;
-  W: ich komme, bring' und schenke dir,
-  W: was du mir hast gegeben.
-  W: Nimm hin, es ist mein Geist und Sinn,
-  W: Herz, Seel' und Mut, nimm alles hin
-  W: und laß dir's wohl gefallen.
-  W:
-  W: 2. Da ich noch nicht geboren war,
-  W: da bist du mir geboren
-  W: und hast dich mir zu eigen gar,
-  W: eh’ ich dich kannt’, erkoren.
-  W: Eh’ ich durch deine Hand gemacht,
-  W: da hast du schon bei dir bedacht,
-  W: wie du mein wolltest werden.
-  W:
-  W: 3. Ich lag in tiefer Todesnacht,
-  W: du warest meine Sonne,
-  W: die Sonne, die mir zugebracht
-  W: Licht, Leben, Freud’ und Wonne.
-  W: O Sonne, die das werte Licht
-  W: des Glaubens in mir zugericht’,
-  W: wie schön sind deine Strahlen.
-  W:
-  W: 4. Ich sehe dich mit Freuden an
-  W: und kann mich nicht satt sehen;
-  W: und weil ich nun nichts weiter kann,
-  W: bleib’ ich anbetend stehen.
-  W: O daß mein Sinn ein Abgrund wär’
-  W: und meine Seel’ ein weites Meer,
-  W: daß ich dich möchte fassen.
-  %
-  %
 #+end_src

@@ -4,7 +4,7 @@
 :PROPERTIES:
 :RSS_PERMALINK: japanese-ano-sono-diffrent.html
 :PUBDATE:  2020-11-29
-:ID:       58423e5f-45b3-4fac-aa06-e882456afdb8
+:ID:       2cb54b41-cbce-4179-95c1-e9d3ce661dab
 :END:
 这个区别其实是 =こ=, =そ=, =あ= 系做文脉指示时的区别。
 そ系在一方了解而对方不了解的信息，再次被提及时使用。
@@ -15,7 +15,7 @@
 :PROPERTIES:
 :RSS_PERMALINK: play-emacs-ime-on-mac.html
 :PUBDATE:  2021-11-07
-:ID:       6f17b945-3fb5-4619-befd-c02f478a4f23
+:ID:       1856f8c0-cb08-4342-9338-c78b0edf7e02
 :END:
 印象中应该是 99 年暑假的时候，在县城的一个学校里开始学的五笔，一直到现在大概有二
 十年了，有一段时间还把手机里的输入法设置成了五笔。那时候的感觉就是一时用一时爽、
@@ -27,7 +27,7 @@
 起来才知道真的坑啊！
 *** mac 系統
     :PROPERTIES:
-    :ID:       5d02e682-cbf7-4e87-a2ca-51da936d0ad4
+    :ID:       81c082f5-e087-46e4-a681-5c865176395a
     :END:
 苹果系统下还算简单，苹果下的官方输入法实现叫【鼠鬚管】。基本上按照[[https://github.com/rime/squirrel/blob/master/INSTALL.md][安装指南]]，基本
 上没有什么坑就可以使用了。然后按照官方的提示可以用[[https://github.com/rime/plum][plum]]，基本上就按照默认安装就
@@ -46,7 +46,7 @@
 这里的配置是相当于顺序开启配置是相当于顺序开启了 4 种输入法方案，默认是简体中文输入法。
 *** Emacs 配置
     :PROPERTIES:
-    :ID:       79052529-ff70-4914-802c-c30f9a9c222c
+    :ID:       af1d4808-3b23-4cea-b20e-5cfd8030d5e7
     :END:
 Emacs 的配置相对来说就要复杂一些了，需要安装的东西有：
 [[https://tumashu.github.io/pyim/][pyim]]
@@ -68,7 +68,7 @@ Karabiner-Elements, 所有配置好后，发现了个问题就是在切换打开
 :PROPERTIES:
 :RSS_PERMALINK: start-blog-with-emacs.html
 :PUBDATE:  2020-02-28
-:ID:       2c34ae9e-447d-415a-8128-bb5dead2c231
+:ID:       083e6eef-4721-4f15-be8f-3cff18a20a84
 :END:
 因为有了二胎，裸辞在家照顾家人所有了有大把的时间可以折腾一些东西，除了开始学习日
 语重新的又把自己的了博客整理了下。之前一直是在各种工具、各种平台之间跳来跳去，其
@@ -93,8 +93,8 @@ Karabiner-Elements, 所有配置好后，发现了个问题就是在切换打开
 * Test Org Mode Feature
 :PROPERTIES:
 :RSS_PERMALINK: test-org-mode-feature.html
-:PUBDATE:  2021-11-09
-:ID:       13265690-c104-4c26-9673-4d648673aff3
+:PUBDATE:  2021-11-11
+:ID:       8c384ccd-a16c-4e6f-b008-1d2c79cfbaa8
 :END:
 Play with the ditta char support on org-mode
 

@@ -42,13 +42,16 @@
          (plantuml . t)
          )))
 
-(setq org-plantuml-exec-mode "jar")
+(setq org-plantuml-exec-mode 'jar)
+(setq plantuml-default-exec-mode 'jar)
 (setq org-plantuml-executable-args '("-charset=UTF-8"))
 (prefer-coding-system       'utf-8)
 (set-default-coding-systems 'utf-8)
 (set-terminal-coding-system 'utf-8)
 (set-selection-coding-system 'utf-16-le)
 (set-keyboard-coding-system 'utf-8)
+(set-language-environment "UTF-8")
+
 (setq default-buffer-file-coding-system 'utf-8)
 (setq x-select-request-type '(UTF8_STRING COMPOUND_TEXT TEXT STRING))
 

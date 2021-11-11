@@ -1,6 +1,6 @@
 #+TITLE: 大道至简 - emacs.cc
 
-- 2021-11-09 - [[file:test-org-mode-feature.org][Test Org Mode Feature]]
+- 2021-11-11 - [[file:test-org-mode-feature.org][Test Org Mode Feature]]
 - 2021-11-07 - [[file:play-emacs-ime-on-mac.org][Play Emacs Ime On Mac]]
 - 2020-11-29 - [[file:japanese-ano-sono-diffrent.org][Japanese Ano Sono Diffrent]]
 - 2020-11-29 - [[file:japanes-koko-soko-asoko-diffrent.org][ここ/そこ/あそこは名です]]

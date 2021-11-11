@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2021-11-11 Thu 13:49 -->
+<!-- 2021-11-11 Thu 13:59 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Test Org Mode Feature</title>
@@ -32,18 +32,17 @@ Play with the ditta char support on org-mode
 PlantUML test
 </p>
 
-<div class="org-src-container">
-<pre class="src src-plantuml">用户A -&gt; 用户B: 你好吗？
-用户B --&gt;用户A: 好
-</pre>
-</div>
-
+<p>
+-begin<sub>src</sub> plantuml :file ./images/plantuml<sub>test</sub><sub>chinese.png</sub> :results output :cmdline -charset=UTF-8 :exports results -Shandwritten=true
+</p>
 
 
 <figure>
-<img src="./images/test_fonts.png" alt="test_fonts.png">
+<img src="./images/plantuml_test_chinese.png" alt="plantuml_test_chinese.png">
 
 </figure>
+
+
 
 <p>
 Some math demo

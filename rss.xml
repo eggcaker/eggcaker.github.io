@@ -14,10 +14,10 @@
   <link></link>
   <description><![CDATA[This is my personal website, a place where to me to write anything I want.]]></description>
   <language>en</language>
-  <pubDate>Wed, 10 Nov 2021 15:18:25 +0000</pubDate>
-  <lastBuildDate>Wed, 10 Nov 2021 15:18:25 +0000</lastBuildDate>
+  <pubDate>Thu, 11 Nov 2021 00:29:36 +0000</pubDate>
+  <lastBuildDate>Thu, 11 Nov 2021 00:29:36 +0000</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.3</generator>
-  <webMaster>runner@fv-az193-410 (nil)</webMaster>
+  <webMaster>runner@fv-az275-505 (nil)</webMaster>
   <image>
     <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
     <title>(大道至简 - emacs.cc)</title>
@@ -46,7 +46,7 @@
     <link>./play-emacs-ime-on-mac.html</link>
     <author>nil</author>
     <guid isPermaLink="false">./play-emacs-ime-on-mac.html</guid>
-    <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
 
     <description><![CDATA[<p>
     印象中应该是 99 年暑假的时候，在县城的一个学校里开始学的五笔，一直到现在大概有二

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2021-11-10 Wed 15:18 -->
+<!-- 2021-11-11 Thu 00:29 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Test Org Mode Feature</title>
@@ -37,6 +37,8 @@ PlantUML test
 
 </figure>
 
+
+
 <p>
 Some math demo
 </p>
@@ -44,16 +46,6 @@ Some math demo
 
 <figure>
 <img src="./images/pu_math_test.png" alt="pu_math_test.png">
-
-</figure>
-
-<p>
-五线谱，awesome yoo!
-</p>
-
-
-<figure>
-<img src="./images/music-abc-example.png" alt="music-abc-example.png">
 
 </figure>
 </div>

@@ -14,10 +14,10 @@
   <link></link>
   <description><![CDATA[This is my personal website, a place where to me to write anything I want.]]></description>
   <language>en</language>
-  <pubDate>Fri, 12 Nov 2021 23:06:20 +0000</pubDate>
-  <lastBuildDate>Fri, 12 Nov 2021 23:06:20 +0000</lastBuildDate>
+  <pubDate>Fri, 12 Nov 2021 23:08:52 +0000</pubDate>
+  <lastBuildDate>Fri, 12 Nov 2021 23:08:52 +0000</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.3</generator>
-  <webMaster>runner@fv-az173-176 (nil)</webMaster>
+  <webMaster>runner@fv-az132-221 (nil)</webMaster>
   <image>
     <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
     <title>(大道至简 - emacs.cc)</title>
@@ -100,11 +100,11 @@
     ]]></description>
   </item>
   <item>
-    <title>Test Abc <2021-11-12 Fri></title>
+    <title>Test Abc</title>
     <link>./test-abc.html</link>
     <author>nil</author>
     <guid isPermaLink="false">./test-abc.html</guid>
-    <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
 
     <description><![CDATA[]]></description>
   </item>

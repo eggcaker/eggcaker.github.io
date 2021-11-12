@@ -1,5 +1,5 @@
 #+TITLE: Test Org Mode Feature
-#+DATE: [2021-11-11 Tue 21:10]
+#+DATE: [2021-11-11 Tue 08:10]
 
 Play with the ditta char support on org-mode
 
@@ -26,23 +26,10 @@ Play with the ditta char support on org-mode
 
 PlantUML test
 
--begin_src plantuml :file ./images/plantuml_test_chinese.png :results output :cmdline -charset=UTF-8 :exports results -Shandwritten=true
-
 #+begin_src plantuml :file ./images/plantuml_test_chinese.png :cmdline -charset UTF-8 -Shandwritten=true
 用户A -> 用户B: 你好吗？
 用户B -->用户A: 好
+用户A ->用户B: 我知道了
 #+end_src
 
 
-
-Some math demo
-
-#+begin_src plantuml :file ./images/pu_math_test.png
-:<math>int_0^1f(x)dx</math>;
-:<math>x^2+y_1+z_12^34</math>;
-note right
-Try also
-<math>d/dxf(x)=lim_(h->0)(f(x+h)-f(x))/h</math>
-<latex>P(y|\mathbf{x}) \mbox{ or } f(\mathbf{x})+\epsilon</latex>
-end note
-#+end_src

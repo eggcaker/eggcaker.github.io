@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2021-11-11 Thu 23:16 -->
+<!-- 2021-11-12 Fri 03:44 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>大道至简 - emacs.cc</title>
@@ -18,8 +18,8 @@
 <header>
 <h1 class="title">大道至简 - emacs.cc</h1>
 </header><ul class="org-ul">
+<li>2021-11-12 - <a href="play-emacs-ime-on-mac.html">Play Emacs Ime On Mac</a></li>
 <li>2021-11-11 - <a href="test-org-mode-feature.html">Test Org Mode Feature</a></li>
-<li>2021-11-07 - <a href="play-emacs-ime-on-mac.html">Play Emacs Ime On Mac</a></li>
 <li>2020-11-29 - <a href="japanese-ano-sono-diffrent.html">Japanese Ano Sono Diffrent</a></li>
 <li>2020-11-29 - <a href="japanes-koko-soko-asoko-diffrent.html">ここ/そこ/あそこは名です</a></li>
 <li>2020-03-21 - <a href="play-latex-word-card.html">用 Latex 做识字卡片</a></li>
@@ -27,7 +27,7 @@
 </ul>
 </div>
 <div id="postamble" class="status">
-<script src="https://utteranc.es/client.js" repo="eggcaker/eggcaker.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script> <footer> <div class="generated"> &copy; 2021-2028 TZ, built with <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.3 (<a href="https://orgmode.org">Org</a> mode 9.1.9) | <a href="http://beian.miit.gov.cn/">冀ICP备2020025756号-1</a> </div> </footer>
+<script src="https://utteranc.es/client.js" repo="eggcaker/eggcaker.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script> <footer> <div class="generated"> &copy; 2021-2028 TZ, built with <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.3) | <a href="http://beian.miit.gov.cn/">冀ICP备2020025756号-1</a> </div> </footer>
 </div>
 </body>
 </html>

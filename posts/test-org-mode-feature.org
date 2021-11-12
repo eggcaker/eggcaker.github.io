@@ -24,7 +24,7 @@ Play with the ditta char support on org-mode
 #+END_SRC
 
 
-PlantUML test
+PlantUML chart test
 
 #+begin_src plantuml :file ./images/plantuml_test_chinese.png :cmdline -charset UTF-8 -Shandwritten=true
 用户A -> 用户B: 你好吗？

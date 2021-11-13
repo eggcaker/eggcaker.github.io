@@ -142,7 +142,7 @@ PROJECT is the current project."
          :recursive t
          :base-directory "./posts"
          :base-extension "org"
-         :exclude "rss\\.org\\|sitemap\\.org\\|index\\.org"
+         :exclude "rss\\.org\\|sitemap\\.org\\|index\\.org\\|blogs\\.org"
          :publishing-function org-html-publish-to-html
          :publishing-directory "./_site"
          :html-head ,emacs-cc-html-head
@@ -166,12 +166,12 @@ PROJECT is the current project."
          :sitemap-title "大道至简 - emacs.cc"
          :sitemap-filename "blogs.org"
          :time-stamp-file t)
-        ("home"
+        ("commentless"
          :recursive t
          :base-directory "./posts"
          :base-extension "org"
          :exclude "\\.org"
-         :include ,'("index.org")
+         :include ,'("index.org" "blogs.org")
          :publishing-function org-html-publish-to-html
          :publishing-directory "./_site"
          :html-head ,emacs-cc-html-head
@@ -249,14 +249,7 @@ PROJECT is the current project."
 
         ))
 
-;; Generate the site output
 (org-publish-all t)
-;; (org-publish-project "posts" t)
-;; (org-publish-project "rss" t)
-;; (org-publish-project "home" t)
-;; (org-publish-project "pages")
-;; (org-publish-project "images")
-;; (org-publish-project "static")
 
 (message "Build complete!")
 

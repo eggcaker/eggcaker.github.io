@@ -1,6 +1,4 @@
 #+LANGUAGE: en
-#+OPTIONS:
-
 
 
 #+begin_src  emacs-lisp
@@ -14,5 +12,5 @@
     (line          "---魯智深"))
 #+end_src
 
-*** Other [[file:blogs.org][blogs]] [100%]
+*** Other [[file:blogs.org][blogs]]
 #+INCLUDE: "blogs.org" :lines "3-8"

@@ -156,7 +156,7 @@ PROJECT is the current project."
          :with-toc nil
          :section-numbers nil
          :html-preamble ,emacs-cc-html-preamble
-         :html-postamble ,emacs-cc-comments-html-postamble
+         :html-postamble  ,emacs-cc-comments-html-postamble
          :auto-sitemap t
          :sitemap-sort-files anti-chronologically
          :sitemap-format-entry cc/org-publish-org-sitemap-format-entry
@@ -170,7 +170,7 @@ PROJECT is the current project."
          :recursive t
          :base-directory "./posts"
          :base-extension "org"
-         :exclude "*.*"
+         :exclude "\\.org"
          :include ,'("index.org")
          :publishing-function org-html-publish-to-html
          :publishing-directory "./_site"
@@ -251,6 +251,12 @@ PROJECT is the current project."
 
 ;; Generate the site output
 (org-publish-all t)
+;; (org-publish-project "posts" t)
+;; (org-publish-project "rss" t)
+;; (org-publish-project "home" t)
+;; (org-publish-project "pages")
+;; (org-publish-project "images")
+;; (org-publish-project "static")
 
 (message "Build complete!")
 

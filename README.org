@@ -1,5 +1,0 @@
-* My Personal weblog
-
-[[https://github.com/eggcaker/eggcaker.github.io/actions/workflows/publish.yml/badge.svg?branch=main][Publish to GitHub Pages]]
-
- built with Emacs + org-mode + github pages + github actions

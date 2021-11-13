@@ -1,10 +1,14 @@
 body {
+  width:960px;
   max-width: 960px;
   color: #222222
   margin: auto;
   padding: 1em;
   line-height: 1.7em;
   background-color: #fffffe;
+}
+.utterances {
+  width:960px;
 }
 
 h1.brand {

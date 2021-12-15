@@ -1,0 +1,40 @@
+#+TITLE: How To Setup Wsl Emacs On Windows
+
+I plan move all my workflow and codding work into wsl. Just because the magit's performance issue on windows make me wanna cry.
+There are is how I setup the workflow and configurations.
+
+*** Install WSL distrbution
+I choice debian over Ubuntu, hard to say ubuntu is not good, just personal choice.
+
+*** Install Emacs and some gui applications
+
+To use the gui version of emacs,should join the weindows insider preview as writting time.
+
+- Emacs
+- Nyxt (a lisp based keyboar driving webbrowser, everything is hackable)
+
+***  Config the windows emacsclient to open file from Emacs on WSL
+- Set =server_name= in emacs configuations to emacs_server_27_2
+- Create a exe to wrapper the wsl's emacsclient to open file(deno version)
+  #+begin_src js :tangle wslemacsclient.ts
+const ff_cmd = Deno.run ({ cmd: ["wsl", "wslpath", "-a", Deno.args[0].replaceAll("\\", "/")],stdout: "piped", stderr: "piped"});
+const ff = await ff_cmd.output();
+ff_cmd.close();
+const fp =new TextDecoder().decode(ff);
+const p = Deno.run({ cmd: ["wsl", "emacsclient", "--create-frame", "--socket-name=/mnt/wslg/runtime-dir/emacs/emacs_server_27_2", fp]});
+await p.status();
+  #+end_src
+
+- compile this scrip to exe with deno
+  #+begin_src sh
+deno compile --allow-run wslemacsclient.ts
+  #+end_src
+- copy the generated wslemacsclient to some directory in $PATH
+- edit regstration with regedit add =OpenWith ...=
+  #+begin_src example
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Open with WSL EmacsClient\command]
+@="wslemacsclient.exe %1 /s"
+
+  #+end_src

@@ -14,10 +14,10 @@
   <link></link>
   <description><![CDATA[This is my personal website, a place where to me to write anything I want.]]></description>
   <language>en</language>
-  <pubDate>Wed, 15 Dec 2021 06:03:02 +0000</pubDate>
-  <lastBuildDate>Wed, 15 Dec 2021 06:03:02 +0000</lastBuildDate>
+  <pubDate>Fri, 24 Dec 2021 00:31:05 +0000</pubDate>
+  <lastBuildDate>Fri, 24 Dec 2021 00:31:05 +0000</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.3</generator>
-  <webMaster>runner@fv-az173-385 (nil)</webMaster>
+  <webMaster>runner@fv-az173-662 (nil)</webMaster>
   <image>
     <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
     <title>(大道至简 - emacs.cc)</title>
@@ -26,11 +26,45 @@
 
 
   <item>
+    <title>How To Hack Wslg Clipboard</title>
+    <link>./how-to-hack-wslg-clipboard.html</link>
+    <author>nil</author>
+    <guid isPermaLink="false">./how-to-hack-wslg-clipboard.html</guid>
+    <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
+
+    <description><![CDATA[<p>
+    After setup wslg on my windows11, I use the wsl's emacs as my primay editor, the basic workflow most time is webbrowser(Google Chrome) on windows.
+    Then coding on Emacs. The problem is the clipboard system not really working very well issue <a href="https://github.com/microsoft/wslg/issues/15">#15</a> github.
+    So I did hack solution:
+    </p>
+
+    <p>
+    create a command in wsl /usr/local/bin/wclip
+    inset /mnt/c/path-to-pwsh.exe -NonInteractive -NoLogo -NoProfile -Command "get-clipboard -Raw"
+    call wclip after copy something on windows
+    </p>
+
+    <p>
+    like for emacs
+    </p>
+    <div class="org-src-container">
+    <pre class="src src-emacs-lisp">(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">get-windows-clipboard</span> ()
+    (<span style="font-weight: bold;">interactive</span>)
+    (insert (s-replace <span style="font-style: italic;">""</span> <span style="font-style: italic;">""</span> (shell-command-to-string <span style="font-style: italic;">"wclip"</span>))))
+    </pre>
+    </div>
+
+    <p>
+    it's slower than native way that for sure, but it works every time.
+    </p>
+    ]]></description>
+  </item>
+  <item>
     <title>How To Setup Wsl Emacs On Windows</title>
     <link>./how-to-setup-wsl-emacs-on-windows.html</link>
     <author>nil</author>
     <guid isPermaLink="false">./how-to-setup-wsl-emacs-on-windows.html</guid>
-    <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
 
     <description><![CDATA[<p>
     I plan move all my workflow and codding work into wsl. Just because the magit's performance issue on windows make me wanna cry.

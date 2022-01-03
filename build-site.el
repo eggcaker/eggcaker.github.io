@@ -56,14 +56,14 @@
 (setq x-select-request-type '(UTF8_STRING COMPOUND_TEXT TEXT STRING))
 
 ;; Load the publishing system
-
+;; <!--<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />
 ;; Customize the HTML output
 (setq org-html-validation-link nil            ;; Don't show validation link
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
-      emacs-cc-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" /><link rel=\"stylesheet\" href=\"/style.css\" type=\"text/css\"/>"
+      emacs-cc-html-head "<link rel=\"stylesheet\" href=\"/style.css\" type=\"text/css\"/>"
       emacs-cc-html-preamble " <span><h1 class=\"brand\"><a href=\"/\">大道至簡</a></h1><span class=\"slogen\">咦！錢塘江上潮信來，今日方知我是我。</span></span> <nav> <ul class=\"menu\"> <li><a href=\"/\">Home</a></li> <li><a href=\"/pages/books\">Books</a></li><li><a href=\"/pages/about\">About</a></li>  <li><a href=\"/rss.xml\">RSS</a></li> </ul> <hr/> </nav>"
-      emacs-cc-html-postamble "<footer> <div class=\"generated\"> &copy; 2021-2028 TZ, built with %c | <a href=\"http://beian.miit.gov.cn/\">冀ICP备2020025756号-1</a> </div> </footer>"
+      emacs-cc-html-postamble (concat "<footer> <div class=\"generated\"> &copy; " (format-time-string "%Y" (current-time)) " TZ, built with %c | <a href=\"http://beian.miit.gov.cn/\">冀ICP备2020025756号-1</a> </div> </footer>")
       emacs-cc-comments-html-postamble "<script src=\"https://utteranc.es/client.js\" repo=\"eggcaker/eggcaker.github.io\" issue-term=\"pathname\" theme=\"github-light\" crossorigin=\"anonymous\" async></script> <footer> <div class=\"generated\"> &copy; 2021-2028 TZ, built with %c | <a href=\"http://beian.miit.gov.cn/\">冀ICP备2020025756号-1</a> </div> </footer>"
       org-ditaa-jar-path (if (eq system-type 'windows-nt) "c:/temp/ditaa.jar" "/tmp/ditaa.jar")
       org-plantuml-jar-path  (if (eq system-type 'windows-nt) "c:/temp/plantuml.jar" "/tmp/plantuml.jar")

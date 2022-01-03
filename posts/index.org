@@ -12,5 +12,5 @@
     (line          "---魯智深"))
 #+end_src
 
-*** Other [[file:blogs.org][blogs]]
+*** ~/[[file:blogs.org][Blogs]]
 #+INCLUDE: "blogs.org" :lines "3-8"

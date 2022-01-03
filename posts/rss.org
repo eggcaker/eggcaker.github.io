@@ -3,8 +3,8 @@
 * How To Hack Wslg Clipboard
 :PROPERTIES:
 :RSS_PERMALINK: how-to-hack-wslg-clipboard.html
-:PUBDATE:  2021-12-24
-:ID:       09364aea-fd2d-43f6-b4c0-26323de3af5f
+:PUBDATE:  2021-12-01
+:ID:       4f8ca2e8-328c-4ddd-80ee-49763b7f55aa
 :END:
 After setup wslg on my windows11, I use the wsl's emacs as my primay editor, the basic workflow most time is webbrowser(Google Chrome) on windows.
 Then coding on Emacs. The problem is the clipboard system not really working very well issue [[https://github.com/microsoft/wslg/issues/15][#15]] github.
@@ -25,21 +25,21 @@ it's slower than native way that for sure, but it works every time.
 * How To Setup Wsl Emacs On Windows
 :PROPERTIES:
 :RSS_PERMALINK: how-to-setup-wsl-emacs-on-windows.html
-:PUBDATE:  2021-12-15
-:ID:       141d09e9-7b69-437b-982b-26cfeaf00abc
+:PUBDATE:  2021-12-02
+:ID:       330355e7-25b7-4285-bde3-186aa9caf337
 :END:
 I plan move all my workflow and codding work into wsl. Just because the magit's performance issue on windows make me wanna cry.
 There are is how I setup the workflow and configurations.
 
 *** Install WSL distrbution
     :PROPERTIES:
-    :ID:       b77ecc2d-256e-49ae-bfb0-0a4b0ab7290b
+    :ID:       5820613a-aa4a-4eec-ac11-df31b37db40e
     :END:
 I choice debian over Ubuntu, hard to say ubuntu is not good, just personal choice.
 
 *** Install Emacs and some gui applications
     :PROPERTIES:
-    :ID:       6dbfd636-94fa-475f-b807-853e67603f1b
+    :ID:       ddf181bb-9113-4dda-ab83-1e0ee54049f5
     :END:
 
 To use the gui version of emacs,should join the weindows insider preview as writting time.
@@ -49,7 +49,7 @@ Nyxt (a lisp based keyboar driving webbrowser, everything is hackable)
 
 ***  Config the windows emacsclient to open file from Emacs on WSL
     :PROPERTIES:
-    :ID:       8e9c8fbe-d673-4831-b80a-f90be7bc513f
+    :ID:       623618ba-2d80-4716-bed0-f793a5560b5c
     :END:
 Set =server_name= in emacs configuations to emacs_server_27_2
 Create a exe to wrapper the wsl's emacsclient to open file(deno version)
@@ -77,7 +77,7 @@ edit regstration with regedit add =OpenWith ...=
 :PROPERTIES:
 :RSS_PERMALINK: japanese-ano-sono-diffrent.html
 :PUBDATE:  2020-11-29
-:ID:       8cc34570-2054-48b6-89c2-c97f09b60f83
+:ID:       496ce483-79c4-4439-8e01-559853665223
 :END:
 这个区别其实是 =こ=, =そ=, =あ= 系做文脉指示时的区别。
 そ系在一方了解而对方不了解的信息，再次被提及时使用。
@@ -88,7 +88,7 @@ edit regstration with regedit add =OpenWith ...=
 :PROPERTIES:
 :RSS_PERMALINK: play-emacs-ime-on-mac.html
 :PUBDATE:  2020-11-12
-:ID:       ab5d0755-1771-46ec-af98-6fb9a5a313e9
+:ID:       e896e526-743d-4b9d-93d8-64afecbde5b5
 :END:
 印象中应该是 99 年暑假的时候，在县城的一个学校里开始学的五笔，一直到现在大概有二
 十年了，有一段时间还把手机里的输入法设置成了五笔。那时候的感觉就是一时用一时爽、
@@ -100,7 +100,7 @@ edit regstration with regedit add =OpenWith ...=
 起来才知道真的坑啊！
 *** mac 系統
     :PROPERTIES:
-    :ID:       d4e585db-8144-4fbd-ac13-342d6e74b1b4
+    :ID:       167d70ba-3959-4877-9a79-15cdcce1f133
     :END:
 苹果系统下还算简单，苹果下的官方输入法实现叫【鼠鬚管】。基本上按照[[https://github.com/rime/squirrel/blob/master/INSTALL.md][安装指南]]，基本
 上没有什么坑就可以使用了。然后按照官方的提示可以用[[https://github.com/rime/plum][plum]]，基本上就按照默认安装就
@@ -119,7 +119,7 @@ edit regstration with regedit add =OpenWith ...=
 这里的配置是相当于顺序开启配置是相当于顺序开启了 4 种输入法方案，默认是简体中文输入法。
 *** Emacs 配置
     :PROPERTIES:
-    :ID:       194efaed-db38-453b-9cac-4e8afd959580
+    :ID:       bace042e-bc99-49ce-a7eb-94f447abf396
     :END:
 Emacs 的配置相对来说就要复杂一些了，需要安装的东西有：
 [[https://tumashu.github.io/pyim/][pyim]]
@@ -141,7 +141,7 @@ Karabiner-Elements, 所有配置好后，发现了个问题就是在切换打开
 :PROPERTIES:
 :RSS_PERMALINK: start-blog-with-emacs.html
 :PUBDATE:  2020-02-28
-:ID:       90a4e648-9bb4-4a13-92dc-f8666e31bacf
+:ID:       9f529a3f-eb81-43f4-842a-73d48f666f91
 :END:
 因为有了二胎，裸辞在家照顾家人所有了有大把的时间可以折腾一些东西，除了开始学习日
 语重新的又把自己的了博客整理了下。之前一直是在各种工具、各种平台之间跳来跳去，其
@@ -167,7 +167,7 @@ Karabiner-Elements, 所有配置好后，发现了个问题就是在切换打开
 :PROPERTIES:
 :RSS_PERMALINK: test-org-mode-feature.html
 :PUBDATE:  2021-11-11
-:ID:       c68453f8-6201-40d8-ae3a-1a081f6a15ee
+:ID:       f8aa6707-4bfe-494a-afac-2582287d27db
 :END:
 Play with the ditta char support on org-mode
 

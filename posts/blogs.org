@@ -1,5 +1,7 @@
 #+TITLE: 大道至简 - emacs.cc
 
+- 2021-12-24 - [[file:how-to-hack-wslg-clipboard.org][How To Hack Wslg Clipboard]]
+- 2021-12-15 - [[file:how-to-setup-wsl-emacs-on-windows.org][How To Setup Wsl Emacs On Windows]]
 - 2021-11-11 - [[file:test-org-mode-feature.org][Test Org Mode Feature]]
 - 2020-11-29 - [[file:japanese-ano-sono-diffrent.org][Japanese Ano Sono Diffrent]]
 - 2020-11-29 - [[file:japanes-koko-soko-asoko-diffrent.org][ここ/そこ/あそこは名です]]

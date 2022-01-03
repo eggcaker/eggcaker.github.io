@@ -42,7 +42,11 @@ article {
   margin-bottom: 4em;
 }
 
-content p {
+#content {
+  margin-top:2em;
+}
+
+#content p {
   font-size: 1.2em;
   line-height: 1.7em;
 }

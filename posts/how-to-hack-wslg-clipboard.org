@@ -1,4 +1,5 @@
 #+TITLE: How To Hack Wslg Clipboard
+#+DATE: [2021-12-01 Tue 08:10]
 
 After setup wslg on my windows11, I use the wsl's emacs as my primay editor, the basic workflow most time is webbrowser(Google Chrome) on windows.
 Then coding on Emacs. The problem is the clipboard system not really working very well issue [[https://github.com/microsoft/wslg/issues/15][#15]] github.

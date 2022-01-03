@@ -1,4 +1,5 @@
 #+TITLE: How To Setup Wsl Emacs On Windows
+#+DATE: [2021-12-02 Tue 08:10]
 
 I plan move all my workflow and codding work into wsl. Just because the magit's performance issue on windows make me wanna cry.
 There are is how I setup the workflow and configurations.

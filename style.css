@@ -1,5 +1,4 @@
 body {
-  width:960px;
   max-width: 960px;
   color: #222222
   margin: auto;
@@ -8,7 +7,7 @@ body {
   background-color: #fffffe;
 }
 .utterances {
-  width:960px;
+  width:100%;
 }
 
 h1.brand {
@@ -23,8 +22,8 @@ h1.brand a {
   text-decoration: none;
 }
 
-h2, h3, h4, h5, h6 {
-  margin-top: 1.5em;
+h1,h2, h3, h4, h5, h6 {
+  margin-top: 0.8em;
 }
 
 .slogen {
@@ -55,6 +54,9 @@ article h1 a {
   text-decoration: none;
 }
 
+ul.menu {
+  margin-top: 10px;
+}
 h1 a:visited, ul.menu li a:visited {
   color: #2196ff3;
 }
@@ -78,6 +80,10 @@ h2,h1.title {
   margin-top: 0px;
   color: #333333;
   border-bottom-color: transparent;
+  font-weight: normal;
+  text-align:left;
+  font-size: 1.6em;
+  margin-left: 0px;
 }
 
 /* .menu, .article-meta, footer { text-align: center; } */
@@ -108,8 +114,8 @@ pre code { background: none; }
 img, iframe, video { max-width: 100%; }
 main {
   hyphens: auto;
-  font-size: 1.2em;
-  line-height: 1.7em;
+  font-size: 1.0em;
+  line-height: 1.6em;
 }
 
 blockquote {
@@ -131,4 +137,9 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
 .generated {
   font-family: monospace;
   text-align: center;
+}
+
+ul {
+  padding-inline-start: 0px;
+  padding-left: 15px;
 }

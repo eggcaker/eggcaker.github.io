@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2021-12-24 Fri 00:31 -->
+<!-- 2022-01-03 Mon 02:12 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>大道至简 - emacs.cc</title>
 <meta name="generator" content="Org mode">
 <meta name="description" content="This is my personal website, a place where to me to write anything I want."
 >
-<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" /><link rel="stylesheet" href="/style.css" type="text/css"/>
+<link rel="stylesheet" href="/style.css" type="text/css"/>
 </head>
 <body>
 <div id="preamble" class="status">
@@ -18,8 +18,8 @@
 <header>
 <h1 class="title">大道至简 - emacs.cc</h1>
 </header><ul class="org-ul">
-<li>2021-12-24 - <a href="how-to-setup-wsl-emacs-on-windows.html">How To Setup Wsl Emacs On Windows</a></li>
-<li>2021-12-24 - <a href="how-to-hack-wslg-clipboard.html">How To Hack Wslg Clipboard</a></li>
+<li>2022-01-03 - <a href="how-to-setup-wsl-emacs-on-windows.html">How To Setup Wsl Emacs On Windows</a></li>
+<li>2022-01-03 - <a href="how-to-hack-wslg-clipboard.html">How To Hack Wslg Clipboard</a></li>
 <li>2021-11-11 - <a href="test-org-mode-feature.html">Test Org Mode Feature</a></li>
 <li>2020-11-29 - <a href="japanese-ano-sono-diffrent.html">Japanese Ano Sono Diffrent</a></li>
 <li>2020-11-29 - <a href="japanes-koko-soko-asoko-diffrent.html">ここ/そこ/あそこは名です</a></li>

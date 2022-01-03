@@ -14,10 +14,10 @@
   <link></link>
   <description><![CDATA[This is my personal website, a place where to me to write anything I want.]]></description>
   <language>en</language>
-  <pubDate>Fri, 24 Dec 2021 00:31:05 +0000</pubDate>
-  <lastBuildDate>Fri, 24 Dec 2021 00:31:05 +0000</lastBuildDate>
+  <pubDate>Mon, 03 Jan 2022 02:12:28 +0000</pubDate>
+  <lastBuildDate>Mon, 03 Jan 2022 02:12:28 +0000</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.3</generator>
-  <webMaster>runner@fv-az173-662 (nil)</webMaster>
+  <webMaster>runner@fv-az275-504 (nil)</webMaster>
   <image>
     <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
     <title>(大道至简 - emacs.cc)</title>
@@ -30,7 +30,7 @@
     <link>./how-to-hack-wslg-clipboard.html</link>
     <author>nil</author>
     <guid isPermaLink="false">./how-to-hack-wslg-clipboard.html</guid>
-    <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
 
     <description><![CDATA[<p>
     After setup wslg on my windows11, I use the wsl's emacs as my primay editor, the basic workflow most time is webbrowser(Google Chrome) on windows.
@@ -64,7 +64,7 @@
     <link>./how-to-setup-wsl-emacs-on-windows.html</link>
     <author>nil</author>
     <guid isPermaLink="false">./how-to-setup-wsl-emacs-on-windows.html</guid>
-    <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
 
     <description><![CDATA[<p>
     I plan move all my workflow and codding work into wsl. Just because the magit's performance issue on windows make me wanna cry.

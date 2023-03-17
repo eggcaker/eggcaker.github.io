@@ -1,8 +1,6 @@
 #+title: Test ChatGpt-3.5  with Todo Task
 #+DATE: 2023-03-17
 
-** Test chat with Todo Task management
-
 noting else to say, just some log here
 
 *** First round
@@ -337,7 +335,10 @@ Let me know if you have any further questions or if there's anything else I can 
 #+end_src
 
 
-** Second task
+** Second round
+
+I try load previously saved JSON file, and add more tasks to it.
+
 #+begin_src markdown
 Model: Default (GPT-3.5)
 

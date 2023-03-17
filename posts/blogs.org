@@ -1,5 +1,6 @@
 #+TITLE: 大道至简 - emacs.cc
 
+- 2023-03-17 - [[file:test-gpt-3.5-todo-task.org][Test ChatGpt-3.5  with Todo Task]]
 - 2023-03-17 - [[file:hello-chatgpt-4.org][ChatGPT-4: The Next Step in Language Generation]]
 - 2021-12-02 - [[file:how-to-setup-wsl-emacs-on-windows.org][How To Setup Wsl Emacs On Windows]]
 - 2021-12-01 - [[file:how-to-hack-wslg-clipboard.org][How To Hack Wslg Clipboard]]

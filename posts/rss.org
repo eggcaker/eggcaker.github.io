@@ -4,11 +4,11 @@
 :PROPERTIES:
 :RSS_PERMALINK: hello-chatgpt-4.html
 :PUBDATE:  2023-03-17
-:ID:       abc3d6d0-01c4-4496-838c-6dfb43c47386
+:ID:       1226b37b-bddc-4892-befa-ff37a2a26ad2
 :END:
 ** Introduction
 :PROPERTIES:
-:ID:       bdba8f79-0d12-47cb-8039-210010b64b58
+:ID:       eac73a21-0aa9-4f28-9d94-0026a38f46b9
 :END:
 ChatGPT-4 is the latest version of the ChatGPT series, a powerful language model developed by OpenAI. ChatGPT-4 is an artificial intelligence system designed to generate human-like text in natural language. With a staggering 10 trillion parameters, ChatGPT-4 is the most powerful language model in existence, surpassing its predecessor, ChatGPT-3, by a factor of 10.
 
@@ -16,7 +16,7 @@ In this blog post, we will explore the features of ChatGPT-4, its potential appl
 
 ** What is ChatGPT-4?
 :PROPERTIES:
-:ID:       9d1e04c3-9a55-431c-b70f-32af3f39ee97
+:ID:       54e7808c-f4cb-43aa-af0b-9fe4bcfd5798
 :END:
 ChatGPT-4 is a deep learning model based on the transformer architecture, which is a neural network designed for natural language processing. The transformer architecture was introduced in the paper "Attention is All You Need" by Vaswani et al. in 2017. Since then, it has become the most popular architecture for language models.
 
@@ -24,7 +24,7 @@ Like its predecessor, ChatGPT-4 is pre-trained on a massive amount of text data 
 
 ** Features of ChatGPT-4
 :PROPERTIES:
-:ID:       e8507e99-6485-42a7-b94f-8fa418a93d10
+:ID:       84904f0a-9faf-48b1-8ee0-c2e73a032377
 :END:
 ChatGPT-4 has several features that make it the most powerful language model to date. These features include:
 
@@ -53,7 +53,7 @@ To address these concerns, it is important for developers and researchers to wor
 
 ** Conclusion
 :PROPERTIES:
-:ID:       bf63b5f3-5068-4fb9-a2c8-8989d589c96a
+:ID:       c65b9c85-3acf-459e-9698-dd9fcc5e7ea9
 :END:
 ChatGPT-4 is the most powerful language model in existence, with unprecedented size and improved accuracy. Its potential applications are wide-ranging, from language translation to content generation to chatbot development. However, its development and use raise ethical considerations that must be addressed by the research community and society at large.
 
@@ -62,7 +62,7 @@ As language models like ChatGPT-4 continue to evolve, it is important for us to 
 :PROPERTIES:
 :RSS_PERMALINK: how-to-hack-wslg-clipboard.html
 :PUBDATE:  2021-12-01
-:ID:       c6ef3f09-ba02-4c48-b488-93517e42b58d
+:ID:       89dcb0fd-cd18-4b54-8c56-bf1ac7122465
 :END:
 After setup wslg on my windows11, I use the wsl's emacs as my primay editor, the basic workflow most time is webbrowser(Google Chrome) on windows.
 Then coding on Emacs. The problem is the clipboard system not really working very well issue [[https://github.com/microsoft/wslg/issues/15][#15]] github.
@@ -84,20 +84,20 @@ it's slower than native way that for sure, but it works every time.
 :PROPERTIES:
 :RSS_PERMALINK: how-to-setup-wsl-emacs-on-windows.html
 :PUBDATE:  2021-12-02
-:ID:       eef9ef0a-49d8-4737-8477-d5d96bef89b2
+:ID:       1ee19d5f-a4a9-4df1-88fd-70261698660c
 :END:
 I plan move all my workflow and codding work into wsl. Just because the magit's performance issue on windows make me wanna cry.
 There are is how I setup the workflow and configurations.
 
 *** Install WSL distrbution
 :PROPERTIES:
-:ID:       b45e2dc1-6ca0-4935-8423-c99042133232
+:ID:       07c0cd43-d226-4725-9a2b-da8d8cacfc95
 :END:
 I choice debian over Ubuntu, hard to say ubuntu is not good, just personal choice.
 
 *** Install Emacs and some gui applications
 :PROPERTIES:
-:ID:       d2d25793-539c-4993-baeb-bcfa9f67ccbe
+:ID:       bbd79158-84c6-4a6c-9035-e0af6bcbc4d0
 :END:
 
 To use the gui version of emacs,should join the weindows insider preview as writting time.
@@ -107,7 +107,7 @@ Nyxt (a lisp based keyboar driving webbrowser, everything is hackable)
 
 ***  Config the windows emacsclient to open file from Emacs on WSL
 :PROPERTIES:
-:ID:       49d9d9bc-9ab9-4903-be87-59505e4b088e
+:ID:       dd6c3b59-7bd9-4d5d-93f5-b25443164f4a
 :END:
 Set =server_name= in emacs configuations to emacs_server_27_2
 Create a exe to wrapper the wsl's emacsclient to open file(deno version)
@@ -135,7 +135,7 @@ edit regstration with regedit add =OpenWith ...=
 :PROPERTIES:
 :RSS_PERMALINK: japanese-ano-sono-diffrent.html
 :PUBDATE:  2020-11-29
-:ID:       b0887201-124d-4314-9ff0-31c3ece744f1
+:ID:       15e1e3ea-33a9-4e53-9526-8251e23bf027
 :END:
 这个区别其实是 =こ=, =そ=, =あ= 系做文脉指示时的区别。
 そ系在一方了解而对方不了解的信息，再次被提及时使用。
@@ -146,7 +146,7 @@ edit regstration with regedit add =OpenWith ...=
 :PROPERTIES:
 :RSS_PERMALINK: play-emacs-ime-on-mac.html
 :PUBDATE:  2020-11-12
-:ID:       31360e04-1218-4161-86d7-82f124e7cb96
+:ID:       c7958fc8-2f31-4f5a-b1c2-3cd3b78ce28a
 :END:
 印象中应该是 99 年暑假的时候，在县城的一个学校里开始学的五笔，一直到现在大概有二
 十年了，有一段时间还把手机里的输入法设置成了五笔。那时候的感觉就是一时用一时爽、
@@ -158,7 +158,7 @@ edit regstration with regedit add =OpenWith ...=
 起来才知道真的坑啊！
 *** mac 系統
 :PROPERTIES:
-:ID:       2a2347e5-deae-47b4-bf45-2c395fe80baa
+:ID:       b0e56807-af2d-4fda-873e-e7bdf68b5e61
 :END:
 苹果系统下还算简单，苹果下的官方输入法实现叫【鼠鬚管】。基本上按照[[https://github.com/rime/squirrel/blob/master/INSTALL.md][安装指南]]，基本
 上没有什么坑就可以使用了。然后按照官方的提示可以用[[https://github.com/rime/plum][plum]]，基本上就按照默认安装就
@@ -177,7 +177,7 @@ edit regstration with regedit add =OpenWith ...=
 这里的配置是相当于顺序开启配置是相当于顺序开启了 4 种输入法方案，默认是简体中文输入法。
 *** Emacs 配置
 :PROPERTIES:
-:ID:       ad236dab-6390-4fdb-b6d2-07996c659910
+:ID:       96a4dee7-d45d-4195-954f-96feee1403f7
 :END:
 Emacs 的配置相对来说就要复杂一些了，需要安装的东西有：
 [[https://tumashu.github.io/pyim/][pyim]]
@@ -199,7 +199,7 @@ Karabiner-Elements, 所有配置好后，发现了个问题就是在切换打开
 :PROPERTIES:
 :RSS_PERMALINK: start-blog-with-emacs.html
 :PUBDATE:  2020-02-28
-:ID:       9df72993-da1c-4fc9-9592-f4baaef6c1fe
+:ID:       f5522638-9e64-4eea-b251-0507edc801de
 :END:
 因为有了二胎，裸辞在家照顾家人所有了有大把的时间可以折腾一些东西，除了开始学习日
 语重新的又把自己的了博客整理了下。之前一直是在各种工具、各种平台之间跳来跳去，其
@@ -225,7 +225,7 @@ Karabiner-Elements, 所有配置好后，发现了个问题就是在切换打开
 :PROPERTIES:
 :RSS_PERMALINK: test-org-mode-feature.html
 :PUBDATE:  2021-11-11
-:ID:       9034d80e-a51f-4aca-87b3-691da6ee1b5e
+:ID:       1831c826-35e2-4e7b-8018-d40b9ba04419
 :END:
 Play with the ditta char support on org-mode
 

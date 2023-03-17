@@ -14,10 +14,10 @@
   <link></link>
   <description><![CDATA[This is my personal website, a place where to me to write anything I want.]]></description>
   <language>en</language>
-  <pubDate>Fri, 17 Mar 2023 08:42:29 +0000</pubDate>
-  <lastBuildDate>Fri, 17 Mar 2023 08:42:29 +0000</lastBuildDate>
+  <pubDate>Fri, 17 Mar 2023 14:10:14 +0000</pubDate>
+  <lastBuildDate>Fri, 17 Mar 2023 14:10:14 +0000</lastBuildDate>
   <generator>Emacs 28.1 Org-mode 9.5.2</generator>
-  <webMaster>runner@fv-az193-226 (nil)</webMaster>
+  <webMaster>runner@fv-az491-526 (nil)</webMaster>
   <image>
     <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
     <title>(大道至简 - emacs.cc)</title>
@@ -156,22 +156,13 @@
     ]]></description>
   </item>
   <item>
-    <title>Test Org Mode Feature</title>
-    <link>./test-org-mode-feature.html</link>
+    <title>Test ChatGpt-3.5  with Todo Task</title>
+    <link>./test-gpt-3.5-todo-task.html</link>
     <author>nil</author>
-    <guid isPermaLink="false">./test-org-mode-feature.html</guid>
-    <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+    <guid isPermaLink="false">./test-gpt-3.5-todo-task.html</guid>
+    <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
 
-    <description><![CDATA[<p>
-    Play with the ditta char support on org-mode
-    </p>
-
-
-    <div id="orgd83232c" class="figure">
-    <p><img src="./images/ditaa_test.png" alt="ditaa_test.png">
-    </p>
-    </div>
-    ]]></description>
+    <description><![CDATA[]]></description>
   </item>
 </channel>
 </rss>

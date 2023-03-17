@@ -15,7 +15,7 @@ jobs:
       - name: Install Emacs
         run: |
           sudo add-apt-repository ppa:kelleyk/emacs
-          sudo apt update --yes && sudo apt install emacs27-nox --yes
+          sudo apt update --yes && sudo apt install emacs28-nox --yes
           sudo apt install graphviz --yes
           sudo apt-get install fonts-wqy-zenhei
           export GRAPHVIZ_DOT=/usr/bin/

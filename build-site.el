@@ -37,7 +37,7 @@
          (python . t)
          (shell . t)
          (js . t)
-         (abc . t)
+         ;;(abc . t)
          (org . t)
          (plantuml . t)
          )))

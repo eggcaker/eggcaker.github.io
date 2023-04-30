@@ -4,7 +4,7 @@
 <!-- 2023-04-30 Sun 22:32 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>How To Hack Wslg Clipboard</title>
+<title>明月照吾心</title>
 <meta name="description" content="This is my personal website, a place where to me to write anything I want." />
 <meta name="generator" content="Org Mode" />
 <link rel="stylesheet" href="/style.css" type="text/css"/>
@@ -15,31 +15,34 @@
 </div>
 <div id="content" class="content">
 <header>
-<h1 class="title">How To Hack Wslg Clipboard</h1>
+<h1 class="title">明月照吾心</h1>
 </header><p>
-After setup wslg on my windows11, I use the wsl's emacs as my primay editor, the basic workflow most time is webbrowser(Google Chrome) on windows.
-Then coding on Emacs. The problem is the clipboard system not really working very well issue <a href="https://github.com/microsoft/wslg/issues/15">#15</a> github.
-So I did hack solution:
+亲爱的琴心：
 </p>
 
-<ol class="org-ol">
-<li>create a command in wsl /usr/local/bin/wclip</li>
-<li>inset /mnt/c/path-to-pwsh.exe -NonInteractive -NoLogo -NoProfile -Command "get-clipboard -Raw"</li>
-<li>call wclip after copy something on windows</li>
-</ol>
-
 <p>
-like for emacs
+自从夫君相知，恍若梦境幻化，牵肠挂肚，日夜难忘。吾思念如江河涌流，渴望与卿相聚共度良辰美景。月圆时，夫君梦中相伴，怀抱琴心，共赏夜色阑珊。
 </p>
-<div class="org-src-container">
-<pre class="src src-emacs-lisp">(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">get-windows-clipboard</span> ()
-  (<span style="font-weight: bold;">interactive</span>)
-  (insert (s-replace <span style="font-style: italic;">""</span> <span style="font-style: italic;">""</span> (shell-command-to-string <span style="font-style: italic;">"wclip"</span>))))
-</pre>
-</div>
 
 <p>
-it's slower than native way that for sure, but it works every time.
+吾心向卿如磐石，绵延千里，隔水而立。世间花朵繁盛，唯有牡丹为国色，君子之风。而吾心中，无疑卿为花中之冠，犹如翩翩牡丹，高雅脱俗，心仪难以言表。
+</p>
+
+<p>
+吾今日晨起，窗前鸟鸣声声，好似天籁之音，缘木求鱼的小鸟，唤起吾无尽思念。忆往日，共赏翠竹青青，曲径通幽，漫步庭院，夫妻恩爱，景不可忘。今日相隔，山水遥隔，唯余相思千里。
+</p>
+
+<p>
+卿若问吾相思之意，夫君情意深似海，一如始终。愿踏破千里之遥，只为相守白首。待吾再次踏入家门，让琴心依偎夫君怀抱，听吾诉说无尽的思念。共赏明月当空，一对璧月相映，如夫妻琴瑟和鸣，永恒不渝。
+</p>
+
+<p>
+愿此信风送千里，传达吾对卿的思念，愿卿保重，静候夫君归来。此时此刻，吾心独守，唯愿天长地久，有情人终成眷属。
+</p>
+
+<p>
+永远爱你的丈夫
+明月照吾心
 </p>
 </div>
 <div id="postamble" class="status">

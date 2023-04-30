@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2023-04-30 Sun 22:32 -->
+<!-- 2023-04-30 Sun 23:20 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>大道至简 - emacs.cc</title>
@@ -17,11 +17,11 @@
 <header>
 <h1 class="title">大道至简 - emacs.cc</h1>
 </header><ul class="org-ul">
-<li>2023-04-30 - <a href="test-gpt-3.5-todo-task.html">Test ChatGpt-3.5  with Todo Task</a></li>
-<li>2023-04-30 - <a href="vs-poor-gpt-extension.html">vs-poor-gpt-extension</a></li>
+<li>2023-05-01 - <a href="vs-poor-gpt-extension.html">vs-poort-gpt</a></li>
 <li>2023-04-30 - <a href="doto-list-with-gpt.html">Todo List With Gpt</a></li>
 <li>2023-04-30 - <a href="hello-chatgpt-4.html">ChatGPT-4: The Next Step in Language Generation</a></li>
 <li>2023-03-24 - <a href="min-guo-love-poster.html">明月照吾心</a></li>
+<li>2023-03-17 - <a href="test-gpt-3.5-todo-task.html">Test ChatGpt-3.5  with Todo Task</a></li>
 <li>2021-12-02 - <a href="how-to-setup-wsl-emacs-on-windows.html">How To Setup Wsl Emacs On Windows</a></li>
 <li>2021-12-01 - <a href="how-to-hack-wslg-clipboard.html">How To Hack Wslg Clipboard</a></li>
 <li>2021-11-11 - <a href="test-org-mode-feature.html">Test Org Mode Feature</a></li>

@@ -1,5 +1,7 @@
 #+title: Test ChatGpt-3.5  with Todo Task
-#+DATE: 2023-03-17
+#+DATE: <2023-03-17 Mon>
+
+
 
 noting else to say, just some log here
 

@@ -24,11 +24,11 @@ export default function Home() {
         <div className="mt-8">
           <div className="space-y-4">
             {posts.map((post) => (
-              <article>
+              <article key={post.slug}>
                 <Link href={`/blog/${post.slug}`}>
                   <div className="inline-block">
                     <h3 className="text-xl font-semibold inline">{post.title}</h3>
-                    <time key={post.date} className="text-sm text-muted-foreground inline ml-2">
+                    <time className="text-sm text-muted-foreground inline ml-2">
                       {post.date}
                     </time>
                   </div>

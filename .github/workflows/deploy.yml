@@ -20,22 +20,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: npm
-      
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        
+
       - name: Install dependencies
-        run: npm ci
-        
+        run: |
+          npm install --legacy-peer-deps
+          npm install @mdx-js/react@2.3.0 @next/mdx@13.5.6 next-mdx-remote@4.4.1 --legacy-peer-deps
+
       - name: Build with Next.js
         run: npm run build
-        
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -50,4 +52,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 
+        uses: actions/deploy-pages@v4

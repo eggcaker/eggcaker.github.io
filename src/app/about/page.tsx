@@ -9,12 +9,12 @@ export default function AboutPage() {
           <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl mb-6">
             关于我和这个博客
           </h1>
-          
+
           <div className="prose prose-stone dark:prose-invert max-w-none">
             <section className="mb-8">
-              <h2 className="text-2xl font-bold mb-4">为什么选择"大道至简"</h2>
+              <h2 className="text-2xl font-bold mb-4">为什么选择&ldquo;大道至简&rdquo;</h2>
               <p className="text-lg text-muted-foreground mb-4">
-                我一直被道家"大道至简，至简至美"的理念所打动。在这个信息爆炸的时代，
+                我一直被道家&ldquo;大道至简，至简至美&rdquo;的理念所打动。在这个信息爆炸的时代，
                 我希望通过这个博客，记录我寻找简单、平静生活的旅程。
               </p>
               <p className="text-lg text-muted-foreground">

@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import { Header } from '@/components/Header'
-import { getPostBySlug } from '@/lib/posts'
+import { getPostBySlug, getAllPosts } from '@/lib/posts'
 
 interface BlogPostPageProps {
   params: {
@@ -28,4 +28,11 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
       </main>
     </div>
   )
+}
+
+export async function generateStaticParams() {
+  const posts = getAllPosts()
+  return posts.map((post) => ({
+    slug: post.slug,
+  }))
 } 

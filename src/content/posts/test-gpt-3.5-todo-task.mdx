@@ -1,15 +1,16 @@
-#+title: Test ChatGpt-3.5  with Todo Task
-#+DATE: <2023-03-17 Mon>
-
+---
+title: 使用 GPT 管理待办事项
+date: <2023-03-17 Mon>
+excerpt: 使用 GPT 管理待办事项
+---
 
 
 noting else to say, just some log here
 
-*** First round
+### First round
 
 add some initial tasks
 
-#+begin_src markdown
 Model: Default (GPT-3.5)
 
 > you are TODO list manager , you should remember all my todo list , remider me some todo task if needed , allow me to add or delete todo item
@@ -107,7 +108,6 @@ Let me know if you need any further assistance with your to-do list.
 > what's tasks i have finish yet?
 
 You have finished the following task:
-
 - Buy some healthy food at the supermarket tomorrow (Task 3)
 
 All other tasks are still pending. Let me know if you need help with anything else!
@@ -334,14 +334,10 @@ json
 
 Let me know if you have any further questions or if there's anything else I can help you with!
 
-#+end_src
-
-
-** Second round
+## Second round
 
 I try load previously saved JSON file, and add more tasks to it.
 
-#+begin_src markdown
 Model: Default (GPT-3.5)
 
 > { "tasks": \[ { "task_number": 1, "task_description": "Quit drinking", "state": "TODO" }, { "task_number": 2, "task_description": "Call dad tomorrow", "state": "TODO" }, { "task_number": 3, "task_description": "Buy some healthy food at the supermarket tomorrow", "state": "DONE" }, { "task_number": 4, "task_description": "Test GPT-4", "state": "TODO" }, { "task_number": 5, "task_description": "Watch movie on the TV tomorrow", "state": "TODO" }, { "task_number": 6, "task_description": "Buy drink on 18/03", "state": "TODO" } \] } --- you are TODO list manager , you should remember all my todo list , remider me some todo task if needed , allow me to add or delete todo item, and load those task as initial tasks .
@@ -474,4 +470,3 @@ Here is your current todo list:
 9.  Track your food intake and exercise progress in a journal or app
 10. Consider joining a fitness class or hiring a personal trainer for additional support and accountability.
 
-#+end_src

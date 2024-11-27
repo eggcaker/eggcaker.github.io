@@ -1,0 +1,27 @@
+---
+title: 'How To Hack WSLg Clipboard'
+date: '2021-12-01'
+excerpt: 'A solution for WSLg clipboard issues with Emacs on Windows 11'
+---
+
+After setting up WSLg on Windows 11, I use WSL's Emacs as my primary editor. My basic workflow mostly involves using a web browser (Google Chrome) on Windows
+and coding in Emacs. The problem is that the clipboard system doesn't work very well (see issue [#15](https://github.com/microsoft/wslg/issues/15) on GitHub).
+So I created a hack solution:
+
+1. Create a command in WSL at `/usr/local/bin/wclip`
+2. Insert the following command:
+   ```bash
+   /mnt/c/path-to-pwsh.exe -NonInteractive -NoLogo -NoProfile -Command "get-clipboard -Raw"
+   ```
+3. Call `wclip` after copying something on Windows
+
+For Emacs, add this function:
+```elisp
+(defun get-windows-clipboard ()
+  (interactive)
+  (insert 
+    (s-replace "\r" "" 
+      (shell-command-to-string "wclip"))))
+```
+
+It's slower than the native way, that's for sure, but it works every time.

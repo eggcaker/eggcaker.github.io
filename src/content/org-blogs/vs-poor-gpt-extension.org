@@ -1,0 +1,34 @@
+#+TITLE: vs-poort-gpt
+#+DATE: <2023-05-01 Mon>
+
+** Introducing
+
+[[https://github.com/eggcaker/vs-poor-gpt][vs-poor-gpt]]: A VS Code Extension for Poor GPT
+
+Are you tired of using clunky GPT-3 services with expensive subscription plans? Look no further than vs-poor-gpt! This VS Code
+extension allows you to access the power of GPT-3 without breaking the bank.
+
+** Installation
+
+Before installing vs-poor-gpt, you'll need to have the poor-auto-gpt service set up and running on your machine. Once that's done,
+you can create an executable file named "gpt.bat" in your PATH. Then, you can compile the extension using the "vsce package"
+command, and install it from the More menu in the Extensions panel.
+
+** Usage
+
+Using vs-poor-gpt is simple. First, make sure that the ChatGPT website is running on your Chrome browser as poor-auto-gpt. Then,
+open a file in VS Code and type a question for ChatGPT. Press "Ctrl+Shift+;" to send the question, and the result will be
+displayed below the current line.
+
+If you need to send a multi-line question, you can select the lines and press "Ctrl+Shift+;" to send them. The result will be
+displayed below the last line of the selected lines.
+
+** Configuration
+
+The vs-poor-gpt extension allows you to configure the path of the gpt.bat file. By default, the path is set to "gpt.bat". You can
+also customize the keybinding for running the extension command.
+
+** Conclusion
+
+With vs-poor-gpt, you can harness the power of GPT-3 without paying for an expensive subscription. By using the poor-auto-gpt
+service and this VS Code extension, you can generate text with ease and efficiency. Try it out and see for yourself!

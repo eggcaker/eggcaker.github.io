@@ -35,8 +35,12 @@ jobs:
       - name: Build with Next.js
         run: npm run build
 
+      - name: Copy CNAME file
+        run: cp public/CNAME dist/
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          cname: emacs.cc

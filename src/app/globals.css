@@ -58,6 +58,50 @@
   }
 }
 
+@layer components {
+  li::marker {
+    color: var(--foreground);
+    font-size: 1em;
+  }
+  
+  li {
+    list-style-position: outside;
+    margin-left: 1.5em;
+  }
+
+  /* Reset list counters for each new list */
+  .prose {
+    counter-reset: list-counter;
+  }
+
+  /* Style ordered lists */
+  .prose ol {
+    list-style: none;
+    counter-reset: list-counter;
+  }
+
+  .prose ol > li {
+    counter-increment: list-counter;
+    position: relative;
+  }
+
+  .prose ol > li::before {
+    content: counter(list-counter) ".";
+    position: absolute;
+    left: -1.5em;
+    color: var(--foreground);
+  }
+
+  /* Style unordered lists */
+  .prose ul {
+    list-style-type: disc;
+  }
+
+  .prose ul > li::marker {
+    color: var(--foreground);
+  }
+}
+
 .prose {
   @apply max-w-none;
 }

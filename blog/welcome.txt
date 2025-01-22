@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/94ee436baaf3a1d1.css","style",{"crossOrigin":""}]
-0:["NYZ5F_X2kpBpe5nas-qxf",[[["",{"children":["blog",{"children":[["slug","welcome","d"],{"children":["__PAGE__?{\"slug\":\"welcome\"}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/94ee436baaf3a1d1.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["njTgmlPrTE0Mv1-xeDIjR",[[["",{"children":["blog",{"children":[["slug","welcome","d"],{"children":["__PAGE__?{\"slug\":\"welcome\"}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/94ee436baaf3a1d1.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:I[688,["185","static/chunks/app/layout-b5c84ae0ec1680cf.js"],"ThemeProvider"]
 6:I[6954,[],""]
 7:I[7264,[],""]

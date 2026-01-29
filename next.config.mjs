@@ -4,6 +4,7 @@ import createMDX from '@next/mdx'
 const nextConfig = {
   output: 'export',
   distDir: 'dist',
+  turbopack: {},
   images: {
     unoptimized: true,
   },

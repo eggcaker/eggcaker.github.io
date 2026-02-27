@@ -31,6 +31,8 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
 }
 
 export const dynamicParams = false
+export const dynamic = 'force-static'
+export const runtime = 'nodejs'
 
 export async function generateStaticParams() {
   const posts = getAllPosts()
